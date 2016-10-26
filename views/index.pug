@@ -1,0 +1,21 @@
+html
+    head
+        title= title
+    body
+        form(method="POST", action="/upload",encType="multipart/form-data")
+            table
+                tr
+                    td  Datum izpiska:
+                    td
+                        input(type="text", name="date")
+                tr
+                    td CSV Tabela plačinkov:
+                    td
+                        input(type="file", name="csvFile")
+                tr
+                    td XML Bančni izpisek:
+                    td
+                        input(type="file", name="xmlFile")
+                tr
+                    td
+                        input(type="submit" value="Pošlji")

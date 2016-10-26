@@ -1,0 +1,7 @@
+Šifra kupca;Ime kupca;Potencialni;Neaktivni;Kontaktna oseba;Raèun na naslov-1vrstica;Raèun na naslov-2vrstica;Raèun-mesto;Raèun-država;Raèun-Pošta;Raèun v državo;Skupina;Telefon 1;Telefon 2;Telefaks;Šifra prodajalca;Konto prihodkov;Stalna št. naroèila nabave;Dostava;Številka izjave;Raven cene;Standardni pogoji;Po prejemu;Pog. predujma;Pogoji;Zap. dni;Dnevi popusta;Odstotek popusta;Dovoljen dolg;Zaraèunaj zamudne obresti;Zap. konec meseca;Drugi kontakt;Sklic na;Poštni seznam?;Veè krajev?;DDV;Kupec od;Datum zadnjega izpisa;Popust za kupca;Davèni zavezanec;Davèna številka;Žiro raèun;Žiro raèun-sklic;Žiro raèun-model;Spletna stran;E-pošta;Polni naslov;Konto terjatev;Sektor;Dejavnost
+0001;mideplast d.o.o.;Ne;Ne;;jama 2;;;;1000;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;;24.10.16;;0,00000;0;67696598;;;;;;"$(Ime:1)$
+$(Kontakt:2)$
+$(Naslov - 1.vrstica:3)$
+$(Naslov - 2.vrstica:4)$
+
+$(Pošta:6)$   $(Mesto:7)$";120000;;
