@@ -5,7 +5,6 @@ var fs = require("fs");
 var util = require('util')
 var moment = require('moment');
 var xml2js = require("xml2js");
-var xpath = require("xml2js-xpath");
 var clone = require('clone');
 var Converter = require("csvtojson").Converter;
 
@@ -113,7 +112,7 @@ function createTemeljnica(racun,xmlJson, temeljnicaJson){
     return xmlJson;
 }
 
-function createXML(jsonKupci,jsonRacuni){
+function createXML(jsonKupci,jsonRacuni, callback){
 
     createTemplate(function(jsonTemplate){
 
@@ -127,12 +126,27 @@ function createXML(jsonKupci,jsonRacuni){
             xmlJson = createTemeljnica(racuni[i], xmlJson, temeljnica);
         }
 
-        console.log(util.inspect(xmlJson, false, null))
-        // zapisi xmlJson nazaj v datoteko
+        //console.log(util.inspect(xmlJson, false, null))
+
+        var builder = new xml2js.Builder();
+
+        var xml = builder.buildObject(xmlJson);
+
+        fs.writeFile('data/racuni.xml', xml, function (err) {
+            if (err) {
+                callback(err);
+            }
+            callback();
+        });
     });
 }
 
-readCSV("data/kupciUTF.csv","data/racuniUTF.csv", function(jsonKupci, jsonRacuni){createXML(jsonKupci, jsonRacuni)});
+module.exports = {
+    readCSV: readCSV,
+    createXML: createXML
+};
+
+//readCSV("data/kupciUTF.csv","data/racuniUTF.csv", function(jsonKupci, jsonRacuni){createXML(jsonKupci, jsonRacuni)});
 
 
 

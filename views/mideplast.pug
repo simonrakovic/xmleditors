@@ -1,0 +1,18 @@
+html
+    head
+        title= title
+    body
+        form(method="POST", action="/mideplast/upload",encType="multipart/form-data")
+            table
+
+                tr
+                    td CSV Kupcev:
+                    td
+                        input(type="file", name="csvKupcev")
+                tr
+                    td CSV Računov:
+                    td
+                        input(type="file", name="csvRacunov")
+                tr
+                    td
+                        input(type="submit" value="Pošlji")

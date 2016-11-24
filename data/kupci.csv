@@ -1,7 +1,7 @@
-Šifra kupca;Ime kupca;Potencialni;Neaktivni;Kontaktna oseba;Raèun na naslov-1vrstica;Raèun na naslov-2vrstica;Raèun-mesto;Raèun-drava;Raèun-Pošta;Raèun v dravo;Skupina;Telefon 1;Telefon 2;Telefaks;Šifra prodajalca;Konto prihodkov;Stalna št. naroèila nabave;Dostava;Številka izjave;Raven cene;Standardni pogoji;Po prejemu;Pog. predujma;Pogoji;Zap. dni;Dnevi popusta;Odstotek popusta;Dovoljen dolg;Zaraèunaj zamudne obresti;Zap. konec meseca;Drugi kontakt;Sklic na;Poštni seznam?;Veè krajev?;DDV;Kupec od;Datum zadnjega izpisa;Popust za kupca;Davèni zavezanec;Davèna številka;iro raèun;iro raèun-sklic;iro raèun-model;Spletna stran;E-pošta;Polni naslov;Konto terjatev;Sektor;Dejavnost
+Å ifra kupca;Ime kupca;Potencialni;Neaktivni;Kontaktna oseba;RaÄun na naslov-1vrstica;RaÄun na naslov-2vrstica;RaÄun-mesto;RaÄun-drÅ¾ava;RaÄun-PoÅ¡ta;RaÄun v drÅ¾avo;Skupina;Telefon 1;Telefon 2;Telefaks;Å ifra prodajalca;Konto prihodkov;Stalna Å¡t. naroÄila nabave;Dostava;Å tevilka izjave;Raven cene;Standardni pogoji;Po prejemu;Pog. predujma;Pogoji;Zap. dni;Dnevi popusta;Odstotek popusta;Dovoljen dolg;ZaraÄunaj zamudne obresti;Zap. konec meseca;Drugi kontakt;Sklic na;PoÅ¡tni seznam?;VeÄ krajev?;DDV;Kupec od;Datum zadnjega izpisa;Popust za kupca;DavÄni zavezanec;DavÄna Å¡tevilka;Å½iro raÄun;Å½iro raÄun-sklic;Å½iro raÄun-model;Spletna stran;E-poÅ¡ta;Polni naslov;Konto terjatev;Sektor;Dejavnost
 0001;mideplast d.o.o.;Ne;Ne;;jama 2;;;;1000;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;;24.10.16;;0,00000;0;67696598;;;;;;"$(Ime:1)$
 $(Kontakt:2)$
 $(Naslov - 1.vrstica:3)$
 $(Naslov - 2.vrstica:4)$
 
-$(Pošta:6)$   $(Mesto:7)$";120000;;
+$(PoÅ¡ta:6)$   $(Mesto:7)$";120000;;
