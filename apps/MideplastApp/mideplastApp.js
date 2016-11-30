@@ -8,25 +8,8 @@ var xml2js = require("xml2js");
 var clone = require('clone');
 var Converter = require("csvtojson").Converter;
 
-/*
-xmlFile.mv('data/banka.xml', function (err) {
-    if (err) {
-        res.status(500).send(err);
-    }
-    else {
-        csvFile.mv('data/posta.csv', function (err) {
-            if (err) {
-                res.status(500).send(err);
-            } else {
-                //zacne se pretvorba datotek, callback hell i know, who cares.
 
 
-
-            }
-        });
-    }
-});
-*/
 
 function findKupec(jsonKupci,jsonRacun){
     // poisci id_ddv kupca racuna
@@ -141,12 +124,32 @@ function createXML(jsonKupci,jsonRacuni, callback){
     });
 }
 
+function readFiles(csvKupcev, csvRacunov, cb){
+    csvKupcev.mv('data/kupci.csv', function (err) {
+        if (err) {
+            cb(err);
+        }
+        csvRacunov.mv('data/racuni.csv', function (err) {
+            if (err) {
+                cb(err);
+            }
+            readCSV("data/kupciUTF.csv","data/racuniUTF.csv", function(jsonKupci, jsonRacuni){
+                createXML(jsonKupci, jsonRacuni, function(err){
+                    if(err){
+                        cb(err);
+                    }
+                    cb();
+                });
+            });
+        });
+    });
+}
+
+
 module.exports = {
-    readCSV: readCSV,
-    createXML: createXML
+    readFiles: readFiles
 };
 
-//readCSV("data/kupciUTF.csv","data/racuniUTF.csv", function(jsonKupci, jsonRacuni){createXML(jsonKupci, jsonRacuni)});
 
 
 

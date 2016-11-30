@@ -69,8 +69,7 @@ function createXML(searchedDocDate, callback){
 
                 xml = builder.buildObject(json);
 
-
-                fs.writeFile('data/output.xml', xml, function (err) {
+                fs.writeFile('data/freja/output.xml', xml, function (err) {
                     if (err) {
                         callback(err);
                     } else {
@@ -83,6 +82,32 @@ function createXML(searchedDocDate, callback){
     });
 }
 
+
+function readFiles(xmlFile, csvFile, searchedDocDate, cb){
+    xmlFile.mv('data/banka.xml', function (err) {
+        if (err) {
+            cb(err);
+        }
+
+        csvFile.mv('data/posta.csv', function (err) {
+            if (err) {
+               cb(err);
+            }
+
+            createXML(searchedDocDate, function(err){
+                if(err){
+                    cb(err);
+                }
+
+                cb(err, "aa");
+            });
+
+        });
+
+    });
+}
+
+
 module.exports = {
-    createBankaXML: createXML
+    readFiles: readFiles
 };

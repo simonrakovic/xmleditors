@@ -1,21 +1,34 @@
+doctype html
 html
     head
-        title= title
+        title Bootstrap Admin Theme v3
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        // Bootstrap
+        link(href='/static/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+        // styles
+        link(href='/static/css/styles.css', rel='stylesheet')
+        // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+        // WARNING: Respond.js doesn't work if you view the page via file://
+        //if lt IE 9
+          script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+          script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
     body
-        form(method="POST", action="/upload",encType="multipart/form-data")
-            table
-                tr
-                    td  Datum izpiska:
-                    td
-                        input(type="text", name="date")
-                tr
-                    td CSV Tabela plačinkov:
-                    td
-                        input(type="file", name="csvFile")
-                tr
-                    td XML Bančni izpisek:
-                    td
-                        input(type="file", name="xmlFile")
-                tr
-                    td
-                        input(type="submit" value="Pošlji")
+        .header
+            .container
+                .row
+                    .col-md-12
+                        // Logo
+                        .logo
+                            h1
+                                a(href='index.html') RK admin
+
+
+        .page-content
+            .row
+                block main_content
+
+        // jQuery (necessary for Bootstrap's JavaScript plugins)
+        script(src='https://code.jquery.com/jquery.js')
+        // Include all compiled plugins (below), or include individual files as needed
+        script(src='/static/bootstrap/js/bootstrap.min.js')
+        script(src='/static/js/custom.js')

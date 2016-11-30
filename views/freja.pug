@@ -1,0 +1,55 @@
+extends index.pug
+
+block main_content
+    .col-md-2
+        .sidebar.content-box(style='display: block;')
+            ul.nav
+                // Main menu
+                li.current
+                    a(href='index.html')
+                        i.glyphicon.glyphicon-home
+                        |  Dashboard
+                li
+                    a(href='calendar.html')
+                        i.glyphicon.glyphicon-calendar
+                        |  Calendar
+                li
+                    a(href='stats.html')
+                        i.glyphicon.glyphicon-stats
+                        |  Statistics (Charts)
+                li
+                    a(href='tables.html')
+                        i.glyphicon.glyphicon-list
+                        |  Tables
+                li
+                    a(href='buttons.html')
+                        i.glyphicon.glyphicon-record
+                        |  Buttons
+                li
+                    a(href='editors.html')
+                        i.glyphicon.glyphicon-pencil
+                        |  Editors
+                li
+                    a(href='forms.html')
+                        i.glyphicon.glyphicon-
+                        |  Forms
+
+    .col-md-10
+        .row
+            form(method="POST", action="/freja",encType="multipart/form-data")
+                table
+                    tr
+                        td  Datum izpiska:
+                        td
+                            input(type="text", name="date")
+                    tr
+                        td CSV Tabela plačinkov:
+                        td
+                            input(type="file", name="csvFile")
+                    tr
+                        td XML Bančni izpisek:
+                        td
+                            input(type="file", name="xmlFile")
+                    tr
+                        td
+                            input(type="submit" value="Pošlji")

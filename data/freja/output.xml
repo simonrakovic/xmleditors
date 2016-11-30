@@ -2,13 +2,13 @@
 <Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:camt.053.001.02 ./camt.053.001.02.xsd">
   <BkToCstmrStmt>
     <GrpHdr>
-      <MsgId>2016-10-11T09:01:12/29588</MsgId>
-      <CreDtTm>2016-10-11T09:01:12</CreDtTm>
+      <MsgId>2016-11-22T14:18:05/13068</MsgId>
+      <CreDtTm>2016-11-22T14:18:05</CreDtTm>
     </GrpHdr>
     <Stmt>
-      <Id>10001QC2PSTTGMSS</Id>
-      <LglSeqNb>176</LglSeqNb>
-      <CreDtTm>2016-09-12T00:00:00</CreDtTm>
+      <Id>10001QC2Q0LHSLFX</Id>
+      <LglSeqNb>201</LglSeqNb>
+      <CreDtTm>2016-10-17T00:00:00</CreDtTm>
       <Acct>
         <Id>
           <IBAN>SI56290000050690990</IBAN>
@@ -28,10 +28,10 @@
             <Cd>OPBD</Cd>
           </CdOrPrtry>
         </Tp>
-        <Amt Ccy="EUR">3807.35</Amt>
+        <Amt Ccy="EUR">1821.39</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Dt>
-          <Dt>2016-09-09</Dt>
+          <Dt>2016-10-14</Dt>
         </Dt>
       </Bal>
       <Bal>
@@ -40,33 +40,33 @@
             <Cd>CLBD</Cd>
           </CdOrPrtry>
         </Tp>
-        <Amt Ccy="EUR">6038.40</Amt>
+        <Amt Ccy="EUR">2846.00</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Dt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </Dt>
       </Bal>
       <TxsSummry>
         <TtlCdtNtries>
-          <NbOfNtries>5</NbOfNtries>
-          <Sum>3722.34</Sum>
+          <NbOfNtries>6</NbOfNtries>
+          <Sum>3424.61</Sum>
         </TtlCdtNtries>
         <TtlDbtNtries>
-          <NbOfNtries>4</NbOfNtries>
-          <Sum>1491.29</Sum>
+          <NbOfNtries>1</NbOfNtries>
+          <Sum>2400.00</Sum>
         </TtlDbtNtries>
       </TxsSummry>
       <Ntry>
-        <Amt Ccy="EUR">41.57</Amt>
-        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Amt Ccy="EUR">22.44</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-10</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSQXTX7Q</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0HU140U</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -75,151 +75,77 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>NOTPROVIDED</EndToEndId>
-              <TxId>20160912006844//CLT2-1619200670/374</TxId>
+              <EndToEndId>VOSKI</EndToEndId>
+              <TxId>20161017610105//00128778516/540</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
+                <Nm>MAJA UDOVIC </Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>V ZIDEH 22 1222 TROJANE</AdrLine>
+                  <AdrLine>-</AdrLine>
+                </PstlAdr>
+              </Dbtr>
+              <DbtrAcct>
+                <Id>
+                  <IBAN>SI56023023943424725</IBAN>
+                </Id>
+              </DbtrAcct>
+              <Cdtr>
                 <Nm>FREJA, D.O.O.</Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
                   <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
                   <AdrLine>1000 LJUBLJANA</AdrLine>
                 </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>BAUHAUS d.o.o., k.d. 9 Ljubljana-SI</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>-</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
               </Cdtr>
               <CdtrAcct>
                 <Id>
-                  <Othr>
-                    <Id>-</Id>
-                  </Othr>
+                  <IBAN>SI56290000050690990</IBAN>
                 </Id>
               </CdtrAcct>
             </RltdPties>
             <RltdAgts>
               <DbtrAgt>
                 <FinInstnId>
-                  <BIC>BACXSI22</BIC>
+                  <BIC>LJBASI2X</BIC>
                 </FinInstnId>
               </DbtrAgt>
               <CdtrAgt>
                 <FinInstnId>
                   <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <RmtInf>
-              <Ustrd>POS nakup /Card 6771-XXXX-XXXX-XXXX-358 /41,57 EUR 09/09/16</Ustrd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">48.92</Amt>
-        <CdtDbtInd>DBIT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSR7D644</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <InstrId>10001QC2PSA8KVX2</InstrId>
-              <EndToEndId>NOTPROVIDED</EndToEndId>
-              <TxId>20160912610080//00127041756/507</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>PRORACUN DRZAVE </Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>DAVCNA ULICA 1 LJUBLJANA</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <IBAN>SI56011008881000030</IBAN>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BSLJSI2X</BIC>
                 </FinInstnId>
               </CdtrAgt>
             </RltdAgts>
             <Purp>
-              <Cd>TAXS</Cd>
+              <Cd>WEBI</Cd>
             </Purp>
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>SI1998870017-80004</Ref>
+                  <Ref>SI002016-15645</Ref>
                 </CdtrRefInf>
-                <AddtlRmtInf>AKONT.DAVKA OD DOBICKA</AddtlRmtInf>
+                <AddtlRmtInf>INTERNETNO INICIIRANA TRANSAKCIJA</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">1400.00</Amt>
-        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Amt Ccy="EUR">47.38</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSR7D66C</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0K2V1MJ</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -228,9 +154,236 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <InstrId>10001QC2PSR5L6DC</InstrId>
+              <EndToEndId>ZATE.SI</EndToEndId>
+              <TxId>20161017610132//00128834145/540</TxId>
+            </Refs>
+            <RltdPties>
+              <Dbtr>
+                <Nm>VANESA KNEZ </Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>OTISKI VRH 13 2373 SENTJANZ PRI DRAVOGRADU</AdrLine>
+                  <AdrLine>-</AdrLine>
+                </PstlAdr>
+              </Dbtr>
+              <DbtrAcct>
+                <Id>
+                  <IBAN>SI56024514176694276</IBAN>
+                </Id>
+              </DbtrAcct>
+              <Cdtr>
+                <Nm>FREJA, D.O.O.</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+                  <AdrLine>1000 LJUBLJANA</AdrLine>
+                </PstlAdr>
+              </Cdtr>
+              <CdtrAcct>
+                <Id>
+                  <IBAN>SI56290000050690990</IBAN>
+                </Id>
+              </CdtrAcct>
+            </RltdPties>
+            <RltdAgts>
+              <DbtrAgt>
+                <FinInstnId>
+                  <BIC>LJBASI2X</BIC>
+                </FinInstnId>
+              </DbtrAgt>
+              <CdtrAgt>
+                <FinInstnId>
+                  <BIC>BACXSI22</BIC>
+                </FinInstnId>
+              </CdtrAgt>
+            </RltdAgts>
+            <Purp>
+              <Cd>WEBI</Cd>
+            </Purp>
+            <RmtInf>
+              <Strd>
+                <CdtrRefInf>
+                  <Ref>SI002016-15654</Ref>
+                </CdtrRefInf>
+                <AddtlRmtInf>INTERNETNO INICIIRANA TRANSAKCIJA</AddtlRmtInf>
+              </Strd>
+            </RmtInf>
+            <RltdDts>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
+            </RltdDts>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="EUR">1598.92</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2016-10-17</Dt>
+        </BookgDt>
+        <ValDt>
+          <Dt>2016-10-17</Dt>
+        </ValDt>
+        <AcctSvcrRef>10001QC2Q0KBQB8G</AcctSvcrRef>
+        <BkTxCd>
+          <Prtry>
+            <Cd>NOTPROVIDED</Cd>
+          </Prtry>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>RE201610140024268-301569790</EndToEndId>
+              <TxId>20161017518670//6291903850/100</TxId>
+            </Refs>
+            <RltdPties>
+              <Dbtr>
+                <Nm>SIX PAYMENT SERVICES (AUT), ATU1535 5906</Nm>
+                <PstlAdr>
+                  <Ctry>AT</Ctry>
+                  <AdrLine>1030 MARXERGASSE 1B</AdrLine>
+                  <AdrLine>-</AdrLine>
+                </PstlAdr>
+              </Dbtr>
+              <DbtrAcct>
+                <Id>
+                  <IBAN>AT447603020000000009</IBAN>
+                </Id>
+              </DbtrAcct>
+              <Cdtr>
+                <Nm>FREJA, D.O.O.</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+                  <AdrLine>1000 LJUBLJANA</AdrLine>
+                </PstlAdr>
+              </Cdtr>
+              <CdtrAcct>
+                <Id>
+                  <IBAN>SI56290000050690990</IBAN>
+                </Id>
+              </CdtrAcct>
+            </RltdPties>
+            <RltdAgts>
+              <DbtrAgt>
+                <FinInstnId>
+                  <BIC>PLBKATWWXXX</BIC>
+                </FinInstnId>
+              </DbtrAgt>
+              <CdtrAgt>
+                <FinInstnId>
+                  <BIC>BACXSI22XXX</BIC>
+                </FinInstnId>
+              </CdtrAgt>
+            </RltdAgts>
+            <Purp>
+              <Cd>GDSV</Cd>
+            </Purp>
+            <RmtInf>
+              <Ustrd>RE201610140024268-301569790/BR+1614,67/DI-15,75/DM1014+867,14/CM1014+299,77/CV1014+447,76</Ustrd>
+            </RmtInf>
+            <RltdDts>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
+            </RltdDts>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="EUR">863.35</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2016-10-17</Dt>
+        </BookgDt>
+        <ValDt>
+          <Dt>2016-10-17</Dt>
+        </ValDt>
+        <AcctSvcrRef>10001QC2Q0KBQB8N</AcctSvcrRef>
+        <BkTxCd>
+          <Prtry>
+            <Cd>NOTPROVIDED</Cd>
+          </Prtry>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>RE201610150018112-301569790</EndToEndId>
+              <TxId>20161017518697//6291903855/100</TxId>
+            </Refs>
+            <RltdPties>
+              <Dbtr>
+                <Nm>SIX PAYMENT SERVICES (AUT), ATU1535 5906</Nm>
+                <PstlAdr>
+                  <Ctry>AT</Ctry>
+                  <AdrLine>1030 MARXERGASSE 1B</AdrLine>
+                  <AdrLine>-</AdrLine>
+                </PstlAdr>
+              </Dbtr>
+              <DbtrAcct>
+                <Id>
+                  <IBAN>AT447603020000000009</IBAN>
+                </Id>
+              </DbtrAcct>
+              <Cdtr>
+                <Nm>FREJA, D.O.O.</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+                  <AdrLine>1000 LJUBLJANA</AdrLine>
+                </PstlAdr>
+              </Cdtr>
+              <CdtrAcct>
+                <Id>
+                  <IBAN>SI56290000050690990</IBAN>
+                </Id>
+              </CdtrAcct>
+            </RltdPties>
+            <RltdAgts>
+              <DbtrAgt>
+                <FinInstnId>
+                  <BIC>PLBKATWWXXX</BIC>
+                </FinInstnId>
+              </DbtrAgt>
+              <CdtrAgt>
+                <FinInstnId>
+                  <BIC>BACXSI22XXX</BIC>
+                </FinInstnId>
+              </CdtrAgt>
+            </RltdAgts>
+            <Purp>
+              <Cd>GDSV</Cd>
+            </Purp>
+            <RmtInf>
+              <Ustrd>RE201610150018112-301569790/BR+871,78/DI-8,43/DM1015+369,83/CM1015+292,34/CV1015+209,61</Ustrd>
+            </RmtInf>
+            <RltdDts>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
+            </RltdDts>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="EUR">2400.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2016-10-17</Dt>
+        </BookgDt>
+        <ValDt>
+          <Dt>2016-10-17</Dt>
+        </ValDt>
+        <AcctSvcrRef>10001QC2Q0KCNEF4</AcctSvcrRef>
+        <BkTxCd>
+          <Prtry>
+            <Cd>NOTPROVIDED</Cd>
+          </Prtry>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <InstrId>10001QC2Q0K7RF12</InstrId>
               <EndToEndId>NOTPROVIDED</EndToEndId>
-              <TxId>20160912610080//00127041757/508</TxId>
+              <TxId>20161017610141//00128843466/508</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
@@ -284,22 +437,22 @@
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">23.93</Amt>
+        <Amt Ccy="EUR">335.06</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSS243S8</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0KKQQCA</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -308,15 +461,15 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>SI05382000-2102-20160912</EndToEndId>
-              <TxId>20160912610106//00127060496/540</TxId>
+              <EndToEndId>SI05210137-212-20161014</EndToEndId>
+              <TxId>20161017610146//00128856862/540</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
-                <Nm>BISERKA BEHIN </Nm>
+                <Nm>NOVA KREDITNA BANKA MARIBOR D.D. </Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
-                  <AdrLine>PERNICA 48 A 2231 PERNICA</AdrLine>
+                  <AdrLine>ULICA VITA KRAIGHERJA 004 2000 MARIBOR</AdrLine>
                   <AdrLine>-</AdrLine>
                 </PstlAdr>
               </Dbtr>
@@ -325,91 +478,6 @@
                   <IBAN>SI56010000009000034</IBAN>
                 </Id>
               </DbtrAcct>
-              <UltmtDbtr>
-                <Nm>BISERKA BEHIN </Nm>
-              </UltmtDbtr>
-              <Cdtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>PBSLSI22</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <Purp>
-              <Cd>OTHR</Cd>
-            </Purp>
-            <RmtInf>
-              <Strd>
-                <CdtrRefInf>
-                  <Ref>SI002016-14491</Ref>
-                </CdtrRefInf>
-                <AddtlRmtInf>DRUGO</AddtlRmtInf>
-              </Strd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">62.50</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSSG5C36</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <EndToEndId>SI05382000-1111-20160912</EndToEndId>
-              <TxId>20160912610120//00127074583/540</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>VASKELJ MARTIN </Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>VIDMAREJEVA 8 1000 LJUBLJANA</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>SI56010000009000034</IBAN>
-                </Id>
-              </DbtrAcct>
-              <UltmtDbtr>
-                <Nm>VASKELJ MARTIN </Nm>
-              </UltmtDbtr>
               <Cdtr>
                 <Nm>FREJA, D.O.O.</Nm>
                 <PstlAdr>
@@ -442,28 +510,28 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>SI0000</Ref>
+                  <Ref>SI99</Ref>
                 </CdtrRefInf>
-                <AddtlRmtInf>KUPOPRODAJA BLAGA IN STORITEV</AddtlRmtInf>
+                <AddtlRmtInf>PLAC.PREKO INTERNETA</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">746.64</Amt>
+        <Amt Ccy="EUR">17.26</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSSRYCXN</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -472,233 +540,12 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>RE201609100017244-301569790</EndToEndId>
-              <TxId>20160912514323//6256904381/100</TxId>
+              <EndToEndId>2016-13863</EndToEndId>
+              <TxId>2016-13863</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
-                <Nm>SIX PAYMENT SERVICES (AUT), ATU1535 5906</Nm>
-                <PstlAdr>
-                  <Ctry>AT</Ctry>
-                  <AdrLine>1030 MARXERGASSE 1B</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>AT447603020000000009</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>PLBKATWWXXX</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22XXX</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <Purp>
-              <Cd>GDSV</Cd>
-            </Purp>
-            <RmtInf>
-              <Ustrd>RE201609100017244-301569790/BR+754,04/DI-7,40/DM0910+432,85/CM0910+225,69/CV0910+95,50</Ustrd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">1837.75</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSSRYCXU</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <EndToEndId>RE201609090023711-301569790</EndToEndId>
-              <TxId>20160912514378//6256904449/100</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>SIX PAYMENT SERVICES (AUT), ATU1535 5906</Nm>
-                <PstlAdr>
-                  <Ctry>AT</Ctry>
-                  <AdrLine>1030 MARXERGASSE 1B</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>AT447603020000000009</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>PLBKATWWXXX</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22XXX</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <Purp>
-              <Cd>GDSV</Cd>
-            </Purp>
-            <RmtInf>
-              <Ustrd>RE201609090023711-301569790/BR+1855,44/DI-17,69/DM0909+1073,15/CM0909+325,38/CV0909+456,91</Ustrd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">0.80</Amt>
-        <CdtDbtInd>DBIT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSTTGNAG</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <EndToEndId>NOTPROVIDED</EndToEndId>
-              <TxId>20160912999922///283</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>-</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>-</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <Othr>
-                    <Id>-</Id>
-                  </Othr>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <RmtInf>
-              <Ustrd>PROVIZIJA ELEKTR. STAND. 1 x 0,80 EUR</Ustrd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">354.39</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <EndToEndId>12372</EndToEndId>
-              <TxId>12372</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>Lepotni atelje AINE</Nm>
+                <Nm>Nika Hribar</Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
                   <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
@@ -742,28 +589,28 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>12372</Ref>
+                  <Ref>2016-13863</Ref>
                 </CdtrRefInf>
                 <AddtlRmtInf>DRUGO</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">43.09</Amt>
+        <Amt Ccy="EUR">50</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -772,12 +619,12 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>11834</EndToEndId>
-              <TxId>11834</TxId>
+              <EndToEndId>2016-13795</EndToEndId>
+              <TxId>2016-13795</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
-                <Nm>Natalija Tavčer</Nm>
+                <Nm>Danica Gaji�</Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
                   <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
@@ -821,28 +668,28 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>11834</Ref>
+                  <Ref>2016-13795</Ref>
                 </CdtrRefInf>
                 <AddtlRmtInf>DRUGO</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">105.1</Amt>
+        <Amt Ccy="EUR">9.4</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -851,12 +698,12 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>12374</EndToEndId>
-              <TxId>12374</TxId>
+              <EndToEndId>2016-13696</EndToEndId>
+              <TxId>2016-13696</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
-                <Nm>Katja Kocjan</Nm>
+                <Nm>Leonida �rne</Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
                   <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
@@ -900,28 +747,28 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>12374</Ref>
+                  <Ref>2016-13696</Ref>
                 </CdtrRefInf>
                 <AddtlRmtInf>DRUGO</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">28.26</Amt>
+        <Amt Ccy="EUR">43.43</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -930,12 +777,12 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>12433</EndToEndId>
-              <TxId>12433</TxId>
+              <EndToEndId>2016-13975</EndToEndId>
+              <TxId>2016-13975</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
-                <Nm>Špela Kotar</Nm>
+                <Nm>Boris Dem�ar</Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
                   <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
@@ -979,28 +826,28 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>12433</Ref>
+                  <Ref>2016-13975</Ref>
                 </CdtrRefInf>
                 <AddtlRmtInf>DRUGO</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">35.75</Amt>
+        <Amt Ccy="EUR">20.27</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -1009,561 +856,8 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>12441</EndToEndId>
-              <TxId>12441</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>Marjeta Kralj</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>SI56906720000040025</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>PBSLSI22</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <Purp>
-              <Cd>OTHR</Cd>
-            </Purp>
-            <RmtInf>
-              <Strd>
-                <CdtrRefInf>
-                  <Ref>12441</Ref>
-                </CdtrRefInf>
-                <AddtlRmtInf>DRUGO</AddtlRmtInf>
-              </Strd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">11.43</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <EndToEndId>12268</EndToEndId>
-              <TxId>12268</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>Lea Grmovšek</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>SI56906720000040025</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>PBSLSI22</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <Purp>
-              <Cd>OTHR</Cd>
-            </Purp>
-            <RmtInf>
-              <Strd>
-                <CdtrRefInf>
-                  <Ref>12268</Ref>
-                </CdtrRefInf>
-                <AddtlRmtInf>DRUGO</AddtlRmtInf>
-              </Strd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">27.44</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <EndToEndId>12435</EndToEndId>
-              <TxId>12435</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>Jerneja Jerina</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>SI56906720000040025</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>PBSLSI22</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <Purp>
-              <Cd>OTHR</Cd>
-            </Purp>
-            <RmtInf>
-              <Strd>
-                <CdtrRefInf>
-                  <Ref>12435</Ref>
-                </CdtrRefInf>
-                <AddtlRmtInf>DRUGO</AddtlRmtInf>
-              </Strd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">35.74</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <EndToEndId>12442</EndToEndId>
-              <TxId>12442</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>Bar&amp;Kozmetika Arlič</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>SI56906720000040025</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>PBSLSI22</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <Purp>
-              <Cd>OTHR</Cd>
-            </Purp>
-            <RmtInf>
-              <Strd>
-                <CdtrRefInf>
-                  <Ref>12442</Ref>
-                </CdtrRefInf>
-                <AddtlRmtInf>DRUGO</AddtlRmtInf>
-              </Strd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">83.89</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <EndToEndId>12434</EndToEndId>
-              <TxId>12434</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>Sabina Memic</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>SI56906720000040025</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>PBSLSI22</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <Purp>
-              <Cd>OTHR</Cd>
-            </Purp>
-            <RmtInf>
-              <Strd>
-                <CdtrRefInf>
-                  <Ref>12434</Ref>
-                </CdtrRefInf>
-                <AddtlRmtInf>DRUGO</AddtlRmtInf>
-              </Strd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">50.05</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <EndToEndId>12456</EndToEndId>
-              <TxId>12456</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>Bernarda Zorič</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>SI56906720000040025</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>PBSLSI22</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <Purp>
-              <Cd>OTHR</Cd>
-            </Purp>
-            <RmtInf>
-              <Strd>
-                <CdtrRefInf>
-                  <Ref>12456</Ref>
-                </CdtrRefInf>
-                <AddtlRmtInf>DRUGO</AddtlRmtInf>
-              </Strd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">33.21</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <EndToEndId>12438</EndToEndId>
-              <TxId>12438</TxId>
-            </Refs>
-            <RltdPties>
-              <Dbtr>
-                <Nm>Iza Pajić</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
-                  <AdrLine>-</AdrLine>
-                </PstlAdr>
-              </Dbtr>
-              <DbtrAcct>
-                <Id>
-                  <IBAN>SI56906720000040025</IBAN>
-                </Id>
-              </DbtrAcct>
-              <Cdtr>
-                <Nm>FREJA, D.O.O.</Nm>
-                <PstlAdr>
-                  <Ctry>SI</Ctry>
-                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-                  <AdrLine>1000 LJUBLJANA</AdrLine>
-                </PstlAdr>
-              </Cdtr>
-              <CdtrAcct>
-                <Id>
-                  <IBAN>SI56290000050690990</IBAN>
-                </Id>
-              </CdtrAcct>
-            </RltdPties>
-            <RltdAgts>
-              <DbtrAgt>
-                <FinInstnId>
-                  <BIC>PBSLSI22</BIC>
-                </FinInstnId>
-              </DbtrAgt>
-              <CdtrAgt>
-                <FinInstnId>
-                  <BIC>BACXSI22</BIC>
-                </FinInstnId>
-              </CdtrAgt>
-            </RltdAgts>
-            <Purp>
-              <Cd>OTHR</Cd>
-            </Purp>
-            <RmtInf>
-              <Strd>
-                <CdtrRefInf>
-                  <Ref>12438</Ref>
-                </CdtrRefInf>
-                <AddtlRmtInf>DRUGO</AddtlRmtInf>
-              </Strd>
-            </RmtInf>
-            <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
-            </RltdDts>
-          </TxDtls>
-        </NtryDtls>
-      </Ntry>
-      <Ntry>
-        <Amt Ccy="EUR">26.2</Amt>
-        <CdtDbtInd>CRDT</CdtDbtInd>
-        <Sts>BOOK</Sts>
-        <BookgDt>
-          <Dt>2016-09-12</Dt>
-        </BookgDt>
-        <ValDt>
-          <Dt>2016-09-12</Dt>
-        </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
-        <BkTxCd>
-          <Prtry>
-            <Cd>NOTPROVIDED</Cd>
-          </Prtry>
-        </BkTxCd>
-        <NtryDtls>
-          <TxDtls>
-            <Refs>
-              <EndToEndId>12499</EndToEndId>
-              <TxId>12499</TxId>
+              <EndToEndId>2016-13956</EndToEndId>
+              <TxId>2016-13956</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
@@ -1611,28 +905,28 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>12499</Ref>
+                  <Ref>2016-13956</Ref>
                 </CdtrRefInf>
                 <AddtlRmtInf>DRUGO</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">32.85</Amt>
+        <Amt Ccy="EUR">28.65</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -1641,12 +935,12 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>12440</EndToEndId>
-              <TxId>12440</TxId>
+              <EndToEndId>2016-13951</EndToEndId>
+              <TxId>2016-13951</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
-                <Nm>Marta Siter</Nm>
+                <Nm>Maja Mrak</Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
                   <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
@@ -1690,28 +984,28 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>12440</Ref>
+                  <Ref>2016-13951</Ref>
                 </CdtrRefInf>
                 <AddtlRmtInf>DRUGO</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">32.92</Amt>
+        <Amt Ccy="EUR">11.43</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -1720,12 +1014,12 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>12457</EndToEndId>
-              <TxId>12457</TxId>
+              <EndToEndId>2016-13747</EndToEndId>
+              <TxId>2016-13747</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
-                <Nm>Barbara Mejač</Nm>
+                <Nm>Sara Homec</Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
                   <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
@@ -1769,28 +1063,28 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>12457</Ref>
+                  <Ref>2016-13747</Ref>
                 </CdtrRefInf>
                 <AddtlRmtInf>DRUGO</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">38.45</Amt>
+        <Amt Ccy="EUR">8.23</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -1799,12 +1093,12 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>12559</EndToEndId>
-              <TxId>12559</TxId>
+              <EndToEndId>2016-13864</EndToEndId>
+              <TxId>2016-13864</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
-                <Nm>Alenka Močilnik s.p.</Nm>
+                <Nm>Tina Vidmar</Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
                   <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
@@ -1848,28 +1142,28 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>12559</Ref>
+                  <Ref>2016-13864</Ref>
                 </CdtrRefInf>
                 <AddtlRmtInf>DRUGO</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">48.98</Amt>
+        <Amt Ccy="EUR">36.86</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -1878,12 +1172,12 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>12565</EndToEndId>
-              <TxId>12565</TxId>
+              <EndToEndId>2016-13811</EndToEndId>
+              <TxId>2016-13811</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
-                <Nm>Kozmetični salon Jana</Nm>
+                <Nm>Jure �tok</Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
                   <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
@@ -1927,28 +1221,28 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>12565</Ref>
+                  <Ref>2016-13811</Ref>
                 </CdtrRefInf>
                 <AddtlRmtInf>DRUGO</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">18.76</Amt>
+        <Amt Ccy="EUR">17.38</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -1957,12 +1251,12 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>12613</EndToEndId>
-              <TxId>12613</TxId>
+              <EndToEndId>2016-14029</EndToEndId>
+              <TxId>2016-14029</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
-                <Nm>Nina Derlink</Nm>
+                <Nm>Daliborka Bogojevi�</Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
                   <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
@@ -2006,28 +1300,28 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>12613</Ref>
+                  <Ref>2016-14029</Ref>
                 </CdtrRefInf>
                 <AddtlRmtInf>DRUGO</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
       </Ntry>
       <Ntry>
-        <Amt Ccy="EUR">45.01</Amt>
+        <Amt Ccy="EUR">36.24</Amt>
         <CdtDbtInd>CRDT</CdtDbtInd>
         <Sts>BOOK</Sts>
         <BookgDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </BookgDt>
         <ValDt>
-          <Dt>2016-09-12</Dt>
+          <Dt>2016-10-17</Dt>
         </ValDt>
-        <AcctSvcrRef>10001QC2PSS243SE</AcctSvcrRef>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
         <BkTxCd>
           <Prtry>
             <Cd>NOTPROVIDED</Cd>
@@ -2036,12 +1330,12 @@
         <NtryDtls>
           <TxDtls>
             <Refs>
-              <EndToEndId>12682</EndToEndId>
-              <TxId>12682</TxId>
+              <EndToEndId>2016-13952</EndToEndId>
+              <TxId>2016-13952</TxId>
             </Refs>
             <RltdPties>
               <Dbtr>
-                <Nm>Romana Cvetko Petrovič</Nm>
+                <Nm>Katja �eh</Nm>
                 <PstlAdr>
                   <Ctry>SI</Ctry>
                   <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
@@ -2085,13 +1379,408 @@
             <RmtInf>
               <Strd>
                 <CdtrRefInf>
-                  <Ref>12682</Ref>
+                  <Ref>2016-13952</Ref>
                 </CdtrRefInf>
                 <AddtlRmtInf>DRUGO</AddtlRmtInf>
               </Strd>
             </RmtInf>
             <RltdDts>
-              <IntrBkSttlmDt>2016-09-12</IntrBkSttlmDt>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
+            </RltdDts>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="EUR">42.45</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2016-10-17</Dt>
+        </BookgDt>
+        <ValDt>
+          <Dt>2016-10-17</Dt>
+        </ValDt>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
+        <BkTxCd>
+          <Prtry>
+            <Cd>NOTPROVIDED</Cd>
+          </Prtry>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>2016-14038</EndToEndId>
+              <TxId>2016-14038</TxId>
+            </Refs>
+            <RltdPties>
+              <Dbtr>
+                <Nm>Lea Samba</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
+                  <AdrLine>-</AdrLine>
+                </PstlAdr>
+              </Dbtr>
+              <DbtrAcct>
+                <Id>
+                  <IBAN>SI56906720000040025</IBAN>
+                </Id>
+              </DbtrAcct>
+              <Cdtr>
+                <Nm>FREJA, D.O.O.</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+                  <AdrLine>1000 LJUBLJANA</AdrLine>
+                </PstlAdr>
+              </Cdtr>
+              <CdtrAcct>
+                <Id>
+                  <IBAN>SI56290000050690990</IBAN>
+                </Id>
+              </CdtrAcct>
+            </RltdPties>
+            <RltdAgts>
+              <DbtrAgt>
+                <FinInstnId>
+                  <BIC>PBSLSI22</BIC>
+                </FinInstnId>
+              </DbtrAgt>
+              <CdtrAgt>
+                <FinInstnId>
+                  <BIC>BACXSI22</BIC>
+                </FinInstnId>
+              </CdtrAgt>
+            </RltdAgts>
+            <Purp>
+              <Cd>OTHR</Cd>
+            </Purp>
+            <RmtInf>
+              <Strd>
+                <CdtrRefInf>
+                  <Ref>2016-14038</Ref>
+                </CdtrRefInf>
+                <AddtlRmtInf>DRUGO</AddtlRmtInf>
+              </Strd>
+            </RmtInf>
+            <RltdDts>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
+            </RltdDts>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="EUR">15.33</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2016-10-17</Dt>
+        </BookgDt>
+        <ValDt>
+          <Dt>2016-10-17</Dt>
+        </ValDt>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
+        <BkTxCd>
+          <Prtry>
+            <Cd>NOTPROVIDED</Cd>
+          </Prtry>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>2016-14031</EndToEndId>
+              <TxId>2016-14031</TxId>
+            </Refs>
+            <RltdPties>
+              <Dbtr>
+                <Nm>Ines Pilko</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
+                  <AdrLine>-</AdrLine>
+                </PstlAdr>
+              </Dbtr>
+              <DbtrAcct>
+                <Id>
+                  <IBAN>SI56906720000040025</IBAN>
+                </Id>
+              </DbtrAcct>
+              <Cdtr>
+                <Nm>FREJA, D.O.O.</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+                  <AdrLine>1000 LJUBLJANA</AdrLine>
+                </PstlAdr>
+              </Cdtr>
+              <CdtrAcct>
+                <Id>
+                  <IBAN>SI56290000050690990</IBAN>
+                </Id>
+              </CdtrAcct>
+            </RltdPties>
+            <RltdAgts>
+              <DbtrAgt>
+                <FinInstnId>
+                  <BIC>PBSLSI22</BIC>
+                </FinInstnId>
+              </DbtrAgt>
+              <CdtrAgt>
+                <FinInstnId>
+                  <BIC>BACXSI22</BIC>
+                </FinInstnId>
+              </CdtrAgt>
+            </RltdAgts>
+            <Purp>
+              <Cd>OTHR</Cd>
+            </Purp>
+            <RmtInf>
+              <Strd>
+                <CdtrRefInf>
+                  <Ref>2016-14031</Ref>
+                </CdtrRefInf>
+                <AddtlRmtInf>DRUGO</AddtlRmtInf>
+              </Strd>
+            </RmtInf>
+            <RltdDts>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
+            </RltdDts>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="EUR">37.56</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2016-10-17</Dt>
+        </BookgDt>
+        <ValDt>
+          <Dt>2016-10-17</Dt>
+        </ValDt>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
+        <BkTxCd>
+          <Prtry>
+            <Cd>NOTPROVIDED</Cd>
+          </Prtry>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>2016-14062</EndToEndId>
+              <TxId>2016-14062</TxId>
+            </Refs>
+            <RltdPties>
+              <Dbtr>
+                <Nm>Nina Robek</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
+                  <AdrLine>-</AdrLine>
+                </PstlAdr>
+              </Dbtr>
+              <DbtrAcct>
+                <Id>
+                  <IBAN>SI56906720000040025</IBAN>
+                </Id>
+              </DbtrAcct>
+              <Cdtr>
+                <Nm>FREJA, D.O.O.</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+                  <AdrLine>1000 LJUBLJANA</AdrLine>
+                </PstlAdr>
+              </Cdtr>
+              <CdtrAcct>
+                <Id>
+                  <IBAN>SI56290000050690990</IBAN>
+                </Id>
+              </CdtrAcct>
+            </RltdPties>
+            <RltdAgts>
+              <DbtrAgt>
+                <FinInstnId>
+                  <BIC>PBSLSI22</BIC>
+                </FinInstnId>
+              </DbtrAgt>
+              <CdtrAgt>
+                <FinInstnId>
+                  <BIC>BACXSI22</BIC>
+                </FinInstnId>
+              </CdtrAgt>
+            </RltdAgts>
+            <Purp>
+              <Cd>OTHR</Cd>
+            </Purp>
+            <RmtInf>
+              <Strd>
+                <CdtrRefInf>
+                  <Ref>2016-14062</Ref>
+                </CdtrRefInf>
+                <AddtlRmtInf>DRUGO</AddtlRmtInf>
+              </Strd>
+            </RmtInf>
+            <RltdDts>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
+            </RltdDts>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="EUR">126.72</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2016-10-17</Dt>
+        </BookgDt>
+        <ValDt>
+          <Dt>2016-10-17</Dt>
+        </ValDt>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
+        <BkTxCd>
+          <Prtry>
+            <Cd>NOTPROVIDED</Cd>
+          </Prtry>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>2016-14106</EndToEndId>
+              <TxId>2016-14106</TxId>
+            </Refs>
+            <RltdPties>
+              <Dbtr>
+                <Nm>Nevenka Kodri�</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
+                  <AdrLine>-</AdrLine>
+                </PstlAdr>
+              </Dbtr>
+              <DbtrAcct>
+                <Id>
+                  <IBAN>SI56906720000040025</IBAN>
+                </Id>
+              </DbtrAcct>
+              <Cdtr>
+                <Nm>FREJA, D.O.O.</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+                  <AdrLine>1000 LJUBLJANA</AdrLine>
+                </PstlAdr>
+              </Cdtr>
+              <CdtrAcct>
+                <Id>
+                  <IBAN>SI56290000050690990</IBAN>
+                </Id>
+              </CdtrAcct>
+            </RltdPties>
+            <RltdAgts>
+              <DbtrAgt>
+                <FinInstnId>
+                  <BIC>PBSLSI22</BIC>
+                </FinInstnId>
+              </DbtrAgt>
+              <CdtrAgt>
+                <FinInstnId>
+                  <BIC>BACXSI22</BIC>
+                </FinInstnId>
+              </CdtrAgt>
+            </RltdAgts>
+            <Purp>
+              <Cd>OTHR</Cd>
+            </Purp>
+            <RmtInf>
+              <Strd>
+                <CdtrRefInf>
+                  <Ref>2016-14106</Ref>
+                </CdtrRefInf>
+                <AddtlRmtInf>DRUGO</AddtlRmtInf>
+              </Strd>
+            </RmtInf>
+            <RltdDts>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
+            </RltdDts>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="EUR">56.25</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt>
+          <Dt>2016-10-17</Dt>
+        </BookgDt>
+        <ValDt>
+          <Dt>2016-10-17</Dt>
+        </ValDt>
+        <AcctSvcrRef>10001QC2Q0JMBP5N</AcctSvcrRef>
+        <BkTxCd>
+          <Prtry>
+            <Cd>NOTPROVIDED</Cd>
+          </Prtry>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>2016-14028</EndToEndId>
+              <TxId>2016-14028</TxId>
+            </Refs>
+            <RltdPties>
+              <Dbtr>
+                <Nm>Da�a Dumen�i�</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>SLOMSKOV TRG 010 2000 MARIBOR</AdrLine>
+                  <AdrLine>-</AdrLine>
+                </PstlAdr>
+              </Dbtr>
+              <DbtrAcct>
+                <Id>
+                  <IBAN>SI56906720000040025</IBAN>
+                </Id>
+              </DbtrAcct>
+              <Cdtr>
+                <Nm>FREJA, D.O.O.</Nm>
+                <PstlAdr>
+                  <Ctry>SI</Ctry>
+                  <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+                  <AdrLine>1000 LJUBLJANA</AdrLine>
+                </PstlAdr>
+              </Cdtr>
+              <CdtrAcct>
+                <Id>
+                  <IBAN>SI56290000050690990</IBAN>
+                </Id>
+              </CdtrAcct>
+            </RltdPties>
+            <RltdAgts>
+              <DbtrAgt>
+                <FinInstnId>
+                  <BIC>PBSLSI22</BIC>
+                </FinInstnId>
+              </DbtrAgt>
+              <CdtrAgt>
+                <FinInstnId>
+                  <BIC>BACXSI22</BIC>
+                </FinInstnId>
+              </CdtrAgt>
+            </RltdAgts>
+            <Purp>
+              <Cd>OTHR</Cd>
+            </Purp>
+            <RmtInf>
+              <Strd>
+                <CdtrRefInf>
+                  <Ref>2016-14028</Ref>
+                </CdtrRefInf>
+                <AddtlRmtInf>DRUGO</AddtlRmtInf>
+              </Strd>
+            </RmtInf>
+            <RltdDts>
+              <IntrBkSttlmDt>2016-10-17</IntrBkSttlmDt>
             </RltdDts>
           </TxDtls>
         </NtryDtls>
