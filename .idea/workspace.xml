@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162abb9c-5317-471e-837e-f894a839f88c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/FrejaApp/frejaRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/MideplastApp/mideplastRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/freja.pug" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/september.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/september.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/septemberutf.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testutf.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/berlicPosta.js" afterPath="$PROJECT_DIR$/apps/FrejaApp/frejaApp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mideplast.js" afterPath="$PROJECT_DIR$/apps/MideplastApp/mideplastApp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/3plusApp/3plusApp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/3plusApp/3plusRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/3plus/data.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/3plus/temeljnicaFT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/3plus.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/main.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.pug" afterPath="$PROJECT_DIR$/views/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/mideplast.pug" afterPath="$PROJECT_DIR$/views/mideplast.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/temeljnica.xml" afterPath="$PROJECT_DIR$/data/temeljnica.xml" />
     </list>
     <ignored path="BerlicPosta.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,60 +36,78 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="390">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/bootstrap/js/bootstrap.js">
+      <file leaf-file-name="3plusApp.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/3plusApp/3plusApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+            <state relative-caret-position="306">
+              <caret line="149" column="11" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <caret line="12" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="freja.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/freja.pug">
+      <file leaf-file-name="main.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/main.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="75">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frejaApp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/FrejaApp/frejaApp.js">
+      <file leaf-file-name="mideplast.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/mideplast.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1221">
-              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frejaRouter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/FrejaApp/frejaRouter.js">
+      <file leaf-file-name="temeljnica.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/temeljnica.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3plusRouter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/3plusApp/3plusRouter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3plus.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/3plus.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -118,8 +118,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Pug File" />
         <option value="JavaScript File" />
+        <option value="Pug File" />
       </list>
     </option>
   </component>
@@ -132,7 +132,6 @@
         <option value="$PROJECT_DIR$/output.xml" />
         <option value="$PROJECT_DIR$/september.csv" />
         <option value="$PROJECT_DIR$/index.pug" />
-        <option value="$PROJECT_DIR$/data/temeljnica.xml" />
         <option value="$PROJECT_DIR$/data/kupci.csv" />
         <option value="$PROJECT_DIR$/data/racuni.csv" />
         <option value="$PROJECT_DIR$/temp.js" />
@@ -151,9 +150,17 @@
         <option value="$PROJECT_DIR$/views/mideplast.pug" />
         <option value="$PROJECT_DIR$/apps/FrejaApp/frejaRouter.js" />
         <option value="$PROJECT_DIR$/apps/MideplastApp/mideplastRouter.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/freja.pug" />
         <option value="$PROJECT_DIR$/views/index.pug" />
+        <option value="$PROJECT_DIR$/data/3plus/data.csv" />
+        <option value="$PROJECT_DIR$/data/freja/temeljnicaFT.xml" />
+        <option value="$PROJECT_DIR$/views/3plus.pug" />
+        <option value="$PROJECT_DIR$/data/3plus/temeljnicaFT.xml" />
+        <option value="$PROJECT_DIR$/data/temeljnica.xml" />
+        <option value="$PROJECT_DIR$/apps/3plusApp/3plusRouter.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/main.pug" />
+        <option value="$PROJECT_DIR$/apps/3plusApp/3plusApp.js" />
       </list>
     </option>
   </component>
@@ -169,10 +176,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="1985" />
     <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="width" value="1615" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -243,11 +250,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,7 +264,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3plus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,6 +308,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BerlicPosta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BerlicPosta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3plusApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -314,16 +339,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/3plus" />
       <recent name="$PROJECT_DIR$/apps/MideplastApp" />
       <recent name="$PROJECT_DIR$/apps/FrejaApp" />
       <recent name="$PROJECT_DIR$/views" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/freja" />
+      <recent name="$PROJECT_DIR$/apps/3plusApp" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/static/css" />
-      <recent name="$PROJECT_DIR$/apps/MideplastApp" />
-      <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
   <component name="RunManager">
@@ -399,18 +425,18 @@
       <workItem from="1477461611800" duration="18381000" />
       <workItem from="1478515891542" duration="6299000" />
       <workItem from="1479970779888" duration="1308000" />
-      <workItem from="1479998849095" duration="10003000" />
+      <workItem from="1479998849095" duration="43413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66496000" />
+    <option name="totallyTimeSpent" value="99906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="1985" y="24" width="1615" height="1026" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18867925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21795666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -442,19 +468,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/FrejaApp/frejaApp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -673,14 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/temeljnica.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/racuniUTF.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -689,14 +699,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/banka.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/racuni.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -730,24 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/MideplastApp/mideplastApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="145" column="1" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/mideplast.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -756,9 +740,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/3plus/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/freja.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/racuni.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/MideplastApp/mideplastApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="59" column="55" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/FrejaApp/frejaApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
+        <state relative-caret-position="651">
           <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
@@ -774,34 +808,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/bootstrap/js/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/data/3plus/temeljnicaFT.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        <state relative-caret-position="345">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/apps/3plusApp/3plusRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/temeljnica.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mideplast.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/freja.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <caret line="12" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -809,7 +843,39 @@
     <entry file="file://$PROJECT_DIR$/views/index.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <caret line="12" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/3plus.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/3plusApp/3plusApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="149" column="11" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="11" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,47 @@
+<miniMAXUvozKnjigovodstvo xmlns="http://moj.minimax.si/ip/doc/schemas/miniMAXUvozKnjigovodstvo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://moj.minimax.si/ip/doc/schemas/miniMAXUvozKnjigovodstvo http://moj.minimax.si/ip/doc/schemas/miniMAXUvozKnjigovodstvo.xsd">
+    <Temeljnice>
+        <Temeljnica>
+            <GlavaTemeljnice>
+                <SifraVrsteTemeljnice>IR</SifraVrsteTemeljnice>
+                <DatumTemeljnice>2016-10-24</DatumTemeljnice>
+                <OpisGlaveTemeljnice>IR:2016-901</OpisGlaveTemeljnice>
+            </GlavaTemeljnice>
+            <DDV>
+                <DDVVrstica>
+                    <DDVGlava>
+                        <DatumDDV>2016-10-24</DatumDDV>
+                        <KnjigaDDV>IR</KnjigaDDV>
+                        <DatumKnjizenjaDDV>2016-10-24</DatumKnjizenjaDDV>
+                        <SifraStranke>100001</SifraStranke>
+                        <Listina>IR:2016-901</Listina>
+                        <DatumListine>2016-10-24</DatumListine>
+                    </DDVGlava>
+                    <DDVStopnje>
+                        <DDVStopnja>
+                            <SifraStopnjeDDV>S</SifraStopnjeDDV>
+                            <Osnova>100.00</Osnova>
+                            <DDV>22.00</DDV>
+                        </DDVStopnja>
+                    </DDVStopnje>
+                </DDVVrstica>
+            </DDV>
+            <VrsticeTemeljnice>
+                <VrsticaTemeljnice>
+                    <DatumKnjizbe>2016-10-24</DatumKnjizbe>
+                    <OpisVrsticeTemeljnice>IR:2016-901</OpisVrsticeTemeljnice>
+                    <SifraKonta>1200</SifraKonta>
+                    <SifraStranke>100008</SifraStranke>
+                    <SifraAnalitike>002</SifraAnalitike>
+                    <DatumZapadlosti>2016-11-24</DatumZapadlosti>
+                    <DatumOpravljanja>2016-10-24</DatumOpravljanja>
+                    <VezaZaPlacilo>2016-10</VezaZaPlacilo>
+                    <ZnesekVBremeVDenarniEnoti>122.00</ZnesekVBremeVDenarniEnoti>
+                    <ZnesekVBremeVDomaciDenarniEnoti>122.00</ZnesekVBremeVDomaciDenarniEnoti>
+                    <ZnesekVDobroVDenarniEnoti>1</ZnesekVDobroVDenarniEnoti>
+                    <ZnesekVDobroVDomaciDenarniEnoti>1</ZnesekVDobroVDomaciDenarniEnoti>
+                </VrsticaTemeljnice>
+
+            </VrsticeTemeljnice>
+        </Temeljnica>
+    </Temeljnice>
+</miniMAXUvozKnjigovodstvo>

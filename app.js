@@ -14,6 +14,7 @@ var fileUpload = require('express-fileupload');
 var path = require('path');
 var mideplastRouter = require('./apps/MideplastApp/mideplastRouter');
 var frejaRouter = require('./apps/FrejaApp/frejaRouter');
+var plusRouter = require('./apps/3plusApp/3plusRouter');
 
 
 
@@ -23,11 +24,12 @@ app.use(fileUpload());
 app.use('/static', express.static(path.join(__dirname, 'static')));
 
 app.get('/', function(req, res){
-    res.render('index');
+    res.render('main');
 });
 
 app.use('/freja', frejaRouter);
 app.use('/mideplast', mideplastRouter);
+app.use('/3plus', plusRouter);
 
 app.set('view engine', 'pug');
 
