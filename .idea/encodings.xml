@@ -3,6 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/kupci.csv" charset="windows-1250" />
-    <file url="file://$PROJECT_DIR$/september.csv" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/data/racuni.csv" charset="windows-1250" />
   </component>
 </project>

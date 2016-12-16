@@ -1,177 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <miniMAXUvozKnjigovodstvo xmlns="http://moj.minimax.si/ip/doc/schemas/miniMAXUvozKnjigovodstvo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://moj.minimax.si/ip/doc/schemas/miniMAXUvozKnjigovodstvo http://moj.minimax.si/ip/doc/schemas/miniMAXUvozKnjigovodstvo.xsd">
-  <Temeljnice>
+<Temeljnice>
     <Temeljnica>
-      <GlavaTemeljnice>
-        <SifraVrsteTemeljnice>IR</SifraVrsteTemeljnice>
-        <DatumTemeljnice>2016-07-31</DatumTemeljnice>
-        <OpisGlaveTemeljnice>PRODAJA BTC 31.7.2016</OpisGlaveTemeljnice>
-      </GlavaTemeljnice>
-      <DDV>
-        <DDVVrstica>
-          <DDVGlava>
-            <DatumDDV>2016-07-31</DatumDDV>
-            <KnjigaDDV>IR</KnjigaDDV>
-            <DatumKnjizenjaDDV>2016-07-31</DatumKnjizenjaDDV>
-            <SifraStranke>100001</SifraStranke>
-            <Listina>PRODAJA BTC 31.7.2016</Listina>
-            <DatumListine>2016-07-31</DatumListine>
-          </DDVGlava>
-          <DDVStopnje>
-            <DDVStopnja>
-              <SifraStopnjeDDV>S</SifraStopnjeDDV>
-              <Osnova>10093.98</Osnova>
-              <DDV>2220.68</DDV>
-            </DDVStopnja>
-          </DDVStopnje>
-        </DDVVrstica>
-      </DDV>
-      <VrsticeTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>1200</SifraKonta>
-          <SifraStranke>100008</SifraStranke>
-          <SifraAnalitike>003</SifraAnalitike>
-          <DatumZapadlosti>2016-07-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-07-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-07-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>4485.59</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>4485.59</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>1200</SifraKonta>
-          <SifraStranke>100008</SifraStranke>
-          <SifraAnalitike>003</SifraAnalitike>
-          <DatumZapadlosti>2016-07-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-07-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-07-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>634.13</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>634.13</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>1200</SifraKonta>
-          <SifraStranke>100009</SifraStranke>
-          <SifraAnalitike>003</SifraAnalitike>
-          <DatumZapadlosti>2016-07-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-07-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-07-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>1143.16</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>1143.16</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>1200</SifraKonta>
-          <SifraStranke>100010</SifraStranke>
-          <SifraAnalitike>003</SifraAnalitike>
-          <DatumZapadlosti>2016-07-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-07-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-07-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>395.96</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>395.96</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>1200</SifraKonta>
-          <SifraStranke>100011</SifraStranke>
-          <SifraAnalitike>003</SifraAnalitike>
-          <DatumZapadlosti>2016-07-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-07-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-07-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>140.54</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>140.54</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>1200</SifraKonta>
-          <SifraStranke>100012</SifraStranke>
-          <SifraAnalitike>003</SifraAnalitike>
-          <DatumZapadlosti>2016-07-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-07-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-07-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>1356.87</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>1356.87</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>1200</SifraKonta>
-          <SifraStranke>100013</SifraStranke>
-          <SifraAnalitike>003</SifraAnalitike>
-          <DatumZapadlosti>2016-07-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-07-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-07-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>343.62</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>343.62</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>75702</SifraKonta>
-          <SifraAnalitike>003</SifraAnalitike>
-          <ZnesekVBremeVDenarniEnoti>50.00</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>50.00</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>1200</SifraKonta>
-          <SifraStranke>100001</SifraStranke>
-          <SifraAnalitike>003</SifraAnalitike>
-          <DatumZapadlosti>2016-07-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-07-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-07-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>3780.32</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>3780.32</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>75701</SifraKonta>
-          <SifraAnalitike>003</SifraAnalitike>
-          <ZnesekVBremeVDenarniEnoti>-7.98</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>-7.98</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>75700</SifraKonta>
-          <SifraAnalitike>003</SifraAnalitike>
-          <ZnesekVBremeVDenarniEnoti>-3.20</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>-3.20</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>76201</SifraKonta>
-          <SifraAnalitike>003</SifraAnalitike>
-          <ZnesekVDobroVDenarniEnoti>10093.98</ZnesekVDobroVDenarniEnoti>
-          <ZnesekVDobroVDomaciDenarniEnoti>10093.98</ZnesekVDobroVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>26002</SifraKonta>
-          <SifraAnalitike>003</SifraAnalitike>
-          <ZnesekVDobroVDenarniEnoti>2220.68</ZnesekVDobroVDenarniEnoti>
-          <ZnesekVDobroVDomaciDenarniEnoti>2220.68</ZnesekVDobroVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-        <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA BTC 31.7.2016</OpisVrsticeTemeljnice>
-          <SifraKonta>75700</SifraKonta>
-          <SifraAnalitike>003</SifraAnalitike>
-          <ZnesekVBremeVDenarniEnoti>-4.35</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>-4.35</ZnesekVBremeVDomaciDenarniEnoti>
-        </VrsticaTemeljnice>
-      </VrsticeTemeljnice>
+        <GlavaTemeljnice>
+            <SifraVrsteTemeljnice>IR</SifraVrsteTemeljnice>
+            <DatumTemeljnice>2016-07-31</DatumTemeljnice>
+            <OpisGlaveTemeljnice>Opis</OpisGlaveTemeljnice>
+        </GlavaTemeljnice>
+        <DDV>
+            <DDVVrstica>
+                <DDVGlava>
+                    <DatumDDV>2016-07-31</DatumDDV>
+                    <KnjigaDDV>IR</KnjigaDDV>
+                    <DatumKnjizenjaDDV>2016-07-31</DatumKnjizenjaDDV>
+                    <SifraStranke>SI12123121</SifraStranke>
+                    <Listina>Opis</Listina>
+                    <DatumListine>2016-07-31</DatumListine>
+                </DDVGlava>
+                <DDVStopnje>
+                    <DDVStopnja>
+                        <SifraStopnjeDDV>S</SifraStopnjeDDV>
+                        <StoritevOsnova>100</StoritevOsnova>
+                        <StoritevDDV>22</StoritevDDV>
+                    </DDVStopnja>
+                </DDVStopnje>
+            </DDVVrstica>
+        </DDV>
+        <VrsticeTemeljnice>
+            <VrsticaTemeljnice>
+                <DatumKnjizbe>2016-07-31</DatumKnjizbe>
+                <OpisVrsticeTemeljnice>Opis</OpisVrsticeTemeljnice>
+                <SifraKonta>1200</SifraKonta>
+                <SifraStranke>SI12123121</SifraStranke>
+                <DatumZapadlosti>2016-07-31</DatumZapadlosti>
+                <DatumOpravljanja>2016-07-31</DatumOpravljanja>
+                <VezaZaPlacilo>2016-07-31</VezaZaPlacilo>
+                <ZnesekVBremeVDenarniEnoti>122</ZnesekVBremeVDenarniEnoti>
+                <ZnesekVBremeVDomaciDenarniEnoti>122</ZnesekVBremeVDomaciDenarniEnoti>
+            </VrsticaTemeljnice>
+            <VrsticaTemeljnice>
+                <DatumKnjizbe>2016-07-31</DatumKnjizbe>
+                <OpisVrsticeTemeljnice>Opis</OpisVrsticeTemeljnice>
+                <SifraKonta>76010</SifraKonta>
+                <ZnesekVDobroVDenarniEnoti>100</ZnesekVDobroVDenarniEnoti>
+                <ZnesekVDobroVDomaciDenarniEnoti>100</ZnesekVDobroVDomaciDenarniEnoti>
+            </VrsticaTemeljnice>
+            <VrsticaTemeljnice>
+                <DatumKnjizbe>2016-07-31</DatumKnjizbe>
+                <OpisVrsticeTemeljnice>Opis</OpisVrsticeTemeljnice>
+                <SifraKonta>26000</SifraKonta>
+                <ZnesekVDobroVDenarniEnoti>22</ZnesekVDobroVDenarniEnoti>
+                <ZnesekVDobroVDomaciDenarniEnoti>22</ZnesekVDobroVDomaciDenarniEnoti>
+            </VrsticaTemeljnice>
+        </VrsticeTemeljnice>
     </Temeljnica>
-  </Temeljnice>
+</Temeljnice>
 </miniMAXUvozKnjigovodstvo>

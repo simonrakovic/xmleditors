@@ -29,7 +29,7 @@ function readFiles(textData, totalValue, taxValue, desc, shopID, date, cb) {
     var textLineKeys = textLines[0].split('\t');
     var textLineValues = textLines[1].split('\t');
     for (var i = 0; i < textLineKeys.length; i++) {
-        if (parseInt(textLineValues[i]) != 0 && textLineKeys[i] != '')
+        if (parseFloat(textLineValues[i]) != 0 && textLineKeys[i] != '')
 
             jsonData[textLineKeys[i]] = textLineValues[i].replace(',','');
     }
@@ -63,11 +63,11 @@ function readFiles(textData, totalValue, taxValue, desc, shopID, date, cb) {
             'BONI-BTC': '100016',
             'BONI-RUDNIK': '100015',
             'BONI-CELJE': '',
-            'BONI-DOMZAZE': '',
+            'BONI-DOMŽALE': '',
             'GOTOVINA-BTC': '100001',
             'GOTOVINA-RUDNIK': '100003',
             'GOTOVINA-CELJE': '100007',
-            'GOTOVINA-DOMZAZE': '100002'
+            'GOTOVINA-DOMŽALE': '100002'
         };
 
         var kontoPostavke = {'DARILNI BONI': '75702', 'DRUGO': '75701', 'IZRAVNAVA': '75700'};
@@ -75,8 +75,10 @@ function readFiles(textData, totalValue, taxValue, desc, shopID, date, cb) {
         //console.log(util.inspect(vrsticaTemeljnice, false, null));
         //console.log(util.inspect(vrsticaTemeljnice, false, null));
         var vrsticeTemepljnice = [];
+
         for(var key in jsonData){
             var vrsticaTemeljnice = clone(jsonTemplate.miniMAXUvozKnjigovodstvo.Temeljnice[0].Temeljnica[0].VrsticeTemeljnice[0].VrsticaTemeljnice[0]);
+
             if(key in postavkeStranke){
 
                 vrsticaTemeljnice.DatumKnjizbe[0] = date;
