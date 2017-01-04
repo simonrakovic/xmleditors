@@ -1,0 +1,94 @@
+extends index.pug
+block static_content
+    link(href='/static/css/XMLcombiner.css', rel='stylesheet')
+block main_content
+    .col-md-2
+        .sidebar.content-box(style='display: block;')
+            ul.nav
+                // Main menu
+                li.current
+                    a(href='index.html')
+                        i.glyphicon.glyphicon-home
+                        |  Dashboard
+                li
+                    a(href='calendar.html')
+                        i.glyphicon.glyphicon-calendar
+                        |  Calendar
+                li
+                    a(href='stats.html')
+                        i.glyphicon.glyphicon-stats
+                        |  Statistics (Charts)
+                li
+                    a(href='tables.html')
+                        i.glyphicon.glyphicon-list
+                        |  Tables
+                li
+                    a(href='buttons.html')
+                        i.glyphicon.glyphicon-record
+                        |  Buttons
+                li
+                    a(href='editors.html')
+                        i.glyphicon.glyphicon-pencil
+                        |  Editors
+                li
+                    a(href='forms.html')
+                        i.glyphicon.glyphicon-
+                        |  Forms
+
+    .col-md-10
+        .row.bs-wizard(style='border-bottom:0;')
+            .col-xs-3.bs-wizard-step.active
+                .text-center.bs-wizard-stepnum Step 1
+                .progress
+                    .progress-bar
+                a.bs-wizard-dot(href='#')
+                .bs-wizard-info.text-center Izbira ponavljajočega korenjskega elementa
+            .col-xs-3.bs-wizard-step.disabled
+                // complete
+                .text-center.bs-wizard-stepnum Step 2
+                .progress
+                    .progress-bar
+                a.bs-wizard-dot(href='#')
+                .bs-wizard-info.text-center
+                    | 2
+            .col-xs-3.bs-wizard-step.disabled
+                // complete
+                .text-center.bs-wizard-stepnum Step 3
+                .progress
+                    .progress-bar
+                a.bs-wizard-dot(href='#')
+                .bs-wizard-info.text-center
+                    | 3
+            .col-xs-3.bs-wizard-step.disabled
+                // active
+                .text-center.bs-wizard-stepnum Step 4
+                .progress
+                    .progress-bar
+                a.bs-wizard-dot(href='#')
+                .bs-wizard-info.text-center
+                    | 4
+
+        .row
+            .col-lg-12
+                .row
+                    .col-lg-3
+
+                            h4.panel-title
+                                span Izberi globino drevesa #{i}
+                            .form-group
+                                    select.form-control(name='levels')
+                                        each obj, i in xmlElements
+                                            option(value=i) Globina #{i}
+
+                            h4.panel-title
+                                span Izberi ponavljajoči korenjski element #{i}
+                            .form-group
+                                select.form-control(name='elements')
+                                    each obj, i in xmlElement0
+                                        option(value=obj.element) #{obj.element}
+                    .col-lg-9
+                        pre(id="xmlData")
+                            | #{xml}
+
+block script_block
+    script(src="/static/js/xmlcombiner.js")

@@ -53,58 +53,5 @@
             </VrsticaTemeljnice>
         </VrsticeTemeljnice>
     </Temeljnica>
-    <Temeljnica>
-        <GlavaTemeljnice>
-            <SifraVrsteTemeljnice>IR</SifraVrsteTemeljnice>
-            <DatumTemeljnice>2016-07-31</DatumTemeljnice>
-            <OpisGlaveTemeljnice>Opis2</OpisGlaveTemeljnice>
-        </GlavaTemeljnice>
-        <DDV>
-            <DDVVrstica>
-                <DDVGlava>
-                    <DatumDDV>2016-07-31</DatumDDV>
-                    <KnjigaDDV>IR</KnjigaDDV>
-                    <DatumKnjizenjaDDV>2016-07-31</DatumKnjizenjaDDV>
-                    <SifraStranke>SI12123121</SifraStranke>
-                    <Listina>Opis</Listina>
-                    <DatumListine>2016-07-31</DatumListine>
-                </DDVGlava>
-                <DDVStopnje>
-                    <DDVStopnja>
-                        <SifraStopnjeDDV>S</SifraStopnjeDDV>
-                        <StoritevOsnova>100</StoritevOsnova>
-                        <StoritevDDV>22</StoritevDDV>
-                    </DDVStopnja>
-                </DDVStopnje>
-            </DDVVrstica>
-        </DDV>
-        <VrsticeTemeljnice>
-            <VrsticaTemeljnice>
-                <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-                <OpisVrsticeTemeljnice>Opis</OpisVrsticeTemeljnice>
-                <SifraKonta>1200</SifraKonta>
-                <SifraStranke>SI12123121</SifraStranke>
-                <DatumZapadlosti>2016-07-31</DatumZapadlosti>
-                <DatumOpravljanja>2016-07-31</DatumOpravljanja>
-                <VezaZaPlacilo>2016-07-31</VezaZaPlacilo>
-                <ZnesekVBremeVDenarniEnoti>122</ZnesekVBremeVDenarniEnoti>
-                <ZnesekVBremeVDomaciDenarniEnoti>122</ZnesekVBremeVDomaciDenarniEnoti>
-            </VrsticaTemeljnice>
-            <VrsticaTemeljnice>
-                <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-                <OpisVrsticeTemeljnice>Opis</OpisVrsticeTemeljnice>
-                <SifraKonta>76010</SifraKonta>
-                <ZnesekVDobroVDenarniEnoti>100</ZnesekVDobroVDenarniEnoti>
-                <ZnesekVDobroVDomaciDenarniEnoti>100</ZnesekVDobroVDomaciDenarniEnoti>
-            </VrsticaTemeljnice>
-            <VrsticaTemeljnice>
-                <DatumKnjizbe>2016-07-31</DatumKnjizbe>
-                <OpisVrsticeTemeljnice>Opis</OpisVrsticeTemeljnice>
-                <SifraKonta>26000</SifraKonta>
-                <ZnesekVDobroVDenarniEnoti>22</ZnesekVDobroVDenarniEnoti>
-                <ZnesekVDobroVDomaciDenarniEnoti>22</ZnesekVDobroVDomaciDenarniEnoti>
-            </VrsticaTemeljnice>
-        </VrsticeTemeljnice>
-    </Temeljnica>
 </Temeljnice>
 </miniMAXUvozKnjigovodstvo>
