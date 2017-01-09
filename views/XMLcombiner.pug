@@ -34,61 +34,108 @@ block main_content
                     a(href='forms.html')
                         i.glyphicon.glyphicon-
                         |  Forms
+    if step == 1
+        .col-md-10
+            .row.bs-wizard(style='border-bottom:0;')
+                .col-xs-3.bs-wizard-step.active
+                    .text-center.bs-wizard-stepnum Step 1
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center Izbira ponavljajočega korenjskega elementa
+                .col-xs-3.bs-wizard-step.disabled
+                    // complete
+                    .text-center.bs-wizard-stepnum Step 2
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                        | 2
+                .col-xs-3.bs-wizard-step.disabled
+                    // complete
+                    .text-center.bs-wizard-stepnum Step 3
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                        | 3
+                .col-xs-3.bs-wizard-step.disabled
+                    // active
+                    .text-center.bs-wizard-stepnum Step 4
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                        | 4
+            .row
+                .col-lg-3
+                        h4.panel-title
+                            span Izberi globino drevesa #{i}
+                        .form-group
+                                select.form-control(name='levels')
+                                    each obj, i in xmlElements
+                                        option(value=i) Globina #{i}
 
-    .col-md-10
-        .row.bs-wizard(style='border-bottom:0;')
-            .col-xs-3.bs-wizard-step.active
-                .text-center.bs-wizard-stepnum Step 1
-                .progress
-                    .progress-bar
-                a.bs-wizard-dot(href='#')
-                .bs-wizard-info.text-center Izbira ponavljajočega korenjskega elementa
-            .col-xs-3.bs-wizard-step.disabled
-                // complete
-                .text-center.bs-wizard-stepnum Step 2
-                .progress
-                    .progress-bar
-                a.bs-wizard-dot(href='#')
-                .bs-wizard-info.text-center
-                    | 2
-            .col-xs-3.bs-wizard-step.disabled
-                // complete
-                .text-center.bs-wizard-stepnum Step 3
-                .progress
-                    .progress-bar
-                a.bs-wizard-dot(href='#')
-                .bs-wizard-info.text-center
-                    | 3
-            .col-xs-3.bs-wizard-step.disabled
-                // active
-                .text-center.bs-wizard-stepnum Step 4
-                .progress
-                    .progress-bar
-                a.bs-wizard-dot(href='#')
-                .bs-wizard-info.text-center
-                    | 4
+                        h4.panel-title
+                            span Izberi ponavljajoči korenjski element #{i}
+                        .form-group
+                            select.form-control(name='elements')
+                                each obj, i in xmlElement0
+                                    option(value=obj.parentElement) #{obj.element}
+                        a.btn.btn-default.btn1 Naprej
+                .col-lg-9
+                    pre.prettyprint.lang-xml(id="xmlData")
+                        | #{xml}
+    if step == 2
+        .col-md-10
+            .row.bs-wizard(style='border-bottom:0;')
+                .col-xs-3.bs-wizard-step.complete
+                    .text-center.bs-wizard-stepnum Step 1
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                .col-xs-3.bs-wizard-step.active
+                    // complete
+                    .text-center.bs-wizard-stepnum Step 2
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                        | Izbira elementov
+                .col-xs-3.bs-wizard-step.disabled
+                    // complete
+                    .text-center.bs-wizard-stepnum Step 3
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                .col-xs-3.bs-wizard-step.disabled
+                    // active
+                    .text-center.bs-wizard-stepnum Step 4
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+            .row
+                .col-lg-4
+                    .row
+                        -var i = 0
+                        for value, key  in elementData
+                            for x in value
+                                if x != null
+                                    a(id=i style="width:50%;overflow: hidden;").btn.btn-default.btn-element #{x.element}
+                                    -i++
+                    .row
+                        br
+                        br
+                        a(style="width:100%;overflow: hidden;").btn.btn-default.btn2 Naprej
+                .col-lg-8
+                    pre.prettyprint.lang-xml
+                        |#{xml}
 
-        .row
-            .col-lg-12
-                .row
-                    .col-lg-3
 
-                            h4.panel-title
-                                span Izberi globino drevesa #{i}
-                            .form-group
-                                    select.form-control(name='levels')
-                                        each obj, i in xmlElements
-                                            option(value=i) Globina #{i}
-
-                            h4.panel-title
-                                span Izberi ponavljajoči korenjski element #{i}
-                            .form-group
-                                select.form-control(name='elements')
-                                    each obj, i in xmlElement0
-                                        option(value=obj.element) #{obj.element}
-                    .col-lg-9
-                        pre(id="xmlData")
-                            | #{xml}
 
 block script_block
+    script(src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js")
     script(src="/static/js/xmlcombiner.js")

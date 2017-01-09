@@ -13,29 +13,14 @@ var router = express.Router();
 var mideplast = require('./XMLcombinerApp.js');
 
 router.get('/', function (req, res) {
-    var treeLevel = req.query.treeLevel;
-    var searchedElement = req.query.searchedElement;
-
-    if(treeLevel != null){
-        res.send(req.session.xmlElements[treeLevel]);
-    }
-
-    var builder = new xml2js.Builder();
-
-    if(searchedElement != null){
-        var searchedJson =  xpath.find(req.session.jsonXml, "//"+searchedElement);
-        //console.log(searchedJson);
-        res.send(builder.buildObject(searchedJson));
-    }
-    else{
-        mideplast.readXML(function(err, xmlElements, jsonXml){
-            if(err) res.status(500).send(err);
-            req.session.xmlElements = xmlElements;
-            req.session.jsonXml = jsonXml;
-
-            jsonXml = builder.buildObject(jsonXml);
-
-            res.render('XMLcombiner',{'xmlElements':xmlElements,'xmlElement0':xmlElements[0], 'xml': jsonXml});
+    var step = req.query.step;
+    if(step == 1){
+        mideplast.stepOne(req, res, function(err){
+            res.status(500).send(err)
+        });
+    }else if(step == 2){
+        mideplast.stepTwo(req, res, function(err){
+            res.status(500).send(err)
         });
     }
 });
