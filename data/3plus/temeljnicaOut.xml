@@ -4,144 +4,184 @@
     <Temeljnica>
       <GlavaTemeljnice>
         <SifraVrsteTemeljnice>IR</SifraVrsteTemeljnice>
-        <DatumTemeljnice>2016-08-31</DatumTemeljnice>
-        <OpisGlaveTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisGlaveTemeljnice>
+        <DatumTemeljnice>2016-12-31</DatumTemeljnice>
+        <OpisGlaveTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisGlaveTemeljnice>
       </GlavaTemeljnice>
       <DDV>
         <DDVVrstica>
           <DDVGlava>
-            <DatumDDV>2016-08-31</DatumDDV>
+            <DatumDDV>2016-12-31</DatumDDV>
             <KnjigaDDV>IR</KnjigaDDV>
-            <DatumKnjizenjaDDV>2016-08-31</DatumKnjizenjaDDV>
-            <SifraStranke>100002</SifraStranke>
-            <Listina>PRODAJA DOMŽALE 31.8.2016</Listina>
-            <DatumListine>2016-08-31</DatumListine>
+            <DatumKnjizenjaDDV>2016-12-31</DatumKnjizenjaDDV>
+            <SifraStranke>100003</SifraStranke>
+            <Listina>PRODAJA RUDNIK 31.12.2016</Listina>
+            <DatumListine>2016-12-31</DatumListine>
           </DDVGlava>
           <DDVStopnje>
             <DDVStopnja>
               <SifraStopnjeDDV>S</SifraStopnjeDDV>
-              <Osnova>6918.16</Osnova>
-              <DDV>1522</DDV>
+              <Osnova>30901.39</Osnova>
+              <DDV>6800.81</DDV>
             </DDVStopnja>
           </DDVStopnje>
         </DDVVrstica>
       </DDV>
       <VrsticeTemeljnice>
         <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-08-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisVrsticeTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
           <SifraKonta>1200</SifraKonta>
           <SifraStranke>100008</SifraStranke>
-          <SifraAnalitike>002</SifraAnalitike>
-          <DatumZapadlosti>2016-08-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-08-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-08-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>3324.95</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>3324.95</ZnesekVBremeVDomaciDenarniEnoti>
+          <SifraAnalitike>004</SifraAnalitike>
+          <DatumZapadlosti>2016-12-31</DatumZapadlosti>
+          <DatumOpravljanja>2016-12-31</DatumOpravljanja>
+          <VezaZaPlacilo>2016-12-31</VezaZaPlacilo>
+          <ZnesekVBremeVDenarniEnoti>14460.96</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>14460.96</ZnesekVBremeVDomaciDenarniEnoti>
         </VrsticaTemeljnice>
         <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-08-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisVrsticeTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
           <SifraKonta>1200</SifraKonta>
           <SifraStranke>100008</SifraStranke>
-          <SifraAnalitike>002</SifraAnalitike>
-          <DatumZapadlosti>2016-08-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-08-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-08-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>534.50</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>534.50</ZnesekVBremeVDomaciDenarniEnoti>
+          <SifraAnalitike>004</SifraAnalitike>
+          <DatumZapadlosti>2016-12-31</DatumZapadlosti>
+          <DatumOpravljanja>2016-12-31</DatumOpravljanja>
+          <VezaZaPlacilo>2016-12-31</VezaZaPlacilo>
+          <ZnesekVBremeVDenarniEnoti>1626.11</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>1626.11</ZnesekVBremeVDomaciDenarniEnoti>
         </VrsticaTemeljnice>
         <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-08-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisVrsticeTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
           <SifraKonta>1200</SifraKonta>
           <SifraStranke>100009</SifraStranke>
-          <SifraAnalitike>002</SifraAnalitike>
-          <DatumZapadlosti>2016-08-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-08-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-08-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>1343.21</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>1343.21</ZnesekVBremeVDomaciDenarniEnoti>
+          <SifraAnalitike>004</SifraAnalitike>
+          <DatumZapadlosti>2016-12-31</DatumZapadlosti>
+          <DatumOpravljanja>2016-12-31</DatumOpravljanja>
+          <VezaZaPlacilo>2016-12-31</VezaZaPlacilo>
+          <ZnesekVBremeVDenarniEnoti>3482.03</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>3482.03</ZnesekVBremeVDomaciDenarniEnoti>
         </VrsticaTemeljnice>
         <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-08-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisVrsticeTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
           <SifraKonta>1200</SifraKonta>
           <SifraStranke>100010</SifraStranke>
-          <SifraAnalitike>002</SifraAnalitike>
-          <DatumZapadlosti>2016-08-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-08-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-08-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>4.78</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>4.78</ZnesekVBremeVDomaciDenarniEnoti>
+          <SifraAnalitike>004</SifraAnalitike>
+          <DatumZapadlosti>2016-12-31</DatumZapadlosti>
+          <DatumOpravljanja>2016-12-31</DatumOpravljanja>
+          <VezaZaPlacilo>2016-12-31</VezaZaPlacilo>
+          <ZnesekVBremeVDenarniEnoti>801.98</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>801.98</ZnesekVBremeVDomaciDenarniEnoti>
         </VrsticaTemeljnice>
         <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-08-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisVrsticeTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
           <SifraKonta>1200</SifraKonta>
           <SifraStranke>100011</SifraStranke>
-          <SifraAnalitike>002</SifraAnalitike>
-          <DatumZapadlosti>2016-08-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-08-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-08-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>30.32</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>30.32</ZnesekVBremeVDomaciDenarniEnoti>
+          <SifraAnalitike>004</SifraAnalitike>
+          <DatumZapadlosti>2016-12-31</DatumZapadlosti>
+          <DatumOpravljanja>2016-12-31</DatumOpravljanja>
+          <VezaZaPlacilo>2016-12-31</VezaZaPlacilo>
+          <ZnesekVBremeVDenarniEnoti>179.91</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>179.91</ZnesekVBremeVDomaciDenarniEnoti>
         </VrsticaTemeljnice>
         <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-08-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisVrsticeTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
           <SifraKonta>1200</SifraKonta>
           <SifraStranke>100012</SifraStranke>
-          <SifraAnalitike>002</SifraAnalitike>
-          <DatumZapadlosti>2016-08-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-08-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-08-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>1014.60</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>1014.60</ZnesekVBremeVDomaciDenarniEnoti>
+          <SifraAnalitike>004</SifraAnalitike>
+          <DatumZapadlosti>2016-12-31</DatumZapadlosti>
+          <DatumOpravljanja>2016-12-31</DatumOpravljanja>
+          <VezaZaPlacilo>2016-12-31</VezaZaPlacilo>
+          <ZnesekVBremeVDenarniEnoti>5790.03</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>5790.03</ZnesekVBremeVDomaciDenarniEnoti>
         </VrsticaTemeljnice>
         <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-08-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisVrsticeTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
           <SifraKonta>1200</SifraKonta>
           <SifraStranke>100013</SifraStranke>
-          <SifraAnalitike>002</SifraAnalitike>
-          <DatumZapadlosti>2016-08-31</DatumZapadlosti>
-          <DatumOpravljanja>2016-08-31</DatumOpravljanja>
-          <VezaZaPlacilo>2016-08-31</VezaZaPlacilo>
-          <ZnesekVBremeVDenarniEnoti>58.44</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>58.44</ZnesekVBremeVDomaciDenarniEnoti>
+          <SifraAnalitike>004</SifraAnalitike>
+          <DatumZapadlosti>2016-12-31</DatumZapadlosti>
+          <DatumOpravljanja>2016-12-31</DatumOpravljanja>
+          <VezaZaPlacilo>2016-12-31</VezaZaPlacilo>
+          <ZnesekVBremeVDenarniEnoti>574.71</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>574.71</ZnesekVBremeVDomaciDenarniEnoti>
         </VrsticaTemeljnice>
         <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-08-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisVrsticeTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
+          <SifraKonta>75702</SifraKonta>
+          <SifraAnalitike>004</SifraAnalitike>
+          <ZnesekVBremeVDenarniEnoti>60.00</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>60.00</ZnesekVBremeVDomaciDenarniEnoti>
+        </VrsticaTemeljnice>
+        <VrsticaTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
+          <SifraKonta>1200</SifraKonta>
+          <SifraStranke>100015</SifraStranke>
+          <SifraAnalitike>004</SifraAnalitike>
+          <DatumZapadlosti>2016-12-31</DatumZapadlosti>
+          <DatumOpravljanja>2016-12-31</DatumOpravljanja>
+          <VezaZaPlacilo>2016-12-31</VezaZaPlacilo>
+          <ZnesekVBremeVDenarniEnoti>428.24</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>428.24</ZnesekVBremeVDomaciDenarniEnoti>
+        </VrsticaTemeljnice>
+        <VrsticaTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
+          <SifraKonta>1200</SifraKonta>
+          <SifraStranke>100003</SifraStranke>
+          <SifraAnalitike>004</SifraAnalitike>
+          <DatumZapadlosti>2016-12-31</DatumZapadlosti>
+          <DatumOpravljanja>2016-12-31</DatumOpravljanja>
+          <VezaZaPlacilo>2016-12-31</VezaZaPlacilo>
+          <ZnesekVBremeVDenarniEnoti>10323.12</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>10323.12</ZnesekVBremeVDomaciDenarniEnoti>
+        </VrsticaTemeljnice>
+        <VrsticaTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
+          <SifraKonta>75701</SifraKonta>
+          <SifraAnalitike>004</SifraAnalitike>
+          <ZnesekVBremeVDenarniEnoti>-23.02</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>-23.02</ZnesekVBremeVDomaciDenarniEnoti>
+        </VrsticaTemeljnice>
+        <VrsticaTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
           <SifraKonta>75700</SifraKonta>
-          <SifraAnalitike>002</SifraAnalitike>
-          <ZnesekVBremeVDenarniEnoti>-0.27</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>-0.27</ZnesekVBremeVDomaciDenarniEnoti>
+          <SifraAnalitike>004</SifraAnalitike>
+          <ZnesekVBremeVDenarniEnoti>-2.43</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>-2.43</ZnesekVBremeVDomaciDenarniEnoti>
         </VrsticaTemeljnice>
         <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-08-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisVrsticeTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
           <SifraKonta>76201</SifraKonta>
-          <SifraAnalitike>002</SifraAnalitike>
-          <ZnesekVDobroVDenarniEnoti>6918.16</ZnesekVDobroVDenarniEnoti>
-          <ZnesekVDobroVDomaciDenarniEnoti>6918.16</ZnesekVDobroVDomaciDenarniEnoti>
+          <SifraAnalitike>004</SifraAnalitike>
+          <ZnesekVDobroVDenarniEnoti>30901.39</ZnesekVDobroVDenarniEnoti>
+          <ZnesekVDobroVDomaciDenarniEnoti>30901.39</ZnesekVDobroVDomaciDenarniEnoti>
         </VrsticaTemeljnice>
         <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-08-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisVrsticeTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
           <SifraKonta>26002</SifraKonta>
-          <SifraAnalitike>002</SifraAnalitike>
-          <ZnesekVDobroVDenarniEnoti>1522</ZnesekVDobroVDenarniEnoti>
-          <ZnesekVDobroVDomaciDenarniEnoti>1522</ZnesekVDobroVDomaciDenarniEnoti>
+          <SifraAnalitike>004</SifraAnalitike>
+          <ZnesekVDobroVDenarniEnoti>6800.81</ZnesekVDobroVDenarniEnoti>
+          <ZnesekVDobroVDomaciDenarniEnoti>6800.81</ZnesekVDobroVDomaciDenarniEnoti>
         </VrsticaTemeljnice>
         <VrsticaTemeljnice>
-          <DatumKnjizbe>2016-08-31</DatumKnjizbe>
-          <OpisVrsticeTemeljnice>PRODAJA DOMŽALE 31.8.2016</OpisVrsticeTemeljnice>
+          <DatumKnjizbe>2016-12-31</DatumKnjizbe>
+          <OpisVrsticeTemeljnice>PRODAJA RUDNIK 31.12.2016</OpisVrsticeTemeljnice>
           <SifraKonta>75700</SifraKonta>
-          <SifraAnalitike>002</SifraAnalitike>
-          <ZnesekVBremeVDenarniEnoti>-0.40</ZnesekVBremeVDenarniEnoti>
-          <ZnesekVBremeVDomaciDenarniEnoti>-0.40</ZnesekVBremeVDomaciDenarniEnoti>
+          <SifraAnalitike>004</SifraAnalitike>
+          <ZnesekVBremeVDenarniEnoti>0.56</ZnesekVBremeVDenarniEnoti>
+          <ZnesekVBremeVDomaciDenarniEnoti>0.56</ZnesekVBremeVDomaciDenarniEnoti>
         </VrsticaTemeljnice>
       </VrsticeTemeljnice>
     </Temeljnica>

@@ -17,12 +17,15 @@ var frejaRouter = require('./apps/FrejaApp/frejaRouter');
 var plusRouter = require('./apps/3plusApp/3plusRouter');
 var XMLcombiner = require('./apps/XMLcombiner/XMLcombinerRouter');
 var session = require('express-session');
+var bodyParser = require('body-parser');
 
 
 
 var app = express();
 
 app.use(fileUpload());
+//app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json()); // this is used for parsing the JSON object from POST
 app.use('/static', express.static(path.join(__dirname, 'static')));
 
 var sess = {

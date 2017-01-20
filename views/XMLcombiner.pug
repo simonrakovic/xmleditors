@@ -120,12 +120,28 @@ block main_content
             .row
                 .col-lg-4
                     .row
-                        -var i = 0
-                        for value, key  in elementData
-                            for x in value
-                                if x != null
-                                    a(id=i style="width:50%;overflow: hidden;").btn.btn-default.btn-element #{x.element}
-                                    -i++
+                        each value, key in elementData
+                            br
+                            br
+                            | #{key}
+                            br
+                            each obj in value
+                                a(style="width:50%;overflow: hidden", data-element=obj.element, data-parentElement=obj.parentElement.element ).btn.btn-default.btn-element
+                                    | #{obj.element}
+
+                    .row
+                        br
+                        br
+                        each value, key in elementDataMultiple
+                                -for (var i = 0; i < value.length; i++)
+                                    |  #{key + " " + i}
+                                    br
+                                    each obj in value.elements
+                                        if(obj.parentIndex == i)
+                                            a(style="width:50%;overflow: hidden" data-element=obj.element, data-parentElement=obj.parentElement.element, data-parentIndex = obj.parentIndex).btn.btn-default.btn-element
+                                                | #{obj.element}
+                                    br
+                                    br
                     .row
                         br
                         br
@@ -134,7 +150,38 @@ block main_content
                     pre.prettyprint.lang-xml
                         |#{xml}
 
-
+    if step == 3
+        .col-md-10
+            .row.bs-wizard(style='border-bottom:0;')
+                .col-xs-3.bs-wizard-step.complete
+                    .text-center.bs-wizard-stepnum Step 1
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                .col-xs-3.bs-wizard-step.active
+                    // complete
+                    .text-center.bs-wizard-stepnum Step 2
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                        | Izbira elementov
+                .col-xs-3.bs-wizard-step.disabled
+                    // complete
+                    .text-center.bs-wizard-stepnum Step 3
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                .col-xs-3.bs-wizard-step.disabled
+                    // active
+                    .text-center.bs-wizard-stepnum Step 4
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+            .row
 
 block script_block
     script(src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js")

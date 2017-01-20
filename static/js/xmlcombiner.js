@@ -49,6 +49,25 @@ $(document).ready(function(){
     });
 
     $(".btn2").click(function(){
-        $(this).attr('href',"?selectedElements="+selectedElements+"&step=3")
+        var selectedElements = [];
+        $(".btn-element.selected").each(function(){
+            if($(this).attr("data-parentIndex")){
+                selectedElements.push({"element": $(this).data('element'), "parentElement":$(this).data('parentelement'), "parentIndex": $(this).data('parentindex')});
+            }else{
+                selectedElements.push({"element": $(this).data('element'), "parentElement":$(this).data('parentelement')});
+            }
+        });
+
+        $.ajax({
+            method: "POST",
+            url: "/xmlcombiner?step=2",
+            contentType: "application/json",
+            data:  JSON.stringify({"selectedElements": selectedElements})
+        }).done(function(res){
+            if(res.status == 'success'){
+                window.location.href = res.redirectUrl;
+            }
+        });
     });
+
 });

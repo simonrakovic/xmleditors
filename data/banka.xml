@@ -3,12 +3,12 @@
 
   <BkToCstmrStmt>
     <GrpHdr>
-      <MsgId>2016-12-21T15:33:27/12628</MsgId>
-      <CreDtTm>2016-12-21T15:33:27</CreDtTm>
+      <MsgId>2017-01-17T09:12:03/7372</MsgId>
+      <CreDtTm>2017-01-17T09:12:03</CreDtTm>
     </GrpHdr> <Stmt>
-<Id>10001QC2Q7J49J5U</Id>
-<LglSeqNb>229</LglSeqNb>
-<CreDtTm>2016-11-28T00:00:00</CreDtTm>
+<Id>10001QC2Q8P1CGVS</Id>
+<LglSeqNb>234</LglSeqNb>
+<CreDtTm>2016-12-05T00:00:00</CreDtTm>
 <Acct>
 <Id>
 <IBAN>SI56290000050690990</IBAN>
@@ -28,10 +28,10 @@
 <Cd>OPBD</Cd>
 </CdOrPrtry>
 </Tp>
-<Amt Ccy="EUR">7096.85</Amt>
+<Amt Ccy="EUR">6000.58</Amt>
 <CdtDbtInd>CRDT</CdtDbtInd>
 <Dt>
-<Dt>2016-11-25</Dt>
+<Dt>2016-12-02</Dt>
 </Dt>
 </Bal>
 <Bal>
@@ -40,40 +40,40 @@
 <Cd>CLBD</Cd>
 </CdOrPrtry>
 </Tp>
-<Amt Ccy="EUR">13351.11</Amt>
+<Amt Ccy="EUR">9844.56</Amt>
 <CdtDbtInd>CRDT</CdtDbtInd>
 <Dt>
-<Dt>2016-11-28</Dt>
+<Dt>2016-12-05</Dt>
 </Dt>
 </Bal>
 <TxsSummry>
 <TtlCdtNtries>
 <NbOfNtries>7</NbOfNtries>
-<Sum>10337.91</Sum>
+<Sum>6090.66</Sum>
 </TtlCdtNtries>
 <TtlDbtNtries>
 <NbOfNtries>7</NbOfNtries>
-<Sum>4083.65</Sum>
+<Sum>2246.68</Sum>
 </TtlDbtNtries>
 </TxsSummry>
 
 <Ntry>
 
-  <Amt Ccy="EUR">143.80</Amt>
+  <Amt Ccy="EUR">82.48</Amt>
 
   <CdtDbtInd>DBIT</CdtDbtInd>
 
   <Sts>BOOK</Sts>
 
   <BookgDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </BookgDt>
 
   <ValDt>
-    <Dt>2016-11-25</Dt>
+    <Dt>2016-12-02</Dt>
   </ValDt>
 
-  <AcctSvcrRef>10001QC2Q7F7VV10</AcctSvcrRef>
+  <AcctSvcrRef>10001QC2Q8L539GL</AcctSvcrRef>
 
   <BkTxCd>
     <Prtry>
@@ -85,89 +85,7 @@
     <TxDtls>
       <Refs>
         <EndToEndId>NOTPROVIDED</EndToEndId>
-        <TxId>20161128002507//CLT2-1625179905/374</TxId>
-      </Refs>
-      <RltdPties>
-        <Dbtr>
-          <Nm>FREJA, D.O.O.</Nm>
-          <PstlAdr>
-            <Ctry>SI</Ctry>
-            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-            <AdrLine>1000 LJUBLJANA</AdrLine>
-          </PstlAdr>
-        </Dbtr>
-        <DbtrAcct>
-          <Id>
-            <IBAN>SI56290000050690990</IBAN>
-          </Id>
-        </DbtrAcct>
-        <Cdtr>
-          <Nm>PRO-MAK LJUBLJANA-SI</Nm>
-          <PstlAdr>
-            <Ctry>SI</Ctry>
-            <AdrLine>-</AdrLine>
-            <AdrLine>-</AdrLine>
-          </PstlAdr>
-        </Cdtr>
-        <CdtrAcct>
-          <Id>
-            <Othr>
-              <Id>-</Id>
-            </Othr>
-          </Id>
-        </CdtrAcct>
-      </RltdPties>
-      <RltdAgts>
-        <DbtrAgt>
-          <FinInstnId>
-            <BIC>BACXSI22</BIC>
-          </FinInstnId>
-        </DbtrAgt>
-        <CdtrAgt>
-          <FinInstnId>
-            <BIC>BACXSI22</BIC>
-          </FinInstnId>
-        </CdtrAgt>
-      </RltdAgts>
-      <RmtInf>
-        <Ustrd>POS nakup /Card 6771-XXXX-XXXX-XXXX-358 /143,80 EUR 24/11/16</Ustrd>
-      </RmtInf>
-      <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
-      </RltdDts>
-    </TxDtls>
-  </NtryDtls>
-
-</Ntry>
-<Ntry>
-
-  <Amt Ccy="EUR">21.91</Amt>
-
-  <CdtDbtInd>DBIT</CdtDbtInd>
-
-  <Sts>BOOK</Sts>
-
-  <BookgDt>
-    <Dt>2016-11-28</Dt>
-  </BookgDt>
-
-  <ValDt>
-    <Dt>2016-11-26</Dt>
-  </ValDt>
-
-  <AcctSvcrRef>10001QC2Q7F7VV6N</AcctSvcrRef>
-
-  <BkTxCd>
-    <Prtry>
-      <Cd>NOTPROVIDED</Cd>
-    </Prtry>
-  </BkTxCd>
-
-  <NtryDtls>
-    <TxDtls>
-      <Refs>
-        <EndToEndId>NOTPROVIDED</EndToEndId>
-        <TxId>20161128002619//CLT2-1625265341/374</TxId>
+        <TxId>20161205001841//CLT2-1625729690/374</TxId>
       </Refs>
       <RltdPties>
         <Dbtr>
@@ -212,10 +130,10 @@
         </CdtrAgt>
       </RltdAgts>
       <RmtInf>
-        <Ustrd>POS nakup /Card 6771-XXXX-XXXX-XXXX-338 /21,91 EUR 25/11/16</Ustrd>
+        <Ustrd>POS nakup /Card 6771-XXXX-XXXX-XXXX-366 /82,48 EUR 01/12/16</Ustrd>
       </RmtInf>
       <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
       </RltdDts>
     </TxDtls>
   </NtryDtls>
@@ -223,21 +141,21 @@
 </Ntry>
 <Ntry>
 
-  <Amt Ccy="EUR">102.66</Amt>
+  <Amt Ccy="EUR">30.01</Amt>
 
   <CdtDbtInd>DBIT</CdtDbtInd>
 
   <Sts>BOOK</Sts>
 
   <BookgDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </BookgDt>
 
   <ValDt>
-    <Dt>2016-11-26</Dt>
+    <Dt>2016-12-03</Dt>
   </ValDt>
 
-  <AcctSvcrRef>10001QC2Q7F7VVA8</AcctSvcrRef>
+  <AcctSvcrRef>10001QC2Q8L539P2</AcctSvcrRef>
 
   <BkTxCd>
     <Prtry>
@@ -249,7 +167,7 @@
     <TxDtls>
       <Refs>
         <EndToEndId>NOTPROVIDED</EndToEndId>
-        <TxId>20161128002650//CLT2-1625272474/374</TxId>
+        <TxId>20161205001855//CLT2-1625813890/374</TxId>
       </Refs>
       <RltdPties>
         <Dbtr>
@@ -266,7 +184,7 @@
           </Id>
         </DbtrAcct>
         <Cdtr>
-          <Nm>BAUHAUS d.o.o., k.d. 9 Ljubljana-SI</Nm>
+          <Nm>AVTOCRPALKA LJUBLJANA LJUBLJANA-SI</Nm>
           <PstlAdr>
             <Ctry>SI</Ctry>
             <AdrLine>-</AdrLine>
@@ -294,10 +212,10 @@
         </CdtrAgt>
       </RltdAgts>
       <RmtInf>
-        <Ustrd>POS nakup /Card 6771-XXXX-XXXX-XXXX-338 /102,66 EUR 25/11/16</Ustrd>
+        <Ustrd>POS nakup /Card 6771-XXXX-XXXX-XXXX-338 /30,01 EUR 02/12/16</Ustrd>
       </RmtInf>
       <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
       </RltdDts>
     </TxDtls>
   </NtryDtls>
@@ -305,21 +223,21 @@
 </Ntry>
 <Ntry>
 
-  <Amt Ccy="EUR">6955.43</Amt>
+  <Amt Ccy="EUR">26.36</Amt>
 
-  <CdtDbtInd>CRDT</CdtDbtInd>
+  <CdtDbtInd>DBIT</CdtDbtInd>
 
   <Sts>BOOK</Sts>
 
   <BookgDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </BookgDt>
 
   <ValDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-03</Dt>
   </ValDt>
 
-  <AcctSvcrRef>10001QC2Q7G0HXC8</AcctSvcrRef>
+  <AcctSvcrRef>10001QC2Q8L539P4</AcctSvcrRef>
 
   <BkTxCd>
     <Prtry>
@@ -331,22 +249,273 @@
     <TxDtls>
       <Refs>
         <EndToEndId>NOTPROVIDED</EndToEndId>
-        <TxId>20161128538455//6333902192/100</TxId>
+        <TxId>20161205001859//CLT2-1625816267/374</TxId>
       </Refs>
       <RltdPties>
         <Dbtr>
-          <Nm>LIBRA SKINCARE LTD</Nm>
+          <Nm>FREJA, D.O.O.</Nm>
           <PstlAdr>
-            <Ctry>GB</Ctry>
-            <AdrLine>5 SOMER RIDGE</AdrLine>
-            <AdrLine>RADSTOCK</AdrLine>
+            <Ctry>SI</Ctry>
+            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+            <AdrLine>1000 LJUBLJANA</AdrLine>
           </PstlAdr>
         </Dbtr>
         <DbtrAcct>
           <Id>
+            <IBAN>SI56290000050690990</IBAN>
+          </Id>
+        </DbtrAcct>
+        <Cdtr>
+          <Nm>HIPERMARKET RUDNIK LJUBLJANA-SI</Nm>
+          <PstlAdr>
+            <Ctry>SI</Ctry>
+            <AdrLine>-</AdrLine>
+            <AdrLine>-</AdrLine>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
             <Othr>
-              <Id>20050660911216</Id>
+              <Id>-</Id>
             </Othr>
+          </Id>
+        </CdtrAcct>
+      </RltdPties>
+      <RltdAgts>
+        <DbtrAgt>
+          <FinInstnId>
+            <BIC>BACXSI22</BIC>
+          </FinInstnId>
+        </DbtrAgt>
+        <CdtrAgt>
+          <FinInstnId>
+            <BIC>BACXSI22</BIC>
+          </FinInstnId>
+        </CdtrAgt>
+      </RltdAgts>
+      <RmtInf>
+        <Ustrd>POS nakup /Card 6771-XXXX-XXXX-XXXX-366 /26,36 EUR 02/12/16</Ustrd>
+      </RmtInf>
+      <RltdDts>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
+      </RltdDts>
+    </TxDtls>
+  </NtryDtls>
+
+</Ntry>
+<Ntry>
+
+  <Amt Ccy="EUR">25.00</Amt>
+
+  <CdtDbtInd>DBIT</CdtDbtInd>
+
+  <Sts>BOOK</Sts>
+
+  <BookgDt>
+    <Dt>2016-12-05</Dt>
+  </BookgDt>
+
+  <ValDt>
+    <Dt>2016-12-03</Dt>
+  </ValDt>
+
+  <AcctSvcrRef>10001QC2Q8L539P6</AcctSvcrRef>
+
+  <BkTxCd>
+    <Prtry>
+      <Cd>NOTPROVIDED</Cd>
+    </Prtry>
+  </BkTxCd>
+
+  <NtryDtls>
+    <TxDtls>
+      <Refs>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>20161205001913//CLT2-1625840889/374</TxId>
+      </Refs>
+      <RltdPties>
+        <Dbtr>
+          <Nm>FREJA, D.O.O.</Nm>
+          <PstlAdr>
+            <Ctry>SI</Ctry>
+            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+            <AdrLine>1000 LJUBLJANA</AdrLine>
+          </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+          <Id>
+            <IBAN>SI56290000050690990</IBAN>
+          </Id>
+        </DbtrAcct>
+        <Cdtr>
+          <Nm>Gostilna AS Ljubljana-SI</Nm>
+          <PstlAdr>
+            <Ctry>SI</Ctry>
+            <AdrLine>-</AdrLine>
+            <AdrLine>-</AdrLine>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <Othr>
+              <Id>-</Id>
+            </Othr>
+          </Id>
+        </CdtrAcct>
+      </RltdPties>
+      <RltdAgts>
+        <DbtrAgt>
+          <FinInstnId>
+            <BIC>BACXSI22</BIC>
+          </FinInstnId>
+        </DbtrAgt>
+        <CdtrAgt>
+          <FinInstnId>
+            <BIC>BACXSI22</BIC>
+          </FinInstnId>
+        </CdtrAgt>
+      </RltdAgts>
+      <RmtInf>
+        <Ustrd>POS nakup /Card 6771-XXXX-XXXX-XXXX-338 /25,00 EUR 02/12/16</Ustrd>
+      </RmtInf>
+      <RltdDts>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
+      </RltdDts>
+    </TxDtls>
+  </NtryDtls>
+
+</Ntry>
+<Ntry>
+
+  <Amt Ccy="EUR">682.03</Amt>
+
+  <CdtDbtInd>DBIT</CdtDbtInd>
+
+  <Sts>BOOK</Sts>
+
+  <BookgDt>
+    <Dt>2016-12-05</Dt>
+  </BookgDt>
+
+  <ValDt>
+    <Dt>2016-12-05</Dt>
+  </ValDt>
+
+  <AcctSvcrRef>10001QC2Q8L58YLN</AcctSvcrRef>
+
+  <BkTxCd>
+    <Prtry>
+      <Cd>NOTPROVIDED</Cd>
+    </Prtry>
+  </BkTxCd>
+
+  <NtryDtls>
+    <TxDtls>
+      <Refs>
+        <InstrId>10001QC2Q80EKQAU</InstrId>
+        <EndToEndId>NOTPROVIDED</EndToEndId>
+        <TxId>20161205610043//00131026332/507</TxId>
+      </Refs>
+      <RltdPties>
+        <Dbtr>
+          <Nm>FREJA, D.O.O.</Nm>
+          <PstlAdr>
+            <Ctry>SI</Ctry>
+            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+            <AdrLine>1000 LJUBLJANA</AdrLine>
+          </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+          <Id>
+            <IBAN>SI56290000050690990</IBAN>
+          </Id>
+        </DbtrAcct>
+        <Cdtr>
+          <Nm>GREGOR IHAN S.P. </Nm>
+          <PstlAdr>
+            <Ctry>SI</Ctry>
+            <AdrLine>TRZASKA CESTA 133 LJUBLJANA</AdrLine>
+            <AdrLine>-</AdrLine>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <IBAN>SI56020580256385492</IBAN>
+          </Id>
+        </CdtrAcct>
+      </RltdPties>
+      <RltdAgts>
+        <DbtrAgt>
+          <FinInstnId>
+            <BIC>BACXSI22</BIC>
+          </FinInstnId>
+        </DbtrAgt>
+        <CdtrAgt>
+          <FinInstnId>
+            <BIC>LJBASI2X</BIC>
+          </FinInstnId>
+        </CdtrAgt>
+      </RltdAgts>
+      <Purp>
+        <Cd>GDSV</Cd>
+      </Purp>
+      <RmtInf>
+        <Strd>
+          <CdtrRefInf>
+            <Ref>SI00985-98870017</Ref>
+          </CdtrRefInf>
+          <AddtlRmtInf>PLAC.RAC.1-1-3428</AddtlRmtInf>
+        </Strd>
+      </RmtInf>
+      <RltdDts>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
+      </RltdDts>
+    </TxDtls>
+  </NtryDtls>
+
+</Ntry>
+<Ntry>
+
+  <Amt Ccy="EUR">13.87</Amt>
+
+  <CdtDbtInd>CRDT</CdtDbtInd>
+
+  <Sts>BOOK</Sts>
+
+  <BookgDt>
+    <Dt>2016-12-05</Dt>
+  </BookgDt>
+
+  <ValDt>
+    <Dt>2016-12-05</Dt>
+  </ValDt>
+
+  <AcctSvcrRef>10001QC2Q8LCFYNN</AcctSvcrRef>
+
+  <BkTxCd>
+    <Prtry>
+      <Cd>NOTPROVIDED</Cd>
+    </Prtry>
+  </BkTxCd>
+
+  <NtryDtls>
+    <TxDtls>
+      <Refs>
+        <EndToEndId>SI99</EndToEndId>
+        <TxId>20161205610050//00131106696/540</TxId>
+      </Refs>
+      <RltdPties>
+        <Dbtr>
+          <Nm>JELKA DOLENC </Nm>
+          <PstlAdr>
+            <Ctry>SI</Ctry>
+            <AdrLine>RAVNE 4 4290 TRZIC</AdrLine>
+            <AdrLine>-</AdrLine>
+          </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+          <Id>
+            <IBAN>SI56051007005967660</IBAN>
           </Id>
         </DbtrAcct>
         <Cdtr>
@@ -366,20 +535,28 @@
       <RltdAgts>
         <DbtrAgt>
           <FinInstnId>
-            <BIC>BARCGB22XXX</BIC>
+            <BIC>ABANSI2X</BIC>
           </FinInstnId>
         </DbtrAgt>
         <CdtrAgt>
           <FinInstnId>
-            <BIC>BACXSI22XXX</BIC>
+            <BIC>BACXSI22</BIC>
           </FinInstnId>
         </CdtrAgt>
       </RltdAgts>
+      <Purp>
+        <Cd>WEBI</Cd>
+      </Purp>
       <RmtInf>
-        <Ustrd>INV 2016/17</Ustrd>
+        <Strd>
+          <CdtrRefInf>
+            <Ref>SI002016-15887</Ref>
+          </CdtrRefInf>
+          <AddtlRmtInf>INTERNETNO INICIIRANA TRANSAKCIJA</AddtlRmtInf>
+        </Strd>
       </RmtInf>
       <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
       </RltdDts>
     </TxDtls>
   </NtryDtls>
@@ -387,21 +564,21 @@
 </Ntry>
 <Ntry>
 
-  <Amt Ccy="EUR">856.22</Amt>
+  <Amt Ccy="EUR">1076.58</Amt>
 
   <CdtDbtInd>CRDT</CdtDbtInd>
 
   <Sts>BOOK</Sts>
 
   <BookgDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </BookgDt>
 
   <ValDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </ValDt>
 
-  <AcctSvcrRef>10001QC2Q7GAUM2U</AcctSvcrRef>
+  <AcctSvcrRef>10001QC2Q8LSH2MJ</AcctSvcrRef>
 
   <BkTxCd>
     <Prtry>
@@ -412,8 +589,8 @@
   <NtryDtls>
     <TxDtls>
       <Refs>
-        <EndToEndId>SI00099-126256-905663</EndToEndId>
-        <TxId>20161128610123//00130853836/540</TxId>
+        <EndToEndId>SI00099-126256-906004</EndToEndId>
+        <TxId>20161205610063//00131117910/540</TxId>
       </Refs>
       <RltdPties>
         <Dbtr>
@@ -461,13 +638,13 @@
       <RmtInf>
         <Strd>
           <CdtrRefInf>
-            <Ref>SI00099-126256-905663</Ref>
+            <Ref>SI00099-126256-906004</Ref>
           </CdtrRefInf>
           <AddtlRmtInf>DRUGO</AddtlRmtInf>
         </Strd>
       </RmtInf>
       <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
       </RltdDts>
     </TxDtls>
   </NtryDtls>
@@ -475,21 +652,21 @@
 </Ntry>
 <Ntry>
 
-  <Amt Ccy="EUR">44.74</Amt>
+  <Amt Ccy="EUR">1400.00</Amt>
 
   <CdtDbtInd>DBIT</CdtDbtInd>
 
   <Sts>BOOK</Sts>
 
   <BookgDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </BookgDt>
 
   <ValDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </ValDt>
 
-  <AcctSvcrRef>10001QC2Q7GDMXR2</AcctSvcrRef>
+  <AcctSvcrRef>10001QC2Q8LTVPPS</AcctSvcrRef>
 
   <BkTxCd>
     <Prtry>
@@ -500,187 +677,9 @@
   <NtryDtls>
     <TxDtls>
       <Refs>
-        <InstrId>10001QC2Q5HY7AE2</InstrId>
-        <EndToEndId>SI00527</EndToEndId>
-        <TxId>20161128610126//00130860283/507</TxId>
-      </Refs>
-      <RltdPties>
-        <Dbtr>
-          <Nm>FREJA, D.O.O.</Nm>
-          <PstlAdr>
-            <Ctry>SI</Ctry>
-            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-            <AdrLine>1000 LJUBLJANA</AdrLine>
-          </PstlAdr>
-        </Dbtr>
-        <DbtrAcct>
-          <Id>
-            <IBAN>SI56290000050690990</IBAN>
-          </Id>
-        </DbtrAcct>
-        <Cdtr>
-          <Nm>GEN-I, D.O.O. </Nm>
-          <PstlAdr>
-            <Ctry>SI</Ctry>
-            <AdrLine>CESTA 4. JULIJA 04 KRSKO</AdrLine>
-            <AdrLine>-</AdrLine>
-          </PstlAdr>
-        </Cdtr>
-        <CdtrAcct>
-          <Id>
-            <IBAN>SI56029220260092885</IBAN>
-          </Id>
-        </CdtrAcct>
-      </RltdPties>
-      <RltdAgts>
-        <DbtrAgt>
-          <FinInstnId>
-            <BIC>BACXSI22</BIC>
-          </FinInstnId>
-        </DbtrAgt>
-        <CdtrAgt>
-          <FinInstnId>
-            <BIC>LJBASI2X</BIC>
-          </FinInstnId>
-        </CdtrAgt>
-      </RltdAgts>
-      <Purp>
-        <Cd>GDSV</Cd>
-      </Purp>
-      <RmtInf>
-        <Strd>
-          <CdtrRefInf>
-            <Ref>SI129001539393171</Ref>
-          </CdtrRefInf>
-          <AddtlRmtInf>PL.RN. 3939317             0000816</AddtlRmtInf>
-        </Strd>
-      </RmtInf>
-      <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
-      </RltdDts>
-    </TxDtls>
-  </NtryDtls>
-
-</Ntry>
-<Ntry>
-
-  <Amt Ccy="EUR">168.94</Amt>
-
-  <CdtDbtInd>DBIT</CdtDbtInd>
-
-  <Sts>BOOK</Sts>
-
-  <BookgDt>
-    <Dt>2016-11-28</Dt>
-  </BookgDt>
-
-  <ValDt>
-    <Dt>2016-11-28</Dt>
-  </ValDt>
-
-  <AcctSvcrRef>10001QC2Q7GDMXSS</AcctSvcrRef>
-
-  <BkTxCd>
-    <Prtry>
-      <Cd>NOTPROVIDED</Cd>
-    </Prtry>
-  </BkTxCd>
-
-  <NtryDtls>
-    <TxDtls>
-      <Refs>
-        <InstrId>10001QC2Q5HY7AEN</InstrId>
-        <EndToEndId>SI00528</EndToEndId>
-        <TxId>20161128610126//00130860284/507</TxId>
-      </Refs>
-      <RltdPties>
-        <Dbtr>
-          <Nm>FREJA, D.O.O.</Nm>
-          <PstlAdr>
-            <Ctry>SI</Ctry>
-            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-            <AdrLine>1000 LJUBLJANA</AdrLine>
-          </PstlAdr>
-        </Dbtr>
-        <DbtrAcct>
-          <Id>
-            <IBAN>SI56290000050690990</IBAN>
-          </Id>
-        </DbtrAcct>
-        <Cdtr>
-          <Nm>GEN-I, D.O.O. </Nm>
-          <PstlAdr>
-            <Ctry>SI</Ctry>
-            <AdrLine>CESTA 4. JULIJA 04 KRSKO</AdrLine>
-            <AdrLine>-</AdrLine>
-          </PstlAdr>
-        </Cdtr>
-        <CdtrAcct>
-          <Id>
-            <IBAN>SI56029220260092885</IBAN>
-          </Id>
-        </CdtrAcct>
-      </RltdPties>
-      <RltdAgts>
-        <DbtrAgt>
-          <FinInstnId>
-            <BIC>BACXSI22</BIC>
-          </FinInstnId>
-        </DbtrAgt>
-        <CdtrAgt>
-          <FinInstnId>
-            <BIC>LJBASI2X</BIC>
-          </FinInstnId>
-        </CdtrAgt>
-      </RltdAgts>
-      <Purp>
-        <Cd>GDSV</Cd>
-      </Purp>
-      <RmtInf>
-        <Strd>
-          <CdtrRefInf>
-            <Ref>SI129001539368673</Ref>
-          </CdtrRefInf>
-          <AddtlRmtInf>PL.RN. 3936867             0000817</AddtlRmtInf>
-        </Strd>
-      </RmtInf>
-      <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
-      </RltdDts>
-    </TxDtls>
-  </NtryDtls>
-
-</Ntry>
-<Ntry>
-
-  <Amt Ccy="EUR">3600.00</Amt>
-
-  <CdtDbtInd>DBIT</CdtDbtInd>
-
-  <Sts>BOOK</Sts>
-
-  <BookgDt>
-    <Dt>2016-11-28</Dt>
-  </BookgDt>
-
-  <ValDt>
-    <Dt>2016-11-28</Dt>
-  </ValDt>
-
-  <AcctSvcrRef>10001QC2Q7GDMXT0</AcctSvcrRef>
-
-  <BkTxCd>
-    <Prtry>
-      <Cd>NOTPROVIDED</Cd>
-    </Prtry>
-  </BkTxCd>
-
-  <NtryDtls>
-    <TxDtls>
-      <Refs>
-        <InstrId>10001QC2Q7GBRCAL</InstrId>
+        <InstrId>10001QC2Q8LS4QB8</InstrId>
         <EndToEndId>NOTPROVIDED</EndToEndId>
-        <TxId>20161128610126//00130860285/508</TxId>
+        <TxId>20161205610065//00131122861/508</TxId>
       </Refs>
       <RltdPties>
         <Dbtr>
@@ -734,7 +733,7 @@
         </Strd>
       </RmtInf>
       <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
       </RltdDts>
     </TxDtls>
   </NtryDtls>
@@ -742,21 +741,21 @@
 </Ntry>
 <Ntry>
 
-  <Amt Ccy="EUR">53.55</Amt>
+  <Amt Ccy="EUR">184.55</Amt>
 
   <CdtDbtInd>CRDT</CdtDbtInd>
 
   <Sts>BOOK</Sts>
 
   <BookgDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </BookgDt>
 
   <ValDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </ValDt>
 
-  <AcctSvcrRef>10001QC2Q7GG0JT6</AcctSvcrRef>
+  <AcctSvcrRef>10001QC2Q8M8JY0N</AcctSvcrRef>
 
   <BkTxCd>
     <Prtry>
@@ -768,100 +767,20 @@
     <TxDtls>
       <Refs>
         <EndToEndId>NOTPROVIDED</EndToEndId>
-        <TxId>20161128540008//6333902964/100</TxId>
+        <TxId>20161205610077//00131127150/540</TxId>
       </Refs>
       <RltdPties>
         <Dbtr>
-          <Nm>IVANA CVITKOVIC</Nm>
-          <PstlAdr>
-            <Ctry>HR</Ctry>
-            <AdrLine>HRVOJE MACANOVICA, 6</AdrLine>
-            <AdrLine>10000 ZAGREB</AdrLine>
-          </PstlAdr>
-        </Dbtr>
-        <DbtrAcct>
-          <Id>
-            <IBAN>HR0723400093209404086</IBAN>
-          </Id>
-        </DbtrAcct>
-        <Cdtr>
-          <Nm>FREJA, D.O.O.</Nm>
+          <Nm>EKOZMETICNI SALON D.O.O. </Nm>
           <PstlAdr>
             <Ctry>SI</Ctry>
-            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-            <AdrLine>1000 LJUBLJANA</AdrLine>
-          </PstlAdr>
-        </Cdtr>
-        <CdtrAcct>
-          <Id>
-            <IBAN>SI56290000050690990</IBAN>
-          </Id>
-        </CdtrAcct>
-      </RltdPties>
-      <RltdAgts>
-        <DbtrAgt>
-          <FinInstnId>
-            <BIC>PBZGHR2XXXX</BIC>
-          </FinInstnId>
-        </DbtrAgt>
-        <CdtrAgt>
-          <FinInstnId>
-            <BIC>BACXSI22XXX</BIC>
-          </FinInstnId>
-        </CdtrAgt>
-      </RltdAgts>
-      <RmtInf>
-        <Ustrd>UPLATA ZA NARUCENE PROIZVODE</Ustrd>
-      </RmtInf>
-      <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
-      </RltdDts>
-    </TxDtls>
-  </NtryDtls>
-
-</Ntry>
-<Ntry>
-
-  <Amt Ccy="EUR">1867.79</Amt>
-
-  <CdtDbtInd>CRDT</CdtDbtInd>
-
-  <Sts>BOOK</Sts>
-
-  <BookgDt>
-    <Dt>2016-11-28</Dt>
-  </BookgDt>
-
-  <ValDt>
-    <Dt>2016-11-28</Dt>
-  </ValDt>
-
-  <AcctSvcrRef>10001QC2Q7H299J6</AcctSvcrRef>
-
-  <BkTxCd>
-    <Prtry>
-      <Cd>NOTPROVIDED</Cd>
-    </Prtry>
-  </BkTxCd>
-
-  <NtryDtls>
-    <TxDtls>
-      <Refs>
-        <EndToEndId>RE201611250025191-301569790</EndToEndId>
-        <TxId>20161128541115//6333903770/100</TxId>
-      </Refs>
-      <RltdPties>
-        <Dbtr>
-          <Nm>SIX PAYMENT SERVICES (AUT), ATU1535 5906</Nm>
-          <PstlAdr>
-            <Ctry>AT</Ctry>
-            <AdrLine>1030 MARXERGASSE 1B</AdrLine>
+            <AdrLine>CESTA NA BRDO 45 1000 LJUBLJANA</AdrLine>
             <AdrLine>-</AdrLine>
           </PstlAdr>
         </Dbtr>
         <DbtrAcct>
           <Id>
-            <IBAN>AT447603020000000009</IBAN>
+            <IBAN>SI56031601000904270</IBAN>
           </Id>
         </DbtrAcct>
         <Cdtr>
@@ -881,170 +800,7 @@
       <RltdAgts>
         <DbtrAgt>
           <FinInstnId>
-            <BIC>PLBKATWWXXX</BIC>
-          </FinInstnId>
-        </DbtrAgt>
-        <CdtrAgt>
-          <FinInstnId>
-            <BIC>BACXSI22XXX</BIC>
-          </FinInstnId>
-        </CdtrAgt>
-      </RltdAgts>
-      <RmtInf>
-        <Ustrd>RE201611250025191-301569790/BR+1885,30/DI-17,51/DM1125+1161,65/CM1125+425,52/CV1125+319,10/FT1125-20,97</Ustrd>
-      </RmtInf>
-      <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
-      </RltdDts>
-    </TxDtls>
-  </NtryDtls>
-
-</Ntry>
-<Ntry>
-
-  <Amt Ccy="EUR">556.18</Amt>
-
-  <CdtDbtInd>CRDT</CdtDbtInd>
-
-  <Sts>BOOK</Sts>
-
-  <BookgDt>
-    <Dt>2016-11-28</Dt>
-  </BookgDt>
-
-  <ValDt>
-    <Dt>2016-11-28</Dt>
-  </ValDt>
-
-  <AcctSvcrRef>10001QC2Q7H299J8</AcctSvcrRef>
-
-  <BkTxCd>
-    <Prtry>
-      <Cd>NOTPROVIDED</Cd>
-    </Prtry>
-  </BkTxCd>
-
-  <NtryDtls>
-    <TxDtls>
-      <Refs>
-        <EndToEndId>RE201611260018996-301569790</EndToEndId>
-        <TxId>20161128541126//6333903806/100</TxId>
-      </Refs>
-      <RltdPties>
-        <Dbtr>
-          <Nm>SIX PAYMENT SERVICES (AUT), ATU1535 5906</Nm>
-          <PstlAdr>
-            <Ctry>AT</Ctry>
-            <AdrLine>1030 MARXERGASSE 1B</AdrLine>
-            <AdrLine>-</AdrLine>
-          </PstlAdr>
-        </Dbtr>
-        <DbtrAcct>
-          <Id>
-            <IBAN>AT447603020000000009</IBAN>
-          </Id>
-        </DbtrAcct>
-        <Cdtr>
-          <Nm>FREJA, D.O.O.</Nm>
-          <PstlAdr>
-            <Ctry>SI</Ctry>
-            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-            <AdrLine>1000 LJUBLJANA</AdrLine>
-          </PstlAdr>
-        </Cdtr>
-        <CdtrAcct>
-          <Id>
-            <IBAN>SI56290000050690990</IBAN>
-          </Id>
-        </CdtrAcct>
-      </RltdPties>
-      <RltdAgts>
-        <DbtrAgt>
-          <FinInstnId>
-            <BIC>PLBKATWWXXX</BIC>
-          </FinInstnId>
-        </DbtrAgt>
-        <CdtrAgt>
-          <FinInstnId>
-            <BIC>BACXSI22XXX</BIC>
-          </FinInstnId>
-        </CdtrAgt>
-      </RltdAgts>
-      <RmtInf>
-        <Ustrd>RE201611260018996-301569790/BR+561,36/DI-5,18/DM1126+347,44/CM1126+191,47/CV1126+22,45</Ustrd>
-      </RmtInf>
-      <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
-      </RltdDts>
-    </TxDtls>
-  </NtryDtls>
-
-</Ntry>
-<Ntry>
-
-  <Amt Ccy="EUR">26.39</Amt>
-
-  <CdtDbtInd>CRDT</CdtDbtInd>
-
-  <Sts>BOOK</Sts>
-
-  <BookgDt>
-    <Dt>2016-11-28</Dt>
-  </BookgDt>
-
-  <ValDt>
-    <Dt>2016-11-28</Dt>
-  </ValDt>
-
-  <AcctSvcrRef>10001QC2Q7HA8XE8</AcctSvcrRef>
-
-  <BkTxCd>
-    <Prtry>
-      <Cd>NOTPROVIDED</Cd>
-    </Prtry>
-  </BkTxCd>
-
-  <NtryDtls>
-    <TxDtls>
-      <Refs>
-        <EndToEndId>SI05382000-5271-20161128</EndToEndId>
-        <TxId>20161128610150//00130872437/540</TxId>
-      </Refs>
-      <RltdPties>
-        <Dbtr>
-          <Nm>GRETI TOMASEVIC </Nm>
-          <PstlAdr>
-            <Ctry>SI</Ctry>
-            <AdrLine>GLAVNI TRG 16 C 5271 VIPAVA</AdrLine>
-            <AdrLine>-</AdrLine>
-          </PstlAdr>
-        </Dbtr>
-        <DbtrAcct>
-          <Id>
-            <IBAN>SI56010000009000034</IBAN>
-          </Id>
-        </DbtrAcct>
-        <UltmtDbtr>
-          <Nm>GRETI TOMASEVIC </Nm>
-        </UltmtDbtr>
-        <Cdtr>
-          <Nm>FREJA, D.O.O.</Nm>
-          <PstlAdr>
-            <Ctry>SI</Ctry>
-            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
-            <AdrLine>1000 LJUBLJANA</AdrLine>
-          </PstlAdr>
-        </Cdtr>
-        <CdtrAcct>
-          <Id>
-            <IBAN>SI56290000050690990</IBAN>
-          </Id>
-        </CdtrAcct>
-      </RltdPties>
-      <RltdAgts>
-        <DbtrAgt>
-          <FinInstnId>
-            <BIC>PBSLSI22</BIC>
+            <BIC>SKBASI2X</BIC>
           </FinInstnId>
         </DbtrAgt>
         <CdtrAgt>
@@ -1054,18 +810,18 @@
         </CdtrAgt>
       </RltdAgts>
       <Purp>
-        <Cd>WEBI</Cd>
+        <Cd>SUPP</Cd>
       </Purp>
       <RmtInf>
         <Strd>
           <CdtrRefInf>
-            <Ref>SI002016-15857</Ref>
+            <Ref>SI001045-0</Ref>
           </CdtrRefInf>
-          <AddtlRmtInf>INTERNETNO INICIIRANA TRANSAKCIJA</AddtlRmtInf>
+          <AddtlRmtInf>PLACILO DOBAVITELJEM</AddtlRmtInf>
         </Strd>
       </RmtInf>
       <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
       </RltdDts>
     </TxDtls>
   </NtryDtls>
@@ -1073,21 +829,21 @@
 </Ntry>
 <Ntry>
 
-  <Amt Ccy="EUR">22.35</Amt>
+  <Amt Ccy="EUR">86.57</Amt>
 
   <CdtDbtInd>CRDT</CdtDbtInd>
 
   <Sts>BOOK</Sts>
 
   <BookgDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </BookgDt>
 
   <ValDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </ValDt>
 
-  <AcctSvcrRef>10001QC2Q7HA8XEC</AcctSvcrRef>
+  <AcctSvcrRef>10001QC2Q8M8JY0S</AcctSvcrRef>
 
   <BkTxCd>
     <Prtry>
@@ -1099,20 +855,20 @@
     <TxDtls>
       <Refs>
         <EndToEndId>SI99</EndToEndId>
-        <TxId>20161128610150//00130874821/540</TxId>
+        <TxId>20161205610077//00131129427/540</TxId>
       </Refs>
       <RltdPties>
         <Dbtr>
-          <Nm>HALDER MOHAN KUMAR S.P. </Nm>
+          <Nm>FREYA INT D.O.O. </Nm>
           <PstlAdr>
             <Ctry>SI</Ctry>
-            <AdrLine>OBALA 144 6320 PORTOROZ</AdrLine>
+            <AdrLine>BEVKOVA ULICA 4 1233 DOB PRI DOMZALAH</AdrLine>
             <AdrLine>-</AdrLine>
           </PstlAdr>
         </Dbtr>
         <DbtrAcct>
           <Id>
-            <IBAN>SI56101000053978749</IBAN>
+            <IBAN>SI56101000055265454</IBAN>
           </Id>
         </DbtrAcct>
         <Cdtr>
@@ -1147,13 +903,13 @@
       <RmtInf>
         <Strd>
           <CdtrRefInf>
-            <Ref>SI99</Ref>
+            <Ref>SI00157-0</Ref>
           </CdtrRefInf>
-          <AddtlRmtInf>PREDRACUN 2016-152</AddtlRmtInf>
+          <AddtlRmtInf>DRUGO</AddtlRmtInf>
         </Strd>
       </RmtInf>
       <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
       </RltdDts>
     </TxDtls>
   </NtryDtls>
@@ -1161,21 +917,269 @@
 </Ntry>
 <Ntry>
 
-  <Amt Ccy="EUR">1.60</Amt>
+  <Amt Ccy="EUR">2422.47</Amt>
+
+  <CdtDbtInd>CRDT</CdtDbtInd>
+
+  <Sts>BOOK</Sts>
+
+  <BookgDt>
+    <Dt>2016-12-05</Dt>
+  </BookgDt>
+
+  <ValDt>
+    <Dt>2016-12-05</Dt>
+  </ValDt>
+
+  <AcctSvcrRef>10001QC2Q8MYH9NG</AcctSvcrRef>
+
+  <BkTxCd>
+    <Prtry>
+      <Cd>NOTPROVIDED</Cd>
+    </Prtry>
+  </BkTxCd>
+
+  <NtryDtls>
+    <TxDtls>
+      <Refs>
+        <EndToEndId>RE201612030018943-301569790</EndToEndId>
+        <TxId>20161205515110//6340903824/100</TxId>
+      </Refs>
+      <RltdPties>
+        <Dbtr>
+          <Nm>SIX PAYMENT SERVICES (AUT), ATU1535 5906</Nm>
+          <PstlAdr>
+            <Ctry>AT</Ctry>
+            <AdrLine>1030 MARXERGASSE 1B</AdrLine>
+            <AdrLine>-</AdrLine>
+          </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+          <Id>
+            <IBAN>AT447603020000000009</IBAN>
+          </Id>
+        </DbtrAcct>
+        <Cdtr>
+          <Nm>FREJA, D.O.O.</Nm>
+          <PstlAdr>
+            <Ctry>SI</Ctry>
+            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+            <AdrLine>1000 LJUBLJANA</AdrLine>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <IBAN>SI56290000050690990</IBAN>
+          </Id>
+        </CdtrAcct>
+      </RltdPties>
+      <RltdAgts>
+        <DbtrAgt>
+          <FinInstnId>
+            <BIC>PLBKATWWXXX</BIC>
+          </FinInstnId>
+        </DbtrAgt>
+        <CdtrAgt>
+          <FinInstnId>
+            <BIC>BACXSI22XXX</BIC>
+          </FinInstnId>
+        </CdtrAgt>
+      </RltdAgts>
+      <RmtInf>
+        <Ustrd>RE201612030018943-301569790/BR+2446,05/DI-23,58/DM1203+1086,65/CM1203+901,09/CV1203+458,31</Ustrd>
+      </RmtInf>
+      <RltdDts>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
+      </RltdDts>
+    </TxDtls>
+  </NtryDtls>
+
+</Ntry>
+<Ntry>
+
+  <Amt Ccy="EUR">2196.35</Amt>
+
+  <CdtDbtInd>CRDT</CdtDbtInd>
+
+  <Sts>BOOK</Sts>
+
+  <BookgDt>
+    <Dt>2016-12-05</Dt>
+  </BookgDt>
+
+  <ValDt>
+    <Dt>2016-12-05</Dt>
+  </ValDt>
+
+  <AcctSvcrRef>10001QC2Q8MYH9TC</AcctSvcrRef>
+
+  <BkTxCd>
+    <Prtry>
+      <Cd>NOTPROVIDED</Cd>
+    </Prtry>
+  </BkTxCd>
+
+  <NtryDtls>
+    <TxDtls>
+      <Refs>
+        <EndToEndId>RE201612020025616-301569790</EndToEndId>
+        <TxId>20161205515164//6340903835/100</TxId>
+      </Refs>
+      <RltdPties>
+        <Dbtr>
+          <Nm>SIX PAYMENT SERVICES (AUT), ATU1535 5906</Nm>
+          <PstlAdr>
+            <Ctry>AT</Ctry>
+            <AdrLine>1030 MARXERGASSE 1B</AdrLine>
+            <AdrLine>-</AdrLine>
+          </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+          <Id>
+            <IBAN>AT447603020000000009</IBAN>
+          </Id>
+        </DbtrAcct>
+        <Cdtr>
+          <Nm>FREJA, D.O.O.</Nm>
+          <PstlAdr>
+            <Ctry>SI</Ctry>
+            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+            <AdrLine>1000 LJUBLJANA</AdrLine>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <IBAN>SI56290000050690990</IBAN>
+          </Id>
+        </CdtrAcct>
+      </RltdPties>
+      <RltdAgts>
+        <DbtrAgt>
+          <FinInstnId>
+            <BIC>PLBKATWWXXX</BIC>
+          </FinInstnId>
+        </DbtrAgt>
+        <CdtrAgt>
+          <FinInstnId>
+            <BIC>BACXSI22XXX</BIC>
+          </FinInstnId>
+        </CdtrAgt>
+      </RltdAgts>
+      <RmtInf>
+        <Ustrd>RE201612020025616-301569790/BR+2216,74/DI-20,39/DM1202+1243,41/CM1202+429,51/CV1202+543,82</Ustrd>
+      </RmtInf>
+      <RltdDts>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
+      </RltdDts>
+    </TxDtls>
+  </NtryDtls>
+
+</Ntry>
+<Ntry>
+
+  <Amt Ccy="EUR">110.27</Amt>
+
+  <CdtDbtInd>CRDT</CdtDbtInd>
+
+  <Sts>BOOK</Sts>
+
+  <BookgDt>
+    <Dt>2016-12-05</Dt>
+  </BookgDt>
+
+  <ValDt>
+    <Dt>2016-12-05</Dt>
+  </ValDt>
+
+  <AcctSvcrRef>10001QC2Q8N7HB7S</AcctSvcrRef>
+
+  <BkTxCd>
+    <Prtry>
+      <Cd>NOTPROVIDED</Cd>
+    </Prtry>
+  </BkTxCd>
+
+  <NtryDtls>
+    <TxDtls>
+      <Refs>
+        <EndToEndId>SI002016-15896</EndToEndId>
+        <TxId>20161205610105//00131154634/540</TxId>
+      </Refs>
+      <RltdPties>
+        <Dbtr>
+          <Nm>VENGUST MAJA </Nm>
+          <PstlAdr>
+            <Ctry>SI</Ctry>
+            <AdrLine>BELOVO 022 3270 LASKO</AdrLine>
+            <AdrLine>-</AdrLine>
+          </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+          <Id>
+            <IBAN>SI56340001014756164</IBAN>
+          </Id>
+        </DbtrAcct>
+        <Cdtr>
+          <Nm>FREJA, D.O.O.</Nm>
+          <PstlAdr>
+            <Ctry>SI</Ctry>
+            <AdrLine>GOLOUHOVA ULICA 28</AdrLine>
+            <AdrLine>1000 LJUBLJANA</AdrLine>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <IBAN>SI56290000050690990</IBAN>
+          </Id>
+        </CdtrAcct>
+      </RltdPties>
+      <RltdAgts>
+        <DbtrAgt>
+          <FinInstnId>
+            <BIC>KSPKSI22</BIC>
+          </FinInstnId>
+        </DbtrAgt>
+        <CdtrAgt>
+          <FinInstnId>
+            <BIC>BACXSI22</BIC>
+          </FinInstnId>
+        </CdtrAgt>
+      </RltdAgts>
+      <Purp>
+        <Cd>OTHR</Cd>
+      </Purp>
+      <RmtInf>
+        <Strd>
+          <CdtrRefInf>
+            <Ref>SI002016-15896</Ref>
+          </CdtrRefInf>
+          <AddtlRmtInf>DRUGO</AddtlRmtInf>
+        </Strd>
+      </RmtInf>
+      <RltdDts>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
+      </RltdDts>
+    </TxDtls>
+  </NtryDtls>
+
+</Ntry>
+<Ntry>
+
+  <Amt Ccy="EUR">0.80</Amt>
 
   <CdtDbtInd>DBIT</CdtDbtInd>
 
   <Sts>BOOK</Sts>
 
   <BookgDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </BookgDt>
 
   <ValDt>
-    <Dt>2016-11-28</Dt>
+    <Dt>2016-12-05</Dt>
   </ValDt>
 
-  <AcctSvcrRef>10001QC2Q7J49J9L</AcctSvcrRef>
+  <AcctSvcrRef>10001QC2Q8P1CH6C</AcctSvcrRef>
 
   <BkTxCd>
     <Prtry>
@@ -1187,7 +1191,7 @@
     <TxDtls>
       <Refs>
         <EndToEndId>NOTPROVIDED</EndToEndId>
-        <TxId>20161128999922///283</TxId>
+        <TxId>20161205999922///283</TxId>
       </Refs>
       <RltdPties>
         <Dbtr>
@@ -1232,10 +1236,10 @@
         </CdtrAgt>
       </RltdAgts>
       <RmtInf>
-        <Ustrd>PROVIZIJA ELEKTR. STAND. 2 x 0,80 EUR</Ustrd>
+        <Ustrd>PROVIZIJA ELEKTR. STAND. 1 x 0,80 EUR</Ustrd>
       </RmtInf>
       <RltdDts>
-        <IntrBkSttlmDt>2016-11-28</IntrBkSttlmDt>
+        <IntrBkSttlmDt>2016-12-05</IntrBkSttlmDt>
       </RltdDts>
     </TxDtls>
   </NtryDtls>

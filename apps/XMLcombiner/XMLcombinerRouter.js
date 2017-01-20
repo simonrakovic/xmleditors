@@ -14,36 +14,43 @@ var mideplast = require('./XMLcombinerApp.js');
 
 router.get('/', function (req, res) {
     var step = req.query.step;
-    if(step == 1){
-        mideplast.stepOne(req, res, function(err){
-            res.status(500).send(err)
+    if (step == 1) {
+        mideplast.stepOne(req, res, function (err) {
+            res.status(500).send(err);
         });
-    }else if(step == 2){
-        mideplast.stepTwo(req, res, function(err){
-            res.status(500).send(err)
+    } else if (step == 2) {
+        mideplast.stepTwo(req, res, function (err) {
+            res.status(500).send(err);
         });
+    } else if(step == 3){
+        res.send("hi");
     }
 });
 
-router.post('/', function(req, res){
-    var csvKupcev = req.files.csvKupcev;
-    var csvRacunov = req.files.csvRacunov;
-
-    mideplast.readFiles(csvKupcev, csvRacunov, function(err, name){
-        if(err){
+router.post('/', function (req, res) {
+    var step = req.query.step;
+    if (step == 2) {
+        mideplast.stepTwoPost(req, res, function (err) {
             res.status(500).send(err);
-        }
-        res.download(__dirname +'/../../data/racuni.xml','racuni.xml', function(err){
-            if(err){
+        });
+    } else {
+        var csvKupcev = req.files.csvKupcev;
+        var csvRacunov = req.files.csvRacunov;
+        mideplast.readFiles(csvKupcev, csvRacunov, function (err, name) {
+            if (err) {
                 res.status(500).send(err);
             }
+            res.download(__dirname + '/../../data/racuni.xml', 'racuni.xml', function (err) {
+                if (err) {
+                    res.status(500).send(err);
+                }
 
+            });
         });
-    });
+    }
+
 
 });
-
-
 
 
 module.exports = router;
