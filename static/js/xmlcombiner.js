@@ -70,4 +70,28 @@ $(document).ready(function(){
         });
     });
 
+
+    $(".btn3").click(function(){
+        var selectedElementsData = [];
+
+        $(".element-data").each(function(){
+            if($(this).attr("data-parentIndex")){
+                selectedElementsData.push({"element": $(this).data("element"), "parentElement": $(this).data("parentelement"), "parentIndex": $(this).data("parentindex"), "elementData": $(this).val()});
+            }else{
+                selectedElementsData.push({"element": $(this).data("element"), "parentElement": $(this).data("parentelement"), "elementData": $(this).val()});
+            }
+
+        });
+
+        $.ajax({
+            method: "POST",
+            url: "/xmlcombiner?step=3",
+            contentType: "application/json",
+            data:  JSON.stringify({"selectedElementsData": selectedElementsData})
+        }).done(function(res){
+            if(res.status == 'success'){
+                window.location.href = res.redirectUrl;
+            }
+        });
+    });
 });

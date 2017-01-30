@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="162abb9c-5317-471e-837e-f894a839f88c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerApp.js" afterPath="$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerApp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerRouter.js" afterPath="$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerRouter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/3plus/temeljnicaOut.xml" afterPath="$PROJECT_DIR$/data/3plus/temeljnicaOut.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/banka.xml" afterPath="$PROJECT_DIR$/data/banka.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/freja/output.xml" afterPath="$PROJECT_DIR$/data/freja/output.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/posta.csv" afterPath="$PROJECT_DIR$/data/posta.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/kupci.csv" afterPath="$PROJECT_DIR$/data/kupci.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/racuni.csv" afterPath="$PROJECT_DIR$/data/racuni.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/racuni.xml" afterPath="$PROJECT_DIR$/data/racuni.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/xmlcombiner.js" afterPath="$PROJECT_DIR$/static/js/xmlcombiner.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/XMLcombiner.pug" afterPath="$PROJECT_DIR$/views/XMLcombiner.pug" />
     </list>
@@ -34,11 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="XMLcombiner.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/XMLcombiner.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-473">
+              <caret line="135" column="65" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="xmlcombiner.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/xmlcombiner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+            <state relative-caret-position="937">
+              <caret line="91" column="37" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="37" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -46,21 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XMLcombinerApp.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="XMLcombinerApp.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="205" column="6" selection-start-line="205" selection-start-column="6" selection-end-line="205" selection-end-column="6" />
+            <state relative-caret-position="4236">
+              <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XMLcombinerRouter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XMLcombinerRouter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerRouter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="42" />
+            <state relative-caret-position="435">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -133,10 +143,10 @@
         <option value="$PROJECT_DIR$/static/js/XMLcombiner.js" />
         <option value="$PROJECT_DIR$/views/index.pug" />
         <option value="$PROJECT_DIR$/apps/FrejaApp/frejaApp.js" />
-        <option value="$PROJECT_DIR$/views/XMLcombiner.pug" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerRouter.js" />
         <option value="$PROJECT_DIR$/static/js/xmlcombiner.js" />
+        <option value="$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerRouter.js" />
+        <option value="$PROJECT_DIR$/views/XMLcombiner.pug" />
         <option value="$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerApp.js" />
       </list>
     </option>
@@ -494,15 +504,15 @@
       <workItem from="1479998849095" duration="46984000" />
       <workItem from="1481877750933" duration="14674000" />
       <workItem from="1482131361974" duration="102911000" />
-      <workItem from="1484728739455" duration="24114000" />
+      <workItem from="1484728739455" duration="56486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245176000" />
+    <option name="totallyTimeSpent" value="277548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21778975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -716,14 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/XMLcombiner.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/temeljnica2.xml" />
     <entry file="file://$PROJECT_DIR$/data/temeljnica2.xml" />
     <entry file="file://$PROJECT_DIR$/views/3plus.pug">
@@ -825,36 +827,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/XMLcombiner.pug">
+    <entry file="file://$PROJECT_DIR$/static/css/XMLcombiner.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="137" column="30" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
+        <state relative-caret-position="465">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/xmlcombiner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+        <state relative-caret-position="937">
+          <caret line="91" column="37" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="37" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerApp.js">
+    <entry file="file://$PROJECT_DIR$/views/XMLcombiner.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="205" column="6" selection-start-line="205" selection-start-column="6" selection-end-line="205" selection-end-column="6" />
+        <state relative-caret-position="-473">
+          <caret line="135" column="65" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerRouter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="42" />
+        <state relative-caret-position="435">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/XMLcombiner/XMLcombinerApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4236">
+          <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -23,7 +23,13 @@ router.get('/', function (req, res) {
             res.status(500).send(err);
         });
     } else if(step == 3){
-        res.send("hi");
+         mideplast.stepThree(req, res, function(err){
+             res.status(500).send(err);
+         });
+    } else if(step == 4){
+        mideplast.stepFour(req, res, function (err) {
+            res.status(500).send(err);
+        });
     }
 });
 
@@ -31,6 +37,10 @@ router.post('/', function (req, res) {
     var step = req.query.step;
     if (step == 2) {
         mideplast.stepTwoPost(req, res, function (err) {
+            res.status(500).send(err);
+        });
+    } else if(step == 3){
+        mideplast.stepThreePost(req, res, function(err){
             res.status(500).send(err);
         });
     } else {

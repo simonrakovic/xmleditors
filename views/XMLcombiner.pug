@@ -159,29 +159,64 @@ block main_content
                         .progress-bar
                     a.bs-wizard-dot(href='#')
                     .bs-wizard-info.text-center
-                .col-xs-3.bs-wizard-step.active
-                    // complete
+                .col-xs-3.bs-wizard-step.complete
                     .text-center.bs-wizard-stepnum Step 2
                     .progress
                         .progress-bar
                     a.bs-wizard-dot(href='#')
                     .bs-wizard-info.text-center
-                        | Izbira elementov
-                .col-xs-3.bs-wizard-step.disabled
-                    // complete
+                .col-xs-3.bs-wizard-step.active
                     .text-center.bs-wizard-stepnum Step 3
                     .progress
                         .progress-bar
                     a.bs-wizard-dot(href='#')
                     .bs-wizard-info.text-center
+                        | Povezava podatkov
                 .col-xs-3.bs-wizard-step.disabled
-                    // active
                     .text-center.bs-wizard-stepnum Step 4
                     .progress
                         .progress-bar
                     a.bs-wizard-dot(href='#')
                     .bs-wizard-info.text-center
             .row
+                each obj in selectedElements
+                    div.form-group
+                        label #{obj.element}
+                        input.form-control.element-data(type="text", data-element=obj.element, data-parentelement=obj.parentElement, data-parentindex = obj.parentIndex)
+                a(style="width:30%;overflow: hidden;").btn.btn-default.btn3 Naprej
+
+    if step == 4
+        .col-md-10
+            .row.bs-wizard(style='border-bottom:0;')
+                .col-xs-3.bs-wizard-step.complete
+                    .text-center.bs-wizard-stepnum Step 1
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                .col-xs-3.bs-wizard-step.complete
+                    .text-center.bs-wizard-stepnum Step 2
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                .col-xs-3.bs-wizard-step.active
+                    .text-center.bs-wizard-stepnum Step 3
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+                        | Povezava podatkov
+                .col-xs-3.bs-wizard-step.disabled
+                    .text-center.bs-wizard-stepnum Step 4
+                    .progress
+                        .progress-bar
+                    a.bs-wizard-dot(href='#')
+                    .bs-wizard-info.text-center
+            .row
+                pre.prettyprint.lang-xml(id="xmlData")
+                    | #{xml}
+
 
 block script_block
     script(src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js")

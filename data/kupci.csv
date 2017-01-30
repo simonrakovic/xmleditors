@@ -1,1577 +1,1582 @@
 Šifra kupca;Ime kupca;Potencialni;Neaktivni;Kontaktna oseba;Raèun na naslov-1vrstica;Raèun na naslov-2vrstica;Raèun-mesto;Raèun-država;Raèun-Pošta;Raèun v državo;Skupina;Telefon 1;Telefon 2;Telefaks;Šifra prodajalca;Konto prihodkov;Stalna št. naroèila nabave;Dostava;Številka izjave;Raven cene;Standardni pogoji;Po prejemu;Pog. predujma;Pogoji;Zap. dni;Dnevi popusta;Odstotek popusta;Dovoljen dolg;Zaraèunaj zamudne obresti;Zap. konec meseca;Drugi kontakt;Sklic na;Poštni seznam?;Veè krajev?;Kupec od;Datum zadnjega izpisa;Popust za kupca;Davèni zavezanec;Davèna številka;Žiro raèun;Žiro raèun-sklic;Žiro raèun-model;Spletna stran;E-pošta;Polni naslov;Konto terjatev;Sektor;Dejavnost
-A.B.K.PREVOZ OTOÈEC;A.B.K.PREVOZ OTOÈEC D.O.O.;Ne;Ne;;STARINE 1;;;;8222;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;13.12.16;;0,00000;0;SI36697184;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+A.B.K.PREVOZ OTOÈEC;A.B.K.PREVOZ OTOÈEC D.O.O.;Ne;Ne;;STARINE 1;;;;8222;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;13.12.2016;;0;0;SI36697184;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-AB TISK OBLIKE D.O.O;AB TISK OBLIKE D.O.O.;Ne;Ne;;LJUBLJANSKA CESTA 24;;;;1293;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.09.16;12.12.16;0,00000;0;SI84250348;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+AB TISK OBLIKE D.O.O;AB TISK OBLIKE D.O.O.;Ne;Ne;;LJUBLJANSKA CESTA 24;;;;1293;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.9.2016;12.12.2016;0;0;SI84250348;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ABO GRAFIKA D.O.O.;ABO GRAFIKA D.O.O.;Ne;Ne;;OB ŽELEZNICI 16;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.03.15;;0,00000;0;SI16552032;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ABO GRAFIKA D.O.O.;ABO GRAFIKA D.O.O.;Ne;Ne;;OB ŽELEZNICI 16;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.3.2015;;0;0;SI16552032;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ALEŠ HREN S.P.;ALEŠ HREN S.P.;Ne;Ne;;CESTA V GORICE 40;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.04.12;29.11.12;0,00000;0;SI26179261;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ALEŠ HREN S.P.;ALEŠ HREN S.P.;Ne;Ne;;CESTA V GORICE 40;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.4.2012;29.11.2012;0;0;SI26179261;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ALFAGRAF;ALFAGRAF  D.O.O.;Ne;Ne;;STANTETOVA 10;;;;1295;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.12.07;12.12.16;0,00000;0;SI20614071;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ALFAGRAF;ALFAGRAF  D.O.O.;Ne;Ne;;STANTETOVA 10;;;;1295;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.12.2007;12.12.2016;0;0;SI20614071;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ALMEIDA d.o.o.;ALMEIDA d.o.o.;Ne;Ne;;Litostrojska cesta 40;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;26.10.12;;0,00000;0;SI23635649;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ALMEIDA d.o.o.;ALMEIDA d.o.o.;Ne;Ne;;Litostrojska cesta 40;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;26.10.2012;;0;0;SI23635649;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ANTON ŽABOT;ANTON ŽABOT S.P.;Ne;Ne;;CESTA V GORICE 8;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.12.07;;0,00000;0;SI45739064;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ANTON ŽABOT;ANTON ŽABOT S.P.;Ne;Ne;;CESTA V GORICE 8;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.12.2007;;0;0;SI45739064;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ARRUBA;ARRUBA D.O.O.;Ne;Ne;;LITIJSKA CESTA 38;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;;0,00000;0;SI96885378;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ARRUBA;ARRUBA D.O.O.;Ne;Ne;;LITIJSKA CESTA 38;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;;0;0;SI96885378;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ARTELJ;MARTIN ARTELJ S.P.;Ne;Ne;;Ul. Janeza Rožièa 24;;;;1211;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;17.03.09;09.07.16;0,00000;0;SI98245686;;;;;;"MARTIN ARTELJ S.P.
+ARTELJ;MARTIN ARTELJ S.P.;Ne;Ne;;Ul. Janeza Rožièa 24;;;;1211;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;17.3.2009;9.7.2016;0;0;SI98245686;;;;;;"MARTIN ARTELJ S.P.
 TISKARNA ARTELJ
 Ul. Janeza Rožièa 24
 1211 LJUBLJANA - ŠMARTNO";120000;;
-ARTIKO D.O.O.;ARTIKO D.O.O.;Ne;Ne;;STEGNE 3;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;06.06.12;;0,00000;0;SI90037600;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ARTIKO D.O.O.;ARTIKO D.O.O.;Ne;Ne;;STEGNE 3;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;6.6.2012;;0;0;SI90037600;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ARTPRO d.o.o.;ARTPRO d.o.o.;Ne;Ne;;Ljubljanska cesta 43 A;;;;1241;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;30.09.13;;0,00000;0;SI39202801;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ARTPRO d.o.o.;ARTPRO d.o.o.;Ne;Ne;;Ljubljanska cesta 43 A;;;;1241;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;30.9.2013;;0;0;SI39202801;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ASSIRO D.O.O.;ASSIRO D.O.O.;Ne;Ne;;OPEKARSKA 29/A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;30.11.10;;0,00000;0;SI81886349;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ASSIRO D.O.O.;ASSIRO D.O.O.;Ne;Ne;;OPEKARSKA 29/A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;30.11.2010;;0;0;SI81886349;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-AT TEAM d.o.o., Ljub;AT TEAM d.o.o., Ljubljana;Ne;Ne;;Zapuška cesta 63;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;13.12.13;;0,00000;0;SI91724562;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+AT TEAM d.o.o., Ljub;AT TEAM d.o.o., Ljubljana;Ne;Ne;;Zapuška cesta 63;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;13.12.2013;;0;0;SI91724562;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BADJURA;MATJAŽ BADIURA s.p.;Ne;Ne;;Podlimbarskega 23;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.01.08;20.11.09;0,00000;0;SI38857910;;;;;;"EXPRES COPY
+BADJURA;MATJAŽ BADIURA s.p.;Ne;Ne;;Podlimbarskega 23;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.1.2008;20.11.2009;0;0;SI38857910;;;;;;"EXPRES COPY
 MATJAŽ BADIURA S.P.
 Podlimbarskega 23
 1000 LJUBLJANA";120000;;
-BAGRAF d.o.o.;BAGRAF d.o.o.;Ne;Ne;;Kranerjeva 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;06.03.09;;0,00000;0;SI83327827;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BAGRAF d.o.o.;BAGRAF d.o.o.;Ne;Ne;;Kranerjeva 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;6.3.2009;;0;0;SI83327827;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BAVANT;BAVANT, MARKO KREMŽAR S.P.;Ne;Ne;;Prušnikova ul. 83;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;;0,00000;0;SI33171408;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BAVANT;BAVANT, MARKO KREMŽAR S.P.;Ne;Ne;;Prušnikova ul. 83;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;;0;0;SI33171408;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BELIN d.o.o.;BELIN GRAFIKA, KNJIGOVEZNICA I;Ne;Ne;;Izletniška ul. 46;;;;4260;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;90;0;0,00000;400,00000;Da;Ne;;;;;27.03.12;;0,00000;0;SI88260950;;;;;;"BELIN gafika, knjigoveznica
+BELIN d.o.o.;BELIN GRAFIKA, KNJIGOVEZNICA I;Ne;Ne;;Izletniška ul. 46;;;;4260;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;90;0;0;400;Da;Ne;;;;;27.3.2012;;0;0;SI88260950;;;;;;"BELIN gafika, knjigoveznica
 in tiskarna, d.o.o.
 Izletniška ul. 46
 4260 BLED";120000;;
-BILLHOFER;BILLHOFER Maschinenfabrik GmBH;Ne;Ne;;Gutenstetter Strabe 20;& Co KG;;;D-90449;;;;;;;761000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.02.09;;0,00000;0;;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BILLHOFER;BILLHOFER Maschinenfabrik GmBH;Ne;Ne;;Gutenstetter Strabe 20;& Co KG;;;D-90449;;;;;;;761000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.2.2009;;0;0;;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BIRO SERVIS;BIRO SERVIS, GORAZD MLAKAR S.P;Ne;Ne;;USTJE 7;;;;1275;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;29.12.13;;0,00000;0;SI35759186;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BIRO SERVIS;BIRO SERVIS, GORAZD MLAKAR S.P;Ne;Ne;;USTJE 7;;;;1275;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;29.12.2013;;0;0;SI35759186;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BIROGRAFIKA BORI;BIROGRAFIKA BORI d.o.o.;Ne;Ne;;Linhartova cesta 001;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;30.06.16;0,00000;0;SI16466543;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BIROGRAFIKA BORI;BIROGRAFIKA BORI d.o.o.;Ne;Ne;;Linhartova cesta 001;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0;400;Da;Ne;;;;;28.11.2007;30.6.2016;0;0;SI16466543;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BISART D.O.O.;BISART D.O.O.;Ne;Ne;;LESNO BRDO 34;;;;1360;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;06.11.13;;0,00000;0;SI88083322;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BISART D.O.O.;BISART D.O.O.;Ne;Ne;;LESNO BRDO 34;;;;1360;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;6.11.2013;;0;0;SI88083322;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BO - TISK d.o.o.;BO - TISK d.o.o.;Ne;Ne;;Tržaška cesta 2;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;8;0;0,00000;400,00000;Da;Ne;;;;;18.03.10;26.09.12;0,00000;0;SI32928661;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BO - TISK d.o.o.;BO - TISK d.o.o.;Ne;Ne;;Tržaška cesta 2;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;8;0;0;400;Da;Ne;;;;;18.3.2010;26.9.2012;0;0;SI32928661;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BOFORA;BOFORA;Ne;Ne;;BIZOVIŠKA 33;BORIS BUKOVEC s.p.;;;1000;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;;0,00000;0;SI50188143;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BOFORA;BOFORA;Ne;Ne;;BIZOVIŠKA 33;BORIS BUKOVEC s.p.;;;1000;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;;0;0;SI50188143;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BOGRAF d.o.o.;BOGRAF d.o.o.;Ne;Ne;;Bevke 190;;;;1358;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;23.09.08;29.11.12;0,00000;0;SI88630234;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BOGRAF d.o.o.;BOGRAF d.o.o.;Ne;Ne;;Bevke 190;;;;1358;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;23.9.2008;29.11.2012;0;0;SI88630234;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BOJAN LINDIÈ S.P.;BOJAN LINDIÈ S.P.;Ne;Ne;;Delovška cesta 491;Grafièna delavnica;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.12.07;23.11.10;0,00000;0;SI78137063;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BOJAN LINDIÈ S.P.;BOJAN LINDIÈ S.P.;Ne;Ne;;Delovška cesta 491;Grafièna delavnica;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.12.2007;23.11.2010;0;0;SI78137063;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BOŽNAR & PARTNER;BOŽNAR & PARTNER d.o.o.;Ne;Ne;;Kosovelova ul. 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;06.03.09;;0,00000;0;SI29394619;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BOŽNAR & PARTNER;BOŽNAR & PARTNER d.o.o.;Ne;Ne;;Kosovelova ul. 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;6.3.2009;;0;0;SI29394619;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BOŽO STRAŽAR S.P.;BOŽO STRAŽAR S.P.;Ne;Ne;;ULICA STARE POŠTE 8;;;;6000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;07.10.09;19.02.16;0,00000;0;SI55995128;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BOŽO STRAŽAR S.P.;BOŽO STRAŽAR S.P.;Ne;Ne;;ULICA STARE POŠTE 8;;;;6000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;7.10.2009;19.2.2016;0;0;SI55995128;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BRECELJ GRAFIKA d.o.;BRECELJ GRAFIKA d.o.o.;Ne;Ne;;Litijska cesta 38;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.08.11;;0,00000;0;SI70324654;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BRECELJ GRAFIKA d.o.;BRECELJ GRAFIKA d.o.o.;Ne;Ne;;Litijska cesta 38;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.8.2011;;0;0;SI70324654;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BSB-GRAF-TISKANJE;BSB-GRAF-TISKANJE d.o.o.;Ne;Ne;;Trg republike 2;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;01.02.11;;0,00000;0;SI36187631;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BSB-GRAF-TISKANJE;BSB-GRAF-TISKANJE d.o.o.;Ne;Ne;;Trg republike 2;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;1.2.2011;;0;0;SI36187631;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-BUCIK TISKARNA d.o.o;BUCIK TISKARNA d.o.o.;Ne;Ne;;Roška cesta 69;;;;8333;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;27.12.11;12.12.16;0,00000;0;SI45389233;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+BUCIK TISKARNA d.o.o;BUCIK TISKARNA d.o.o.;Ne;Ne;;Roška cesta 69;;;;8333;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;27.12.2011;12.12.2016;0;0;SI45389233;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-CAMERA d.o.o.;CAMERA d.o.o.;Ne;Ne;;Cvetkova 25;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.06.15;;0,00000;0;SI77631447;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+CAMERA d.o.o.;CAMERA d.o.o.;Ne;Ne;;Cvetkova 25;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.6.2015;;0;0;SI77631447;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-CANTAL MARINE d.o.o.;CANTAL MARINE d.o.o.;Ne;Ne;;Ul. Jožeta Jame 14;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;03.11.10;;0,00000;0;SI58810781;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+CANTAL MARINE d.o.o.;CANTAL MARINE d.o.o.;Ne;Ne;;Ul. Jožeta Jame 14;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;3.11.2010;;0;0;SI58810781;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-CELZIJA D.O.O.;CELZIJA D.O.O.;Ne;Ne;;Celestinova ulica 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.06.09;23.11.10;0,00000;0;SI50266179;;;;;;"CELZIJA PODJETJE ZA MARKETING, SITOGRAFIJO IN TRGOVINO D.O.O., LJUBLJANA
+CELZIJA D.O.O.;CELZIJA D.O.O.;Ne;Ne;;Celestinova ulica 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.6.2009;23.11.2010;0;0;SI50266179;;;;;;"CELZIJA PODJETJE ZA MARKETING, SITOGRAFIJO IN TRGOVINO D.O.O., LJUBLJANA
 Celestinova ulica 1
 1000 LJUBLJANA";120000;;
-CICERO,;CICERO, Begunje, d.o.o.;Ne;Ne;;BEGUNJE NA GORENJSKEM 17;;;;4275;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0,00000;400,00000;Da;Ne;;;;;12.05.09;09.12.16;0,00000;0;SI69911509;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+CICERO,;CICERO, Begunje, d.o.o.;Ne;Ne;;BEGUNJE NA GORENJSKEM 17;;;;4275;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0;400;Da;Ne;;;;;12.5.2009;9.12.2016;0;0;SI69911509;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-CINEMANIA GROUP, d.o;CINEMANIA GROUP, d.o.o.;Ne;Ne;;Rojèeva ulica 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;09.09.11;12.12.16;0,00000;0;SI156289489;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+CINEMANIA GROUP, d.o;CINEMANIA GROUP, d.o.o.;Ne;Ne;;Rojèeva ulica 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;9.9.2011;12.12.2016;0;0;SI15628949;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-COLLEGIUM GRAPHICUM;COLLEGIUM GRAPHICUM d.o.o.;Ne;Ne;;Štepanjska cesta 11a;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;04.06.11;;0,00000;0;SI18111564;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+COLLEGIUM GRAPHICUM;COLLEGIUM GRAPHICUM d.o.o.;Ne;Ne;;Štepanjska cesta 11a;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;4.6.2011;;0;0;SI18111564;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-COMP-DIREKT;COMP-DIREKT,;Ne;Ne;;KOPRSKA ULICA 072;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;24.10.08;20.11.09;0,00000;0;SI12177024;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+COMP-DIREKT;COMP-DIREKT,;Ne;Ne;;KOPRSKA ULICA 072;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;24.10.2008;20.11.2009;0;0;SI12177024;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-COMP-PRINT;COMP-PRINT PAPIR,;Ne;Ne;;KOPRSKA 72;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.01.08;;0,00000;0;SI87947269;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+COMP-PRINT;COMP-PRINT PAPIR,;Ne;Ne;;KOPRSKA 72;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.1.2008;;0;0;SI87947269;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-COPIPLUS d.o.o;COPIPLUS d.o.o.;Ne;Ne;;Medenska cesta 41;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;15.10.13;;0,00000;0;SI39738337;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+COPIPLUS d.o.o;COPIPLUS d.o.o.;Ne;Ne;;Medenska cesta 41;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;15.10.2013;;0;0;SI39738337;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-COPIS D.O.O.;COPIS D.O.O.;Ne;Ne;;DUNAJSKA CESTA 158;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;23.07.14;;0,00000;0;SI64668657;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+COPIS D.O.O.;COPIS D.O.O.;Ne;Ne;;DUNAJSKA CESTA 158;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;23.7.2014;;0;0;SI64668657;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-COPY LINE;COPY LINE D.O.O.;Ne;Ne;;GRADIŠÈE 5;;;;1360;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;30.06.08;;0,00000;0;SI38676133;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+COPY LINE;COPY LINE D.O.O.;Ne;Ne;;GRADIŠÈE 5;;;;1360;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;30.6.2008;;0;0;SI38676133;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-D Design;D Desing;Ne;Ne;;Sp. Slivnica 50;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;21.10.08;;0,00000;0;SI49118544;;;;;;"D Design
+D Design;D Desing;Ne;Ne;;Sp. Slivnica 50;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;21.10.2008;;0;0;SI49118544;;;;;;"D Design
 Damjan Kocman s.p.
 Sp. Slivnica 50
 
 1290 Grosuplje
 ";120000;;
-DALMATIN;DALMATIN ZALOŽNIŠTVO IN;Ne;Ne;;MEDENSKA CESTA 3;TISKARSTVO D.O.O.;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.12.07;22.03.12;0,00000;0;SI61715278;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DALMATIN;DALMATIN ZALOŽNIŠTVO IN;Ne;Ne;;MEDENSKA CESTA 3;TISKARSTVO D.O.O.;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.12.2007;22.3.2012;0;0;SI61715278;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DANILO AMBROŽ S.P.;DANILO AMBROŽ S.P.;Ne;Ne;;Vrhniška cesta 128;;;;1354;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;15.12.15;;0,00000;0;SI 80741592;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DANILO AMBROŽ S.P.;DANILO AMBROŽ S.P.;Ne;Ne;;Vrhniška cesta 128;;;;1354;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;15.12.2015;;0;0;SI 80741592;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DATA COM., D.O.O.;DATA COM., D.O.O.;Ne;Ne;;TRŽAŠKA CESTA 2;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.06.14;04.02.15;0,00000;0;SI71035222;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DATA COM., D.O.O.;DATA COM., D.O.O.;Ne;Ne;;TRŽAŠKA CESTA 2;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.6.2014;4.2.2015;0;0;SI71035222;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DEA STUDIO;DEA STUDIO d.o.o.;Ne;Ne;;Podutiška cesta 24;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;;0,00000;0;SI92064795;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DEA STUDIO;DEA STUDIO d.o.o.;Ne;Ne;;Podutiška cesta 24;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;;0;0;SI92064795;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DEMAT;DEMAT d.o.o.;Ne;Ne;;STEGNE 3;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;24.03.08;09.07.16;0,00000;0;SI74414038;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DEMAT;DEMAT d.o.o.;Ne;Ne;;STEGNE 3;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;24.3.2008;9.7.2016;0;0;SI74414038;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DETELA;GRA PHA CO D.O.O.;Ne;Ne;;ÈERNETOVA ULICA 40;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.01.08;;0,00000;0;SI80956408;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DETELA;GRA PHA CO D.O.O.;Ne;Ne;;ÈERNETOVA ULICA 40;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.1.2008;;0;0;SI80956408;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DINAMIT;DINAMIT MAKAR IN PARTNER;Ne;Ne;;Ižanska cesta 210;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;07.01.09;09.07.16;0,00000;0;SI53920007;;;;;;"DINAMIT MLAKAR IN PARTNER d.o.o.
+DINAMIT;DINAMIT MAKAR IN PARTNER;Ne;Ne;;Ižanska cesta 210;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;7.1.2009;9.7.2016;0;0;SI53920007;;;;;;"DINAMIT MLAKAR IN PARTNER d.o.o.
 Ižanska cesta 210
 
 1000 LJUBLJANA";120000;;
-DOKUMENTRANA;DOKUMENTARNA d.o.o.;Ne;Ne;;Tacenska 135 a;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0,00000;400,00000;Da;Ne;;;;;22.10.08;;0,00000;0;SI43540198;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DOKUMENTRANA;DOKUMENTARNA d.o.o.;Ne;Ne;;Tacenska 135 a;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0;400;Da;Ne;;;;;22.10.2008;;0;0;SI43540198;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DOSA;DOSA d.o.o.;Ne;Ne;;Savlje 29;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.13;;0,00000;0;SI95317627;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DOSA;DOSA d.o.o.;Ne;Ne;;Savlje 29;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2013;;0;0;SI95317627;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DOSA d.n.o.;DOSA d.n.o.;Ne;Ne;;Èemažarjeva ul 2;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;01.12.11;;0,00000;0;SI95317627;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DOSA d.n.o.;DOSA d.n.o.;Ne;Ne;;Èemažarjeva ul 2;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;1.12.2011;;0;0;SI95317627;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DOTISLK D.O.O.;DOTISK D.O.O.;Ne;Ne;;MAISTROVA ULICA 6;;;;1230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;30.11.11;;0,00000;0;SI76470865;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DOTISLK D.O.O.;DOTISK D.O.O.;Ne;Ne;;MAISTROVA ULICA 6;;;;1230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;30.11.2011;;0;0;SI76470865;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DROP SHOP d.o.o.;DROP SHOP d.o.o.;Ne;Ne;;Mrharjeva ulica 8;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;15.12.15;09.07.16;0,00000;0;SI52241874;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DROP SHOP d.o.o.;DROP SHOP d.o.o.;Ne;Ne;;Mrharjeva ulica 8;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;15.12.2015;9.7.2016;0;0;SI52241874;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DUO ART d.o.o.;DUO ART d.o.o.;Ne;Ne;;Glinškova plošèad 7;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.04.14;;0,00000;0;SI31905676;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DUO ART d.o.o.;DUO ART d.o.o.;Ne;Ne;;Glinškova plošèad 7;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.4.2014;;0;0;SI31905676;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-DZS GRAFIK d.o.o.;DZS GRAFIK d.o.o.;Ne;Ne;;Ulica Jožeta Jame 12;;;;1210;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;0;0;0,00000;0,00000;Ne;Ne;;;;;;;0,00000;0;SI84969814;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+DZS GRAFIK d.o.o.;DZS GRAFIK d.o.o.;Ne;Ne;;Ulica Jožeta Jame 12;;;;1210;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;0;0;0;0;Ne;Ne;;;;;;;0;0;SI84969814;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-EGGOTRIP;EGGOTRIP, d.o.o.;Ne;Ne;;Tolstojeva ul. 63;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;22.02.10;23.11.10;0,00000;0;SI56137966;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+EGGOTRIP;EGGOTRIP, d.o.o.;Ne;Ne;;Tolstojeva ul. 63;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;22.2.2010;23.11.2010;0;0;SI56137966;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-EGP, ŠKOFJA LOKA;EGP, ŠKOFJA LOKA, D.D.;Ne;Ne;;Kidrièeva cesta 082;;;;4220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;21.12.10;;0,00000;0;SI86534637;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+EGP, ŠKOFJA LOKA;EGP, ŠKOFJA LOKA, D.D.;Ne;Ne;;Kidrièeva cesta 082;;;;4220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;21.12.2010;;0;0;SI86534637;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-EGRAFIKA d.o.o.;EGRAFIKA d.o.o.;Ne;Ne;;Šujica 101;;;;1356;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;14.11.12;;0,00000;0;SI21986380;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+EGRAFIKA d.o.o.;EGRAFIKA d.o.o.;Ne;Ne;;Šujica 101;;;;1356;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;14.11.2012;;0;0;SI21986380;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ELISA Mengeš d.o.o.;ELISA Mengeš d.o.o.;Ne;Ne;;Gorenjska c. 20C;;;;1234;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;90;0;0,00000;500,00000;Da;Ne;;;;;15.03.11;;0,00000;0;SI32577516;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ELISA Mengeš d.o.o.;ELISA Mengeš d.o.o.;Ne;Ne;;Gorenjska c. 20C;;;;1234;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;90;0;0;500;Da;Ne;;;;;15.3.2011;;0;0;SI32577516;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ELISA PRINT d.o.o.;ELISA PRINT d.o.o.;Ne;Ne;;STRUŽEVO 94;;;;4000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;90;0;0,00000;500,00000;Da;Ne;;;;;19.09.16;;0,00000;0;SI32577516;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ELISA PRINT d.o.o.;ELISA PRINT d.o.o.;Ne;Ne;;STRUŽEVO 94;;;;4000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;90;0;0;500;Da;Ne;;;;;19.9.2016;;0;0;SI32577516;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ELPAGRA;ELPAGRA d.o.o.;Ne;Ne;;Pšata 96;;;;1262;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.12.07;;0,00000;0;SI65480066;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ELPAGRA;ELPAGRA d.o.o.;Ne;Ne;;Pšata 96;;;;1262;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.12.2007;;0;0;SI65480066;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-EMBAGRAF, d.o.o.;EMBAGRAF, d.o.o.;Ne;Ne;;Kajuhov ulica 29;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;23.09.08;23.11.10;0,00000;0;SI38500990;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+EMBAGRAF, d.o.o.;EMBAGRAF, d.o.o.;Ne;Ne;;Kajuhov ulica 29;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;23.9.2008;23.11.2010;0;0;SI38500990;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-EMONA TISKARNA D.O.O;EMONA TISKARNA D.O.O.;Ne;Ne;;Šmartinska cesta 130;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;13.11.08;;0,00000;0;SI36031330;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+EMONA TISKARNA D.O.O;EMONA TISKARNA D.O.O.;Ne;Ne;;Šmartinska cesta 130;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;13.11.2008;;0;0;SI36031330;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ENPRINT d.o.o.;ENPRINT D.O.O.;Ne;Ne;;LITOSTROJSKA CESTA 40;;;;1000;;;;;;;760000;SI23635649;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;21.10.14;;0,00000;0;SI23635649;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ENPRINT d.o.o.;ENPRINT D.O.O.;Ne;Ne;;LITOSTROJSKA CESTA 40;;;;1000;;;;;;;760000;SI23635649;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;21.10.2014;;0;0;SI23635649;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-EPS GRAFIKA D.O.O.;EPS GRAFIKA D.O.O.;Ne;Ne;;POT K RIBNIKU 18;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;27.06.11;12.12.16;0,00000;0;SI94396272;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+EPS GRAFIKA D.O.O.;EPS GRAFIKA D.O.O.;Ne;Ne;;POT K RIBNIKU 18;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;27.6.2011;12.12.2016;0;0;SI94396272;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ETIKETA;ETIKETA, tiskarna, d.d.;Ne;Ne;;Industrijska ul. 6;;;;4226;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.11.10;;0,00000;0;SI87026244;;;;;;"ETIKETA, tiskarna, d.d.
+ETIKETA;ETIKETA, tiskarna, d.d.;Ne;Ne;;Industrijska ul. 6;;;;4226;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.11.2010;;0;0;SI87026244;;;;;;"ETIKETA, tiskarna, d.d.
 Industrijska ul. 6
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ETIS d.o.o.;ETIS d.o.o.;Ne;Ne;;Tržaška c. 333;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;30.06.09;;0,00000;0;;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ETIS d.o.o.;ETIS d.o.o.;Ne;Ne;;Tržaška c. 333;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;30.6.2009;;0;0;;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-EUROADRIA;EUROADRIA, d.o.o.;Ne;Ne;;Dunajska cesta 123;Ljubljana;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.12.07;16.07.09;0,00000;0;SI26153629;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+EUROADRIA;EUROADRIA, d.o.o.;Ne;Ne;;Dunajska cesta 123;Ljubljana;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.12.2007;16.7.2009;0;0;SI26153629;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-EUROGRAF, d.o.o.;EUROGRAF, d.o.o.;Ne;Ne;;Šterbenkova ul. 6;;;;3320;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;07.01.13;;0,00000;0;SI21630186;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+EUROGRAF, d.o.o.;EUROGRAF, d.o.o.;Ne;Ne;;Šterbenkova ul. 6;;;;3320;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;7.1.2013;;0;0;SI21630186;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-EURORASTER, D.O.O.;EURORASTER, D.O.O.;Ne;Ne;;TRPINÈEVA UL. 39;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.07.10;;0,00000;0;SI38503039;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+EURORASTER, D.O.O.;EURORASTER, D.O.O.;Ne;Ne;;TRPINÈEVA UL. 39;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.7.2010;;0;0;SI38503039;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-EUROSTANDARD d.o.o.;EUROSTANDARD d.o.o., Kresnice;Ne;Ne;;Kresnice 136;;;;1281;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.11.13;;0,00000;0;SI29322766;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+EUROSTANDARD d.o.o.;EUROSTANDARD d.o.o., Kresnice;Ne;Ne;;Kresnice 136;;;;1281;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.11.2013;;0;0;SI29322766;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-EVROKOM D.O.O.;EVROKOM D.O.O.;Ne;Ne;;Medvedova cesta 28;;;;1000;;;;;;;762000;;0;;0;Ne;Ne;Ne;Ne;0;0;0,00000;0,00000;Ne;Ne;;;;;;;0,00000;0;SI61776939;;;;;;;120000;;
-FARBA d.o.o.;FARBA d.o.o.;Ne;Ne;;Stegne 35;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;04.06.13;03.08.15;0,00000;0;SI17402484;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+EVROKOM D.O.O.;EVROKOM D.O.O.;Ne;Ne;;Medvedova cesta 28;;;;1000;;;;;;;762000;;0;;0;Ne;Ne;Ne;Ne;0;0;0;0;Ne;Ne;;;;;;;0;0;SI61776939;;;;;;;120000;;
+FARBA d.o.o.;FARBA d.o.o.;Ne;Ne;;Stegne 35;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;4.6.2013;3.8.2015;0;0;SI17402484;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-FIGO d.o.o.;FIGO d.o.o.;Ne;Ne;;Litostrojska cesta 42B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;13.12.13;;0,00000;0;SI88956407;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+FIGO d.o.o.;FIGO d.o.o.;Ne;Ne;;Litostrojska cesta 42B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;13.12.2013;;0;0;SI88956407;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-FLAKSY;FLAKSY D.O.O.;Ne;Ne;;DOBNIKARJEVA 5;;;;1215;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.12.07;12.12.16;0,00000;0;SI74669265;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+FLAKSY;FLAKSY D.O.O.;Ne;Ne;;DOBNIKARJEVA 5;;;;1215;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.12.2007;12.12.2016;0;0;SI74669265;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-FLEKS d.o.o.;FLEKS d.o.o.;Ne;Ne;;Zapotok 128;;;;1292;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;23.09.08;16.07.09;0,00000;0;SI32347618;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+FLEKS d.o.o.;FLEKS d.o.o.;Ne;Ne;;Zapotok 128;;;;1292;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;23.9.2008;16.7.2009;0;0;SI32347618;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-FORMA 1 d.o.o.;FORMA 1 d.o.o.;Ne;Ne;;VRHPOLJE PRI MORAVÈAH 56;;;;1251;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;21.01.10;;0,00000;0;SI37112902;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+FORMA 1 d.o.o.;FORMA 1 d.o.o.;Ne;Ne;;VRHPOLJE PRI MORAVÈAH 56;;;;1251;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;21.1.2010;;0;0;SI37112902;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-FORMATISK;FORMATISK, d.o.o.;Ne;Ne;;Bobenèkova 4;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;12.12.16;0,00000;0;SI90591470;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+FORMATISK;FORMATISK, d.o.o.;Ne;Ne;;Bobenèkova 4;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;12.12.2016;0;0;SI90591470;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-FOTOLITO DOLENC DOO;FOTOLITO DOLENC D.O.O.;Ne;Ne;;ZAVETIŠKA ULICA 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;27.01.15;12.12.16;0,00000;0;SI81578610;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+FOTOLITO DOLENC DOO;FOTOLITO DOLENC D.O.O.;Ne;Ne;;ZAVETIŠKA ULICA 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;27.1.2015;12.12.2016;0;0;SI81578610;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-FOTOPROSPEKT, D.O.O.;FOTOPROSPEKT, D.O.O.;Ne;Ne;;Kopalniška pot 10;;;;1351;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;25.03.11;09.07.16;0,00000;0;SI12528927;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+FOTOPROSPEKT, D.O.O.;FOTOPROSPEKT, D.O.O.;Ne;Ne;;Kopalniška pot 10;;;;1351;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;25.3.2011;9.7.2016;0;0;SI12528927;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GARAMOND d.o.o.;GARAMOND d.o.o.;Ne;Ne;;MAROLTOVA 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.05.08;;0,00000;0;SI78064341;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GARAMOND d.o.o.;GARAMOND d.o.o.;Ne;Ne;;MAROLTOVA 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.5.2008;;0;0;SI78064341;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GAYA d.o.o.;GAYA d.o.o.;Ne;Ne;;Moènikova ulica 1;;;;5282;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;17.03.15;;0,00000;0;SI63491095;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GAYA d.o.o.;GAYA d.o.o.;Ne;Ne;;Moènikova ulica 1;;;;5282;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;17.3.2015;;0;0;SI63491095;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GLEM D.O.O.;TISKARNA GLEM GRAFIÈNO;Ne;Ne;;Glem 026;;;;6273;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;15.01.10;;0,00000;0;SI63077221;;;;;;"TISKARNA GLEM
+GLEM D.O.O.;TISKARNA GLEM GRAFIÈNO;Ne;Ne;;Glem 026;;;;6273;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;15.1.2010;;0;0;SI63077221;;;;;;"TISKARNA GLEM
 GRAFIÈNO PODJETJE D.O.O.
 
 GLEM 26
 6273 MAREZIGE";120000;;
-GORENJSKI TISK;GORENJSKI TISK,;Ne;Ne;;UL. MIRKA VADNOVA 6;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.09.09;;0,00000;0;SI70015988;;;;;;"GORENJSKI TISK,
+GORENJSKI TISK;GORENJSKI TISK,;Ne;Ne;;UL. MIRKA VADNOVA 6;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.9.2009;;0;0;SI70015988;;;;;;"GORENJSKI TISK,
 GRAFIÈNA DEJAVNOST, D.D.
 UL. MIRKA VADNOVA 6
 4000 KRANJ";120000;;
-GORENJSKI TISK STORI;GORENJSKI TISK STORITVE,;Ne;Ne;;UL. MIRKA VADNOVA 6;;;;4000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;90;0;0,00000;400,00000;Da;Ne;;;;;23.12.10;;0,00000;0;SI94555141;;;;;;"GORENJSKI TISK STORITVE,
+GORENJSKI TISK STORI;GORENJSKI TISK STORITVE,;Ne;Ne;;UL. MIRKA VADNOVA 6;;;;4000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;90;0;0;400;Da;Ne;;;;;23.12.2010;;0;0;SI94555141;;;;;;"GORENJSKI TISK STORITVE,
 tiskarana in knjigoveznica, d.o.o.
 Ulica Mirka Vadnova 6
 4000 KRANJ";120000;;
-GOSTIÈ;TISKARNA MEDIA PRINT GOSTIÈ;Ne;Ne;;Ljubljanska cesta 1;;;;1233;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.11.09;23.11.10;0,00000;0;SI24471089;;;;;;"TISKARNA MEDIA PRINT
+GOSTIÈ;TISKARNA MEDIA PRINT GOSTIÈ;Ne;Ne;;Ljubljanska cesta 1;;;;1233;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.11.2009;23.11.2010;0;0;SI24471089;;;;;;"TISKARNA MEDIA PRINT
 RAJKO GOSTIÈ S.P.
 Ljubljanska cesta 1
 1230 DOB";120000;;
-GOSTIÈ RAJKO S.P.;GOSTIÈ RAJKO S.P.;Ne;Da;;Ljubljanska cesta 1;;;;1233;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.04.08;20.11.09;0,00000;0;SI24471089;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GOSTIÈ RAJKO S.P.;GOSTIÈ RAJKO S.P.;Ne;Da;;Ljubljanska cesta 1;;;;1233;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.4.2008;20.11.2009;0;0;SI24471089;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GPA, d.o.o.;GPA, d.o.o.;Ne;Ne;;Aljaževa ulica 12;;;;1000;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.12;;0,00000;0;SI65246039;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GPA, d.o.o.;GPA, d.o.o.;Ne;Ne;;Aljaževa ulica 12;;;;1000;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2012;;0;0;SI65246039;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFEX d.o.o.;GRAFEX d.o.o.;Ne;Ne;;Podlipovica 31;;;;1411;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;03.03.11;;0,00000;0;SI65564073;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFEX d.o.o.;GRAFEX d.o.o.;Ne;Ne;;Podlipovica 31;;;;1411;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;3.3.2011;;0;0;SI65564073;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIA D.O.O.;GRAFIA D.O.O.;Ne;Ne;;HRUŠEVSKA CESTA 44B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;21.10.10;;0,00000;0;SI43189083;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIA D.O.O.;GRAFIA D.O.O.;Ne;Ne;;HRUŠEVSKA CESTA 44B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;21.10.2010;;0;0;SI43189083;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIKA 2000;GRAFIKA 2000 d.o.o.;Ne;Ne;;Kersnikova ulica 6;;;;1233;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;22.09.10;23.11.10;0,00000;0;SI38522764;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIKA 2000;GRAFIKA 2000 d.o.o.;Ne;Ne;;Kersnikova ulica 6;;;;1233;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;22.9.2010;23.11.2010;0;0;SI38522764;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIKA 3000 D.O.O.;GRAFIKA 3000 D.O.O.;Ne;Ne;;Kersnikova ulica 6;;;;1233;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.10.12;12.12.16;0,00000;0;SI90249445;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIKA 3000 D.O.O.;GRAFIKA 3000 D.O.O.;Ne;Ne;;Kersnikova ulica 6;;;;1233;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.10.2012;12.12.2016;0;0;SI90249445;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIKA 5ER, D.O.O.;GRAFIKA 5ER, D.O.O.;Ne;Ne;;KOSOVA 6, SAVLJE;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;19.11.09;;0,00000;0;SI16153235;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIKA 5ER, D.O.O.;GRAFIKA 5ER, D.O.O.;Ne;Ne;;KOSOVA 6, SAVLJE;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;19.11.2009;;0;0;SI16153235;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIKA B;GRAFIKA B + GRAFIÈNA DEJAVNOST;Ne;Ne;;Podlimberskega ul. 23;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;22.07.09;09.07.16;0,00000;0;SI35147369;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIKA B;GRAFIKA B + GRAFIÈNA DEJAVNOST;Ne;Ne;;Podlimberskega ul. 23;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;22.7.2009;9.7.2016;0;0;SI35147369;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIKA CICERO;MARIJA PREPADNIK s.p.;Ne;Ne;;Vodnikova 191;GRAFIKA CICERO;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.04.08;;0,00000;0;SI50304364;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIKA CICERO;MARIJA PREPADNIK s.p.;Ne;Ne;;Vodnikova 191;GRAFIKA CICERO;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.4.2008;;0;0;SI50304364;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIKA GRACER D.O.O;GRAFIKA GRACER D.O.O.;Ne;Ne;;LAVA 7 B;;;;3000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.10.15;;0,00000;0;SI81750285;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIKA GRACER D.O.O;GRAFIKA GRACER D.O.O.;Ne;Ne;;LAVA 7 B;;;;3000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.10.2015;;0;0;SI81750285;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIKA PACKA, D.N.O;GRAFIKA PACKA, DNO;Ne;Ne;;ŠVAROVA ULICA 004;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;23.12.14;;0,00000;0;SI68246951;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIKA PACKA, D.N.O;GRAFIKA PACKA, DNO;Ne;Ne;;ŠVAROVA ULICA 004;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;23.12.2014;;0;0;SI68246951;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIKA PARADOKS doo;GRAFIKA PARADOKS d.o.o.;Ne;Ne;;Brdo 63;;;;5230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;04.08.11;26.09.12;0,00000;0;SI29918316;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIKA PARADOKS doo;GRAFIKA PARADOKS d.o.o.;Ne;Ne;;Brdo 63;;;;5230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;4.8.2011;26.9.2012;0;0;SI29918316;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIKA SOÈA , d.o.o;GRAFIKA SOÈA, d.o.o.;Ne;Ne;;Sedejeva ulica 4;;;;5000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.08.16;;0,00000;0;SI52502228;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIKA SOÈA , d.o.o;GRAFIKA SOÈA, d.o.o.;Ne;Ne;;Sedejeva ulica 4;;;;5000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.8.2016;;0;0;SI52502228;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIKUS;GRAFIKUS D.O.O.;Ne;Ne;;Kajuhova ul. 29;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;06.03.08;23.11.10;0,00000;0;SI52915468;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIKUS;GRAFIKUS D.O.O.;Ne;Ne;;Kajuhova ul. 29;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;6.3.2008;23.11.2010;0;0;SI52915468;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFIS TRADE D.O.O.;GRAFIS TRADE D.O.O.;Ne;Ne;;SPODNJE BLATO 29;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;30.05.12;09.07.16;0,00000;0;SI83932453;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFIS TRADE D.O.O.;GRAFIS TRADE D.O.O.;Ne;Ne;;SPODNJE BLATO 29;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;30.5.2012;9.7.2016;0;0;SI83932453;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFITI;GRAFITI D.O.O.;Ne;Ne;;Cesta vstaje 30, Tacen;;;;1211;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.02.08;;0,00000;0;SI77097793;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFITI;GRAFITI D.O.O.;Ne;Ne;;Cesta vstaje 30, Tacen;;;;1211;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.2.2008;;0;0;SI77097793;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFITISK;IGOR TENZE S.P.;Ne;Ne;;TOMAÈEVICA 14;;;;6223;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;09.04.15;;0,00000;0;SI13420518;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFITISK;IGOR TENZE S.P.;Ne;Ne;;TOMAÈEVICA 14;;;;6223;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;9.4.2015;;0;0;SI13420518;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFO TRADE;GRAFO TRADE d.o.o.;Ne;Ne;;SPODNJE BLATO;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;13.05.09;;0,00000;0;SI68589689;;;;;;"GRAFO TRADE d.o.o.
+GRAFO TRADE;GRAFO TRADE d.o.o.;Ne;Ne;;SPODNJE BLATO;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;13.5.2009;;0;0;SI68589689;;;;;;"GRAFO TRADE d.o.o.
 Grafièno in trgovsko podjetje
 Mirka Tomšièa 13
 
 1000 LJUBLJANA";120000;;
-GRAFOS;TISKARNA GRAFOS, d.o.o.;Ne;Ne;;Draveljska 21;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;23.11.10;0,00000;0;SI40538613;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFOS;TISKARNA GRAFOS, d.o.o.;Ne;Ne;;Draveljska 21;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;23.11.2010;0;0;SI40538613;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFOTRADE PLUS d.o.;GRAFOTRADE PLUS d.o.o.;Ne;Ne;;Ruèigajeva c. 46;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;09.11.15;03.10.16;0,00000;0;SI30489458;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFOTRADE PLUS d.o.;GRAFOTRADE PLUS d.o.o.;Ne;Ne;;Ruèigajeva c. 46;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;9.11.2015;3.10.2016;0;0;SI30489458;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAFOTRADE d.o.o.;GRAFOTRADE d.o.o.;Ne;Ne;;Ulica Mirka Tomšièa 13;;;;1211;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;17.10.16;;0,00000;0;SI68589689;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAFOTRADE d.o.o.;GRAFOTRADE d.o.o.;Ne;Ne;;Ulica Mirka Tomšièa 13;;;;1211;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;17.10.2016;;0;0;SI68589689;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAIN;;Ne;Ne;;;;;;;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;29.04.14;;0,00000;0;;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAIN;;Ne;Ne;;;;;;;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;29.4.2014;;0;0;;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRAIN D.O.O.;GRAIN D.O.O.;Ne;Ne;;LETALIŠKA CESTA 32;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;29.04.14;;0,00000;0;SI94632006;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRAIN D.O.O.;GRAIN D.O.O.;Ne;Ne;;LETALIŠKA CESTA 32;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;29.4.2014;;0;0;SI94632006;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-GRIF & PIKA;GRIF & PIKA;Ne;Ne;;Stegne 25 a;Martina Purger s.p.;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.02.08;12.12.16;0,00000;0;SI37758004;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+GRIF & PIKA;GRIF  & PIKA, Ivan Purger s.p.;Ne;Ne;;Stegne 21 c;Ivan Purger s.p.;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.2.2008;12.12.2016;0;0;SI37758004;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-HERLE M&V, d.o.o.;HERLE M&V, d.o.o.;Ne;Ne;;Dobrave 3;;;;1236;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;03.11.10;;0,00000;0;SI71235566;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+HERLE M&V, d.o.o.;HERLE M&V, d.o.o.;Ne;Ne;;Dobrave 3;;;;1236;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;3.11.2010;;0;0;SI71235566;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-IDEAGO s.a.s.;IDEAGO s.a.s.;Ne;Ne;;Via IV novembre 35/A;;;;34170;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;31.12.15;;0,00000;0;01082980317;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+IDEAGO s.a.s.;IDEAGO s.a.s.;Ne;Ne;;Via IV novembre 35/A;;;;34170;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;31.12.2015;;0;0;1082980317;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-IMPRESS;IMPRESS D.O.O.;Ne;Ne;;Stantetova ulica 9;;;;1295;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.11.09;;0,00000;0;SI50828444;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+IMPRESS;IMPRESS D.O.O.;Ne;Ne;;Stantetova ulica 9;;;;1295;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.11.2009;;0;0;SI50828444;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-INFOKART D.O.O.;INFOKART D.O.O.;Ne;Ne;;Spodnje Pirièe 077B;;;;1215;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;09.12.13;;0,00000;0;SI12191213;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+INFOKART D.O.O.;INFOKART D.O.O.;Ne;Ne;;Spodnje Pirièe 077B;;;;1215;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;9.12.2013;;0;0;SI12191213;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ITAGRAF;ITAGRAF, D.O.O.;Ne;Ne;;STEGNE 11;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;04.03.08;;0,00000;0;SI95787321;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ITAGRAF;ITAGRAF, D.O.O.;Ne;Ne;;STEGNE 11;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;4.3.2008;;0;0;SI95787321;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-IZI PRINT, D.O.O.;IZI PRINT, D.O.O.;Ne;Ne;;ÈEBELARSKA ULICA 18 B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;27.07.15;19.10.16;0,00000;0;SI26506866;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+IZI PRINT, D.O.O.;IZI PRINT, D.O.O.;Ne;Ne;;ÈEBELARSKA ULICA 18 B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;27.7.2015;19.10.2016;0;0;SI26506866;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-J.B.B.;J.B.B. d.o.o.;Ne;Ne;;Brodska cesta 22;;;;1210;;;01/5110400;;01/5110401;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.12.07;;0,00000;0;SI42643082;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+J.B.B.;J.B.B. d.o.o.;Ne;Ne;;Brodska cesta 22;;;;1210;;;01/5110400;;01/5110401;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.12.2007;;0;0;SI42643082;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-JAMNIK;JAMNIK d.o.o.;Ne;Ne;;Berletova cesta 4 s;;;;1215;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;25.11.08;;0,00000;0;SI78020123;;;;;;"JAMNIK d.o.o.
+JAMNIK;JAMNIK d.o.o.;Ne;Ne;;Berletova cesta 4 s;;;;1215;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;25.11.2008;;0;0;SI78020123;;;;;;"JAMNIK d.o.o.
 Berletova cesta 4 s
 
 1215 MEDVODE";120000;;
-JANUŠ;JANUŠ MIRAN-tisk.tiskovin,;Ne;Ne;;Strnadova ulica 12;fotok.,izdel.pap.g.,s.p.;;;1210;;;;;;;762000;;0;;0;Ne;Ne;Ne;Ne;60;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;;0,00000;0;SI19503784;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+JANUŠ;JANUŠ MIRAN-tisk.tiskovin,;Ne;Ne;;Strnadova ulica 12;fotok.,izdel.pap.g.,s.p.;;;1210;;;;;;;762000;;0;;0;Ne;Ne;Ne;Ne;60;0;0;400;Da;Ne;;;;;28.11.2007;;0;0;SI19503784;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-JAZZ TISK D.O.O.;JAZZ TISK D.O.O.;Ne;Ne;;Partizanska pot 43;;;;1270;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;23.04.13;;0,00000;0;SI19862644;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+JAZZ TISK D.O.O.;JAZZ TISK D.O.O.;Ne;Ne;;Partizanska pot 43;;;;1270;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;23.4.2013;;0;0;SI19862644;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-JEŽ & JEŽ, D.O.O.;JEŽ & JEŽ, D.O.O.;Ne;Ne;;KLADEZNA ULICA 17;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;29.06.16;12.12.16;0,00000;0;SI95012141;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+JEŽ & JEŽ, D.O.O.;JEŽ & JEŽ, D.O.O.;Ne;Ne;;KLADEZNA ULICA 17;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;29.6.2016;12.12.2016;0;0;SI95012141;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-JOŽE DOLINŠÈEK S.P.;JOŽE DOLINŠÈEK S.P.;Ne;Ne;;STRMEC 19;;;;1273;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.03.14;;0,00000;0;SI23530197;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+JOŽE DOLINŠÈEK S.P.;JOŽE DOLINŠÈEK S.P.;Ne;Ne;;STRMEC 19;;;;1273;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.3.2014;;0;0;SI23530197;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-JUPITER MEDIJI, DOO;JUPITER MEDIJI, d.o.o.;Ne;Ne;;Brnèièeva ulia 31;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;01.09.15;;0,00000;0;SI57225834;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+JUPITER MEDIJI, DOO;JUPITER MEDIJI, d.o.o.;Ne;Ne;;Brnèièeva ulia 31;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;1.9.2015;;0;0;SI57225834;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-K2 PLUS d.o.o.;K2 PLUS d.o.o.;Ne;Ne;;Berèonova pot 10;;;;1260;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.08.13;19.02.16;0,00000;0;SI47596635;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+K2 PLUS d.o.o.;K2 PLUS d.o.o.;Ne;Ne;;Berèonova pot 10;;;;1260;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.8.2013;19.2.2016;0;0;SI47596635;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-K2-PRINT;K2-PRINT d.o.o.;Ne;Ne;;Cvetlièna pot 4A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.02.08;06.11.12;0,00000;0;SI95331174;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+K2-PRINT;K2-PRINT d.o.o.;Ne;Ne;;Cvetlièna pot 4A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.2.2008;6.11.2012;0;0;SI95331174;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KAGRAF;KAGRAF d.o.o.;Ne;Ne;;Polhograjska cesta 2;;;;1356;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;27.12.08;;0,00000;0;SI86209108;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KAGRAF;KAGRAF d.o.o.;Ne;Ne;;Polhograjska cesta 2;;;;1356;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;27.12.2008;;0;0;SI86209108;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KAMITEX D.O.O.;KAMITEX D.O.O.;Ne;Ne;;ŽIMARICE 40;;;;1317;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.05.16;12.12.16;0,00000;0;SI86447653;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KAMITEX D.O.O.;KAMITEX D.O.O.;Ne;Ne;;ŽIMARICE 40;;;;1317;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.5.2016;12.12.2016;0;0;SI86447653;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KARTONAŽA KUNAVER;KARTONAŽA KUNAVER;Ne;Ne;;Tesovnikova 96;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;12.03.13;;0,00000;0;SI49316877;;;;;;"KARTONAŽA KUNAVER
+KARTONAŽA KUNAVER;KARTONAŽA KUNAVER;Ne;Ne;;Tesovnikova 96;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;12.3.2013;;0;0;SI49316877;;;;;;"KARTONAŽA KUNAVER
 KUNAVER LAVRIÈ JUDITA S.P.
 Tesovnikova ul. 96
 1000 LJUBLJANA";120000;;
-KENIG;KENIG d.o.o.;Ne;Ne;;Jakhlova 29;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.01.08;09.07.16;0,00000;0;SI43180442;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KENIG;KENIG d.o.o.;Ne;Ne;;Jakhlova 29;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.1.2008;9.7.2016;0;0;SI43180442;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KEREC;STUDIO M, TISKARSTVO;Ne;Ne;MATEJ KEREC;Dunajska cesta 319a;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;14.11.12;;0,00000;0;SI17754518;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KEREC;STUDIO M, TISKARSTVO;Ne;Ne;MATEJ KEREC;Dunajska cesta 319a;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;14.11.2012;;0;0;SI17754518;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KETOS D.O.O.;KETOS D.O.O.;Ne;Ne;;KOPRSKA UL. 72;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;30.05.12;12.12.16;0,00000;0;SI53271718;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KETOS D.O.O.;KETOS D.O.O.;Ne;Ne;;KOPRSKA UL. 72;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;30.5.2012;12.12.2016;0;0;SI53271718;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KNJIDGOVEZ.TISA;KNJIGOVEZNICA TISA, D.O.O.;Ne;Ne;;ZAPRTA ULICA 2;;;;6310;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.06.14;03.08.15;0,00000;0;SI96557958;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KNJIDGOVEZ.TISA;KNJIGOVEZNICA TISA, D.O.O.;Ne;Ne;;ZAPRTA ULICA 2;;;;6310;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.6.2014;3.8.2015;0;0;SI96557958;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KNJIGICA, MAJA ZELNI;KNJIGICA, MAJA ZELNIK S.P.;Ne;Ne;;CELOVŠKA 172;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;14.01.15;12.12.16;0,00000;0;SI19144075;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KNJIGICA, MAJA ZELNI;KNJIGICA, MAJA ZELNIK S.P.;Ne;Ne;;CELOVŠKA 172;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;14.1.2015;12.12.2016;0;0;SI19144075;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KNJIGOVEZNICA KOPER;KNJIGOVEZNICA KOPER d.o.o.;Ne;Ne;;Dolinska cesta 16;;;;6000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;22.10.09;;0,00000;0;SI30062098;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KNJIGOVEZNICA KOPER;KNJIGOVEZNICA KOPER d.o.o.;Ne;Ne;;Dolinska cesta 16;;;;6000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;22.10.2009;;0;0;SI30062098;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KNJIGOVEZNICA MARIBO;KNJIGOVEZNICA MARIBOR D.O.O.;Ne;Ne;;ŠPELINA ULICA 2;;;;2000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0,00000;400,00000;Da;Ne;;;;;01.07.10;;0,00000;0;SI96557958;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KNJIGOVEZNICA MARIBO;KNJIGOVEZNICA MARIBOR D.O.O.;Ne;Ne;;ŠPELINA ULICA 2;;;;2000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0;400;Da;Ne;;;;;1.7.2010;;0;0;SI96557958;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KOALA ART D.O.O.;;Ne;Ne;;;;;;;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;01.12.11;;0,00000;0;;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KOALA ART D.O.O.;;Ne;Ne;;;;;;;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;1.12.2011;;0;0;;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KOALA ART, D.O.O.;KOALA ART, D.O.O.;Ne;Ne;;GLONARJEVA ULICA 008;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;01.12.11;;0,00000;0;SI88587711;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KOALA ART, D.O.O.;KOALA ART, D.O.O.;Ne;Ne;;GLONARJEVA ULICA 008;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;1.12.2011;;0;0;SI88587711;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KODORA;KODORA d.o.o.;Ne;Ne;;Pot v smreèje 7;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;24.04.09;;0,00000;0;SI11842911;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KODORA;KODORA d.o.o.;Ne;Ne;;Pot v smreèje 7;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;24.4.2009;;0;0;SI11842911;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KONCEPT;KONCEPT d.o.o.;Ne;Ne;;ROŽNA DOLINA CESTA XVII/6 A;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;5;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;;0,00000;0;SI88758923;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KONCEPT;KONCEPT d.o.o.;Ne;Ne;;ROŽNA DOLINA CESTA XVII/6 A;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;5;0;0;400;Da;Ne;;;;;28.11.2007;;0;0;SI88758923;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KORAPIS D.O.O.;KORAPIS D.O.O.;Ne;Ne;;KOSIJEVA ULICA 13;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;26.11.14;;0,00000;0;SI46413472;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KORAPIS D.O.O.;KORAPIS D.O.O.;Ne;Ne;;KOSIJEVA ULICA 13;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;26.11.2014;;0;0;SI46413472;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KOTIS;KOTIS, HOÈEVAR JOŽE S.P.;Ne;Ne;;BLATE 5;;;;1331;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;22.07.09;;0,00000;0;SI58352781;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KOTIS;KOTIS, HOÈEVAR JOŽE S.P.;Ne;Ne;;BLATE 5;;;;1331;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;22.7.2009;;0;0;SI58352781;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-KRIŽAJ DPRINT;DEJAN KRIŽAJ S.P.;Ne;Ne;;KVEDROVA C 13;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.11.10;;0,00000;0;SI50492250;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+KRIŽAJ DPRINT;DEJAN KRIŽAJ S.P.;Ne;Ne;;KVEDROVA C 13;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.11.2010;;0;0;SI50492250;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-LESAR FRANCI S.P.;LESAR FRANCI S.P.;Ne;Ne;;OPEKARSKA 45;;;;1310;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;0;0;0,00000;0,00000;Ne;Ne;;;;;;;0,00000;0;SI18474675;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+LESAR FRANCI S.P.;LESAR FRANCI S.P.;Ne;Ne;;OPEKARSKA 45;;;;1310;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;0;0;0;0;Ne;Ne;;;;;;;0;0;SI18474675;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-LINEA AV;LINEA AV D.O.O.;Ne;Ne;;Graška cesta 35;;;;1270;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.01.08;23.11.10;0,00000;0;SI58433520;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+LINEA AV;LINEA AV D.O.O.;Ne;Ne;;Graška cesta 35;;;;1270;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.1.2008;23.11.2010;0;0;SI58433520;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-LISKO d.o.o.;LISKO d.o.o.;Ne;Ne;;PERUZZIJEVA UL.82;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;17.05.13;12.12.16;0,00000;0;SI64068773;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+LISKO d.o.o.;LISKO d.o.o.;Ne;Ne;;PERUZZIJEVA UL.82;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;17.5.2013;12.12.2016;0;0;SI64068773;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-LIST;TISKARNA LIST, D.O.O.;Ne;Ne;;LITOSTROJSKA  40;;;;1000;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.01.08;19.02.16;0,00000;0;SI82259925;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+LIST;TISKARNA LIST, D.O.O.;Ne;Ne;;LITOSTROJSKA  40;;;;1000;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.1.2008;19.2.2016;0;0;SI82259925;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-LOTOS D.O.O.;LOTOS, D.O.O.;Ne;Ne;;ZALOG 2;;;;6230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;18.05.10;20.06.12;0,00000;0;SI96610042;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+LOTOS D.O.O.;LOTOS, D.O.O.;Ne;Ne;;ZALOG 2;;;;6230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;18.5.2010;20.6.2012;0;0;SI96610042;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-LOVEC MATEJ  S.P.;LOVEC MATEJ S.P.;Ne;Ne;;VOLÈJA DRAGA 9;;;;5293;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;23.03.16;;0,00000;0;SI53810317;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+LOVEC MATEJ  S.P.;LOVEC MATEJ S.P.;Ne;Ne;;VOLÈJA DRAGA 9;;;;5293;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;23.3.2016;;0;0;SI53810317;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MA-TISK D.OO.;MA-TISK D.O.O.;Ne;Ne;;ŠPELINA ULICA 2;;;;2000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;22.02.16;;0,00000;0;SI35575085;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MA-TISK D.OO.;MA-TISK D.O.O.;Ne;Ne;;ŠPELINA ULICA 2;;;;2000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;22.2.2016;;0;0;SI35575085;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MAGRAF;MAGRAF MARKO STRMEC S.P.;Ne;Ne;;SVETI DUH 138;;;;4220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;23.01.09;23.11.10;0,00000;0;SI96390778;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MAGRAF;MAGRAF MARKO STRMEC S.P.;Ne;Ne;;SVETI DUH 138;;;;4220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;23.1.2009;23.11.2010;0;0;SI96390778;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MAKO R, D.O.O.;MAKO R, D.O.O.;Ne;Ne;;STANEŽIÈE 34;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;23.04.14;;0,00000;0;SI42961351;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MAKO R, D.O.O.;MAKO R, D.O.O.;Ne;Ne;;STANEŽIÈE 34;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;23.4.2014;;0;0;SI42961351;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MALGAJ;ATELJE ZA TISK, INES MALGAJ S.;Ne;Ne;;lINHARTOVA 68;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;19.11.09;;0,00000;0;SI13796224;;;;;;"ATELJE ZA TISK, 
+MALGAJ;ATELJE ZA TISK, INES MALGAJ S.;Ne;Ne;;lINHARTOVA 68;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;19.11.2009;;0;0;SI13796224;;;;;;"ATELJE ZA TISK, 
 INES MALGAJ S.P.
 LINHARTOVA 68
 1000 LJUBLJANA";120000;;
-MARK GRAFIKA;MARK ZAKOTNIK S.P.;Ne;Ne;;ŠENTJURJE 24;;;;1296;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.07.10;09.07.16;0,00000;0;SI41464869;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MARK GRAFIKA;MARK ZAKOTNIK S.P.;Ne;Ne;;ŠENTJURJE 24;;;;1296;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.7.2010;9.7.2016;0;0;SI41464869;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MARKO KLENOVŠEK S.P.;MARKO KLENOVŠEK S.P.;Ne;Ne;;OREŠJE NAD SEVNICO 4;;;;8290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;30.08.16;;0,00000;0;SI17472849;;;;;;"MARKO KLENOVŠEK S.P.
+MARKO KLENOVŠEK S.P.;MARKO KLENOVŠEK S.P.;Ne;Ne;;OREŠJE NAD SEVNICO 4;;;;8290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;30.8.2016;;0;0;SI17472849;;;;;;"MARKO KLENOVŠEK S.P.
 POSREDNIŠTVO IN SITOTISK
 Obrežje nad Sevnico
 8290 SEVNICA";120000;;
-MARTELLO;MARTELLO D.O.O.;Ne;Ne;;GLINŠKOVA PLOŠÈAD 8;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.12.07;29.11.12;0,00000;0;SI89947738;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MARTELLO;MARTELLO D.O.O.;Ne;Ne;;GLINŠKOVA PLOŠÈAD 8;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.12.2007;29.11.2012;0;0;SI89947738;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MAT-FORMAT d.o.o.;MAT-FORMAT d.o.o.;Ne;Ne;;Orlova ulica 12 A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;09.07.11;03.08.15;0,00000;0;SI62250370;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MAT-FORMAT d.o.o.;MAT-FORMAT d.o.o.;Ne;Ne;;Orlova ulica 12 A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;9.7.2011;3.8.2015;0;0;SI62250370;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MATISK;MATISK, MATEJ ŠPENDAL s.p.;Ne;Ne;;Šaranovièeva cesta 25a;;;;1230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;09.04.13;;0,00000;0;SI53011252;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MATISK;MATISK, MATEJ ŠPENDAL s.p.;Ne;Ne;;Šaranovièeva cesta 25a;;;;1230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;9.4.2013;;0;0;SI53011252;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MAŠA BASTER S.P.;MAŠA BASTER S.P.;Ne;Ne;;Kranerjeva 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;26.01.16;;0,00000;0;SI858367661;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MAŠA BASTER S.P.;MAŠA BASTER S.P.;Ne;Ne;;Kranerjeva 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;26.1.2016;;0;0;SI858367661;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MEDIA GRAF d.o.o.;MEDIA GRAF d.o.o.;Ne;Ne;;Zg. Škofije 117/e;;;;6281;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;21.01.14;09.07.16;0,00000;0;SI50906828;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MEDIA GRAF d.o.o.;MEDIA GRAF d.o.o.;Ne;Ne;;Zg. Škofije 117/e;;;;6281;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;21.1.2014;9.7.2016;0;0;SI50906828;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MEDIA PRINT GOSTIÈ,;MEDIA PRINT GOSTIÈ, d.o.o.;Ne;Ne;;SORA 4 E;;;;1215;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.07.11;12.12.16;0,00000;0;SI51817055;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MEDIA PRINT GOSTIÈ,;MEDIA PRINT GOSTIÈ, d.o.o.;Ne;Ne;;SORA 4 E;;;;1215;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.7.2011;12.12.2016;0;0;SI51817055;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MEDIUM, DESIGN;MEDIUM, DESIGN;Ne;Ne;;Žirovnica 60c;;;;4274;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;07.10.09;31.07.15;0,00000;0;SI11732806;;;;;;"MEDIUM,DESIGN,GRAFIÈNI INŽENIRING,
+MEDIUM, DESIGN;MEDIUM, DESIGN;Ne;Ne;;Žirovnica 60c;;;;4274;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;7.10.2009;31.7.2015;0;0;SI11732806;;;;;;"MEDIUM,DESIGN,GRAFIÈNI INŽENIRING,
 TISK, D.O.O.
 ŽIROVNICA 60C
 4274 ŽIROVNICA
 ";120000;;
-MEDJAPRINT;TISKARNA MEDJAPRINT;Ne;Ne;;LOŠKA CESTA 13;;;;1358;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;12.06.09;;0,00000;0;SI43902618;;;;;;"TISKARNA MEDJAPRINT
+MEDJAPRINT;TISKARNA MEDJAPRINT;Ne;Ne;;LOŠKA CESTA 13;;;;1358;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;12.6.2009;;0;0;SI43902618;;;;;;"TISKARNA MEDJAPRINT
 TOMAŽ MEDJA s.p.
 Loška cesta 13
 1358 LOG PRI BREZOVICI";120000;;
-MIK INTERNATIONAL;MIK INTERNATIONAL d.o.o.;Ne;Ne;;Cesta v Lipovce 28;;;;1358;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;04.11.14;;0,00000;0;SI63988348;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MIK INTERNATIONAL;MIK INTERNATIONAL d.o.o.;Ne;Ne;;Cesta v Lipovce 28;;;;1358;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;4.11.2014;;0;0;SI63988348;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MILAN SIMÈIÈ;MILAN SIMÈIÈ S.P.;Ne;Ne;;CESTA V ZGORNJI LOG 66;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.12.07;20.11.09;0,00000;0;SI46468634;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MILAN SIMÈIÈ;MILAN SIMÈIÈ S.P.;Ne;Ne;;CESTA V ZGORNJI LOG 66;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.12.2007;20.11.2009;0;0;SI46468634;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MIRAN PANCE S.P.;MIRAN PANCE S.P.;Ne;Ne;;Tržaška cesta 265 c;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.03.09;;0,00000;0;SI38203600;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MIRAN PANCE S.P.;MIRAN PANCE S.P.;Ne;Ne;;Tržaška cesta 265 c;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.3.2009;;0;0;SI38203600;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MIT INT., D.O.O.;MIT INT., D.O.O.;Ne;Ne;;BOROVEC 1;;;;1236;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.10.15;;0,00000;0;SI25321749;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MIT INT., D.O.O.;MIT INT., D.O.O.;Ne;Ne;;BOROVEC 1;;;;1236;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.10.2015;;0;0;SI25321749;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MKT PRINT;MKT PRINT proizvodnja;Ne;Ne;;Dunajska 123;knjig d.d.;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;18.03.09;16.07.09;0,00000;0;SI94698376;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MKT PRINT;MKT PRINT proizvodnja;Ne;Ne;;Dunajska 123;knjig d.d.;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;18.3.2009;16.7.2009;0;0;SI94698376;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MOND GRAFIKA;MOND GRAFIKA d.o.o.;Ne;Ne;;ULICA IVANA SELANA 15;;;;1351;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.03.08;;0,00000;0;SI79791603;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MOND GRAFIKA;MOND GRAFIKA d.o.o.;Ne;Ne;;ULICA IVANA SELANA 15;;;;1351;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.3.2008;;0;0;SI79791603;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-MOSETTI TECNICHE GRA;MOSETTI TECNICHE GRAFICHE SNC;Ne;Ne;;VIA CABOTO 19/5;;;;34147;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;29.11.16;;0,00000;0;132300328;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+MOSETTI TECNICHE GRA;MOSETTI TECNICHE GRAFICHE SNC;Ne;Ne;;VIA CABOTO 19/5;;;;34147;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;29.11.2016;;0;0;132300328;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-NAGODE;NAGODE & CO d.n.o.;Ne;Ne;;Sodnikarjeva 4;;;;1351;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;17.03.09;;0,00000;0;SI87923190;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+NAGODE;NAGODE & CO d.n.o.;Ne;Ne;;Sodnikarjeva 4;;;;1351;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;17.3.2009;;0;0;SI87923190;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-NAM;NAM d.o.o.;Ne;Ne;;Cesta dveh Cesarjev 375;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;20.11.09;0,00000;0;SI61605999;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+NAM;NAM d.o.o.;Ne;Ne;;Cesta dveh Cesarjev 375;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;20.11.2009;0;0;SI61605999;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-NANOTI d.o.o.;NANOTI d.o.o.;Ne;Ne;;Goriška cesta 34;;;;5270;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;08.07.14;12.12.16;0,00000;0;SI49634437;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+NANOTI d.o.o.;NANOTI d.o.o.;Ne;Ne;;Goriška cesta 34;;;;5270;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;8.7.2014;12.12.2016;0;0;SI49634437;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-NAROBE STUDIO d.o.o.;NAROBE STUDIO d.o.o.;Ne;Ne;;Brnèièeva 13;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;07.08.12;09.07.16;0,00000;0;SI54160936;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+NAROBE STUDIO d.o.o.;NAROBE STUDIO d.o.o.;Ne;Ne;;Brnèièeva 13;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;7.8.2012;9.7.2016;0;0;SI54160936;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-NEJC KRIŽA S.P.;NEJC KRIŽAJ S.P.;Ne;Ne;;GODEŠIÈ 131;;;;4220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.12.16;;0,00000;0;DI64167496;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+NEJC KRIŽA S.P.;NEJC KRIŽAJ S.P.;Ne;Ne;;GODEŠIÈ 131;;;;4220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.12.2016;;0;0;DI64167496;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-NEJC KRIŽAJ S.P.OROD;NEJC KRIŽAJ S.P.;Ne;Ne;;GODEŠIÈ 131;;;;4220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.12.16;;0,00000;0;SI64167496;;;;;;"NEJC KRIŽAJ S.P.
+NEJC KRIŽAJ S.P.OROD;NEJC KRIŽAJ S.P.;Ne;Ne;;GODEŠIÈ 131;;;;4220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.12.2016;;0;0;SI64167496;;;;;;"NEJC KRIŽAJ S.P.
 ORODJARSTVO IN PLASTIKA
 GODEŠIÈ 131
 4220 ŠKOFJA LOKA";120000;;
-NOKI D.O.O.L;NOKI D.O.O.;Ne;Ne;;TOVARNIŠKA CESTA 36;;;;1370;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.07.10;;0,00000;0;SI36466255;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+NOKI D.O.O.L;NOKI D.O.O.;Ne;Ne;;TOVARNIŠKA CESTA 36;;;;1370;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.7.2010;;0;0;SI36466255;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-NTD, d.o.o.;NTD, d.o.o.;Ne;Ne;;Ulica Jožeta Jame 12;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.11.11;;0,00000;0;SI85423173;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+NTD, d.o.o.;NTD, d.o.o.;Ne;Ne;;Ulica Jožeta Jame 12;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.11.2011;;0;0;SI85423173;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-NUÈIÈ IN PARTNER;NUÈIÈ IN PARTNER STORITVENO PO;Ne;Ne;;TESARSKA ULICA 002;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;15.01.10;;0,00000;0;SI12159921;;;;;;"NUÈIÈ IN PARTNER
+NUÈIÈ IN PARTNER;NUÈIÈ IN PARTNER STORITVENO PO;Ne;Ne;;TESARSKA ULICA 002;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;15.1.2010;;0;0;SI12159921;;;;;;"NUÈIÈ IN PARTNER
 STORITVENO PODJETJE, K.D.
 TESARSKA ULICA 2
 1000 LJUBLJANA";120000;;
-OBNOVA;OBNOVA TRGOVINA, D.O.O.;Ne;Ne;;ŠKOFOVA 7;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;24.04.09;;0,00000;0;SI81316232;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+OBNOVA;OBNOVA TRGOVINA, D.O.O.;Ne;Ne;;ŠKOFOVA 7;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;24.4.2009;;0;0;SI81316232;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ODESSA;ODESSA d.o.o.;Ne;Ne;;JAKÈEVA 39;;;;1119;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;17.12.07;03.08.15;0,00000;0;SI25230638;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ODESSA;ODESSA d.o.o.;Ne;Ne;;JAKÈEVA 39;;;;1119;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;17.12.2007;3.8.2015;0;0;SI25230638;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-OGLAŠEVANJE DANILO A;OGLAŠEVANJE DANILO AMBROŽ S.P.;Ne;Ne;;VRHNIŠKA CESTA 128;;;;1354;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;13.05.14;;0,00000;0;SI80741592;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+OGLAŠEVANJE DANILO A;OGLAŠEVANJE DANILO AMBROŽ S.P.;Ne;Ne;;VRHNIŠKA CESTA 128;;;;1354;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;13.5.2014;;0;0;SI80741592;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-OMEGA ŽIVLJENJE;OMEGA ŽIVLJENJE D.O.O.;Ne;Ne;;GASPARIJEVA ULICA 10;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;15.10.15;;0,00000;0;SI75710650;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+OMEGA ŽIVLJENJE;OMEGA ŽIVLJENJE D.O.O.;Ne;Ne;;GASPARIJEVA ULICA 10;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;15.10.2015;;0;0;SI75710650;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-OPARA TISK d.o.o.;OPARA TISK d.o.o.;Ne;Ne;;Mali slatnik 48;;;;8000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;12.02.14;;0,00000;0;SI50090290;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+OPARA TISK d.o.o.;OPARA TISK d.o.o.;Ne;Ne;;Mali slatnik 48;;;;8000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;12.2.2014;;0;0;SI50090290;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-OPARA d.o.o.;OPARA d.o.o.;Ne;Ne;;Goliev trg 13;;;;8210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;03.12.13;;0,00000;0;SI33578249;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+OPARA d.o.o.;OPARA d.o.o.;Ne;Ne;;Goliev trg 13;;;;8210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;3.12.2013;;0;0;SI33578249;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-OPTIPRINT d.o.o.;OPTIPRINT d.o.o.;Ne;Ne;;Kranjèeva 20;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;06.01.12;;0,00000;0;SI10180630;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+OPTIPRINT d.o.o.;OPTIPRINT d.o.o.;Ne;Ne;;Kranjèeva 20;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;6.1.2012;;0;0;SI10180630;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ORBIS D.O.O.;ORBIS, LJUBLJANA, d.o.o.;Ne;Ne;;Dunajska c. 21;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;09.03.11;;0,00000;0;SI15961877;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ORBIS D.O.O.;ORBIS, LJUBLJANA, d.o.o.;Ne;Ne;;Dunajska c. 21;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;9.3.2011;;0;0;SI15961877;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ORBIS PRINT D.O.O.;ORBIS PRINT D.O.O.;Ne;Ne;;UL.JOŽETA JAME 12;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;06.10.15;;0,00000;0;SI81897928;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ORBIS PRINT D.O.O.;ORBIS PRINT D.O.O.;Ne;Ne;;UL.JOŽETA JAME 12;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;6.10.2015;;0;0;SI81897928;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-OZIMEK;TISKARNA OZIMEK;Ne;Da;;Motnica 2;ANTON OZIMEK S.P.;;;1236;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;;0,00000;0;SI564471247;;;;;;"TISKARNA OZIMEK
+OZIMEK;TISKARNA OZIMEK;Ne;Da;;Motnica 2;ANTON OZIMEK S.P.;;;1236;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;;0;0;SI564471247;;;;;;"TISKARNA OZIMEK
 ANTON OZIMEK S.P.
 Motnica 2
 
 1236 TRZIN
 ";120000;;
-PAM PLUS D.O.O.;PAM PLUS D.O.O.;Ne;Ne;;Savlje 18;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;29.12.08;;0,00000;0;SI61303569;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PAM PLUS D.O.O.;PAM PLUS D.O.O.;Ne;Ne;;Savlje 18;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;29.12.2008;;0;0;SI61303569;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PANCOPY, STANKO PANÈ;PANCOPY,STANKO PANÈUR S.P.;Ne;Ne;;POLJANSKI NASIP 32;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;29.02.16;05.09.16;0,00000;0;SI23478624;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PANCOPY, STANKO PANÈ;PANCOPY,STANKO PANÈUR S.P.;Ne;Ne;;POLJANSKI NASIP 32;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;29.2.2016;5.9.2016;0;0;SI23478624;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PAPIRUS M&R, MIHAELA;MIHAELA MEDEN S.P.;Ne;Ne;;CESTA POD TIÈNICO 2;;;;1381;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;04.10.16;;0,00000;0;SI27490033;;;;;;"PAPIRUS M&R, MIHAELA MEDEN S.P.
+PAPIRUS M&R, MIHAELA;MIHAELA MEDEN S.P.;Ne;Ne;;CESTA POD TIÈNICO 2;;;;1381;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;4.10.2016;;0;0;SI27490033;;;;;;"PAPIRUS M&R, MIHAELA MEDEN S.P.
 CESTA POD TIÈNICO 2
 1381 RAKEK";120000;;
-PARA;PARA d.o.o.;Ne;Ne;;Celestinova 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;02.07.14;0,00000;0;SI88179273;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PARA;PARA d.o.o.;Ne;Ne;;Celestinova 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;2.7.2014;0;0;SI88179273;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PARTNER GRAF d.o.o.;PARTNER GRAF d.o.o.;Ne;Ne;;Kolodvorska cesta 002;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;12.03.13;;0,00000;0;SI48572446;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PARTNER GRAF d.o.o.;PARTNER GRAF d.o.o.;Ne;Ne;;Kolodvorska cesta 002;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;12.3.2013;;0;0;SI48572446;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PEAKPRINT D.O.O.;PEAKPRINT D.O.O.;Ne;Ne;;Jezerska cesta 74 A;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;03.11.15;;0,00000;0;SI76647587;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PEAKPRINT D.O.O.;PEAKPRINT D.O.O.;Ne;Ne;;Jezerska cesta 74 A;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;3.11.2015;;0;0;SI76647587;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PEKLAJ;PEKLAJ STANE s.p.;Ne;Ne;;Bratovževa plošèad 30;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;23.11.10;0,00000;0;SI72963158;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PEKLAJ;PEKLAJ STANE s.p.;Ne;Ne;;Bratovževa plošèad 30;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;23.11.2010;0;0;SI72963158;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PERMITA d.o.o.;PERMITA d.o.o.;Ne;Ne;;Šmartinska c, 152 g;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.07.12;;0,00000;0;SI73790796;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PERMITA d.o.o.;PERMITA d.o.o.;Ne;Ne;;Šmartinska c, 152 g;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.7.2012;;0;0;SI73790796;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PERŠIN BOŠTJAN S.P.;PERŠIN BOŠTJAN S.P.;Ne;Ne;;CESTA NA VRHOVCE 23;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;12.05.15;;0,00000;0;SI13685350;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PERŠIN BOŠTJAN S.P.;PERŠIN BOŠTJAN S.P.;Ne;Ne;;CESTA NA VRHOVCE 23;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;12.5.2015;;0;0;SI13685350;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PETIT d.o.o.;PETIT d.o.o.;Ne;Ne;;Ilovški štradon 2b;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;22.02.10;;0,00000;0;SI56498144;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PETIT d.o.o.;PETIT d.o.o.;Ne;Ne;;Ilovški štradon 2b;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;22.2.2010;;0;0;SI56498144;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PIGRAF;PIGRAF d.o.o.;Ne;Ne;;Obrtna ulica 13;;;;6310;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;07.10.09;23.11.10;0,00000;0;SI58253815;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PIGRAF;PIGRAF d.o.o.;Ne;Ne;;Obrtna ulica 13;;;;6310;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;7.10.2009;23.11.2010;0;0;SI58253815;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PIKA ŠKRABA;OBLIKOVANJE PIKA ŠKRABA S.P.;Ne;Ne;;REGINÈEVA ULICA 13;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.06.09;;0,00000;0;SI70133140;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PIKA ŠKRABA;OBLIKOVANJE PIKA ŠKRABA S.P.;Ne;Ne;;REGINÈEVA ULICA 13;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.6.2009;;0;0;SI70133140;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PIKTOGRAM d.o.o.;PIKTOGRAM d.o.o.;Ne;Ne;;Hruševo 131;;;;1356;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;27.08.13;;0,00000;0;SI21547122;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PIKTOGRAM d.o.o.;PIKTOGRAM d.o.o.;Ne;Ne;;Hruševo 131;;;;1356;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;27.8.2013;;0;0;SI21547122;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PINAJA D.O.O.;PINAJA D.O.O.;Ne;Ne;;DUNAJSKA 136;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;08.08.11;;0,00000;0;SI22467009;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PINAJA D.O.O.;PINAJA D.O.O.;Ne;Ne;;DUNAJSKA 136;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;8.8.2011;;0;0;SI22467009;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PONOS INVEST d.o.o.;PONOS INVEST d.o.o.;Ne;Ne;;Litijska cesta 57;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;0;0;0,00000;0,00000;Ne;Ne;;;;;;;0,00000;0;SI26291495;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PONOS INVEST d.o.o.;PONOS INVEST d.o.o.;Ne;Ne;;Litijska cesta 57;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;0;0;0;0;Ne;Ne;;;;;;;0;0;SI26291495;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-POS;P.O.S. STUDIO d.o.o.;Ne;Ne;;Kajuhova ulica 32e;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.01.08;;0,00000;0;SI86102303;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+POS;P.O.S. STUDIO d.o.o.;Ne;Ne;;Kajuhova ulica 32e;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.1.2008;;0;0;SI86102303;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PRAJS D.O.O.;PRAJS D.O.O.;Ne;Ne;;AVÈINOVA ULICA 13;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;15.09.15;;0,00000;0;SI41002407;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PRAJS D.O.O.;PRAJS D.O.O.;Ne;Ne;;AVÈINOVA ULICA 13;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;15.9.2015;;0;0;SI41002407;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PRELOM  d.o.o.;PRELOM d.o.o.;Ne;Ne;;Tacenska cesta 37;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;04.02.14;08.06.16;0,00000;0;SI48798584;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PRELOM  d.o.o.;PRELOM d.o.o.;Ne;Ne;;Tacenska cesta 37;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;4.2.2014;8.6.2016;0;0;SI48798584;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PREMIERE;PREMIERE d.o.o., MEVODE;Ne;Ne;;Spodnje Pirnièe 22b;;;;1215;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0,00000;400,00000;Da;Ne;;;;;10.04.08;23.11.10;0,00000;0;SI88970426;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PREMIERE;PREMIERE d.o.o., MEVODE;Ne;Ne;;Spodnje Pirnièe 22b;;;;1215;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0;400;Da;Ne;;;;;10.4.2008;23.11.2010;0;0;SI88970426;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PREMIUM TISK D.O.O.;PREMIUM TISK D.O.O.;Ne;Ne;;Vevška cesta 48;;;;1260;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.12.11;;0,00000;0;SI32217722;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PREMIUM TISK D.O.O.;PREMIUM TISK D.O.O.;Ne;Ne;;Vevška cesta 48;;;;1260;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.12.2011;;0;0;SI32217722;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PRESENT D.O.O.;PRESENT D.O.O.;Ne;Ne;;DOLENJSKA CESTA 43;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;08.08.16;;0,00000;0;SI44934483;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PRESENT D.O.O.;PRESENT D.O.O.;Ne;Ne;;DOLENJSKA CESTA 43;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;8.8.2016;;0;0;SI44934483;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PRIJATELJ;PRIJATELJ & PRIJATELJ D.O.O.;Ne;Ne;;V DOLINI 4;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;08.01.08;;0,00000;0;SI89913035;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PRIJATELJ;PRIJATELJ & PRIJATELJ D.O.O.;Ne;Ne;;V DOLINI 4;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;8.1.2008;;0;0;SI89913035;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PRIMA D.O.O.;PRIMA D.O.O.;Ne;Ne;;BRNÈIÈEVA 31;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;26.12.12;09.07.16;0,00000;0;SI51203766;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PRIMA D.O.O.;PRIMA D.O.O.;Ne;Ne;;BRNÈIÈEVA 31;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;26.12.2012;9.7.2016;0;0;SI51203766;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PRIMA PRINT;TISKARNA PRIMA PRINT d.o.o.;Ne;Ne;;C. Andreja Bitenca 68;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.12.07;;0,00000;0;SI27183521;;;;;;"TISKRNA PRIMA PRINT d.o.o.
+PRIMA PRINT;TISKARNA PRIMA PRINT d.o.o.;Ne;Ne;;C. Andreja Bitenca 68;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.12.2007;;0;0;SI27183521;;;;;;"TISKRNA PRIMA PRINT d.o.o.
 Cesta Andreja Bitenca 68
 
 1000 LJUBJANA
 ";120000;;
-PRIMA TISK;PRIMA TISK D.O.O.;Ne;Ne;;NOVO POLJE, CESTA XII 7A;;;;1260;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;29.11.12;0,00000;0;SI42307996;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PRIMA TISK;PRIMA TISK D.O.O.;Ne;Ne;;NOVO POLJE, CESTA XII 7A;;;;1260;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;29.11.2012;0;0;SI42307996;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PRIMITUS d.o.o.;PRIMITUS d.o.o.;Ne;Ne;;Gorkièeva 9;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;18.12.15;;0,00000;0;SI10959785;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PRIMITUS d.o.o.;PRIMITUS d.o.o.;Ne;Ne;;Gorkièeva 9;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;18.12.2015;;0;0;SI10959785;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PRINT DUŠAN LUIN SP;PRINT DUŠAN LUIN S.P.;Ne;Ne;;SVETO 58;;;;6223;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;25.09.12;;0,00000;0;SI85648701;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PRINT DUŠAN LUIN SP;PRINT DUŠAN LUIN S.P.;Ne;Ne;;SVETO 58;;;;6223;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;25.9.2012;;0;0;SI85648701;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PRINTART;PRINTART,  ROBER ŠESTIÆ s.p.;Ne;Ne;;Ravna pot 10;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;15.01.13;;0,00000;0;SI41927648;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PRINTART;PRINTART,  ROBER ŠESTIÆ s.p.;Ne;Ne;;Ravna pot 10;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;15.1.2013;;0;0;SI41927648;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PRINTSPOT d.o.o.;PRINTSPOT d.o.o.;Ne;Ne;;Litosrojska 40;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;01.12.12;;0,00000;0;SI30835798;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PRINTSPOT d.o.o.;PRINTSPOT d.o.o.;Ne;Ne;;Litosrojska 40;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;1.12.2012;;0;0;SI30835798;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-PRO MARKETING d.o.o.;PRO MARKETING d.o.o.;Ne;Ne;;Stegne 21;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;24.01.12;19.02.16;0,00000;0;SI41104994;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+PRO MARKETING d.o.o.;PRO MARKETING d.o.o.;Ne;Ne;;Stegne 21;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;24.1.2012;19.2.2016;0;0;SI41104994;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-Q.P.S. d.o.o.;Q.P.S. d.o.o.;Ne;Ne;;Dolenjska cesta 242B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;08.01.09;;0,00000;0;SI26776448;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+Q.P.S. d.o.o.;Q.P.S. d.o.o.;Ne;Ne;;Dolenjska cesta 242B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;8.1.2009;;0;0;SI26776448;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-QEPAKO AND COMPANY;QEPAKO and company d.o.o.;Ne;Ne;;Ulica Metoda Mikuža 8;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;18.05.11;;0,00000;0;SI99575442;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+QEPAKO AND COMPANY;QEPAKO and company d.o.o.;Ne;Ne;;Ulica Metoda Mikuža 8;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;18.5.2011;;0;0;SI99575442;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-R-TISK;BOŠTJAN RIHAR s.p.;Ne;Ne;;Jana Husa 1a;R-TISK;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;90;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;20.11.15;0,00000;0;SI46847286;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+R-TISK;BOŠTJAN RIHAR s.p.;Ne;Ne;;Jana Husa 1a;R-TISK;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;90;0;0;400;Da;Ne;;;;;28.11.2007;20.11.2015;0;0;SI46847286;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-RACMAN;RACMAN AUDIO VIDEO;Ne;Ne;;Stegne 3;STUDIO d.o.o., LJUBLJANA;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;22.08.16;0,00000;0;SI67335357;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+RACMAN;RACMAN AUDIO VIDEO;Ne;Ne;;Stegne 3;STUDIO d.o.o., LJUBLJANA;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;22.8.2016;0;0;SI67335357;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-RAIGRAF;RAIGRAF;Ne;Ne;;CELOVŠKA 134;DAMJAN HOÈEVAR S.P.;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;19.11.09;;0,00000;0;SI55102883;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+RAIGRAF;RAIGRAF;Ne;Ne;;CELOVŠKA 134;DAMJAN HOÈEVAR S.P.;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;19.11.2009;;0;0;SI55102883;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-RAYON;RAYON d.o.o.;Ne;Ne;;Štrukljeva 15;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;27.12.08;;0,00000;0;SI33893322;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+RAYON;RAYON d.o.o.;Ne;Ne;;Štrukljeva 15;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;27.12.2008;;0;0;SI33893322;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-RAZVEDRILO;RAZVEDRILO d.o.o.;Ne;Ne;;Brnèièeva ulica 31;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0,00000;0,00000;Da;Ne;;;;;16.12.07;23.11.10;0,00000;0;SI49346989;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+RAZVEDRILO;RAZVEDRILO d.o.o.;Ne;Ne;;Brnèièeva ulica 31;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0;0;Da;Ne;;;;;16.12.2007;23.11.2010;0;0;SI49346989;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-RF d.o.o.;RF d.o.o.;Ne;Ne;;Vodnikova 136 a;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.12.15;;0,00000;0;SI57492808;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+RF d.o.o.;RF d.o.o.;Ne;Ne;;Vodnikova 136 a;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.12.2015;;0;0;SI57492808;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-RIBIÈ;T&E, grafièna dejavnost d.o.o.;Ne;Ne;;Tržaška 69;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.11.09;;0,00000;0;SI59013168;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+RIBIÈ;T&E, grafièna dejavnost d.o.o.;Ne;Ne;;Tržaška 69;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.11.2009;;0;0;SI59013168;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ROBIKUM d.o.o.;ROBIKUM d.o.o.;Ne;Ne;;Šmarska cesta 34;;;;1291;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.06.09;;0,00000;0;SI20496109;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ROBIKUM d.o.o.;ROBIKUM d.o.o.;Ne;Ne;;Šmarska cesta 34;;;;1291;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.6.2009;;0;0;SI20496109;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ROBOPLAST;ROBOPLAST d.o.o.;Ne;Ne;;Litostrojska 40;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;22.10.08;12.12.16;0,00000;0;SI25837869;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ROBOPLAST;ROBOPLAST d.o.o.;Ne;Ne;;Litostrojska 40;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;22.10.2008;12.12.2016;0;0;SI25837869;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ROLGRAF;ROLGRAF;Ne;Ne;;LITOSTROJSKA 58;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;;12.12.16;0,00000;0;SI10074490;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ROLGRAF;ROLGRAF;Ne;Ne;;LITOSTROJSKA 58;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;;12.12.2016;0;0;SI10074490;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ROTOSI  D.O.O.;ROTOSI, D.O.O.;Ne;Ne;;TOMAÈEVO 19;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;30.06.09;;0,00000;0;SI30719437;;;;;;"ROTOSI, D.O.O.,MARKETING
+ROTOSI  D.O.O.;ROTOSI, D.O.O.;Ne;Ne;;TOMAÈEVO 19;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;30.6.2009;;0;0;SI30719437;;;;;;"ROTOSI, D.O.O.,MARKETING
 IN SAMOZALOŽNIŠTVO
 TOMAÈEVO 19
 1000 LJUBLJANA";120000;;
-RSN MEDIA D.O.O.;RSN MEDIA D.O.O.;Ne;Ne;;MENGEŠKA CESTA 46;;;;1236;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;21.07.15;;0,00000;0;SI;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+RSN MEDIA D.O.O.;RSN MEDIA D.O.O.;Ne;Ne;;MENGEŠKA CESTA 46;;;;1236;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;21.7.2015;;0;0;SI14662329;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-S-TISK, TOMAŽ SLADIÈ;S-TISK TOMAŽ SLADIÈ S.P.;Ne;Ne;;LUNAÈKOVA ULICA 15;;;;8233;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.05.16;;0,00000;0;SI64544575;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+S-TISK, TOMAŽ SLADIÈ;S-TISK TOMAŽ SLADIÈ S.P.;Ne;Ne;;LUNAÈKOVA ULICA 15;;;;8233;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.5.2016;;0;0;SI64544575;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SALOMON D.O.O.;SALOMON D.O.O.;Ne;Ne;;PAPIRNIŠKI TRG  17;;;;1260;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0,00000;400,00000;Da;Ne;;;;;17.02.15;;0,00000;0;SI84996340;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SALOMON D.O.O.;SALOMON D.O.O.;Ne;Ne;;PAPIRNIŠKI TRG  17;;;;1260;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0;400;Da;Ne;;;;;17.2.2015;;0;0;SI84996340;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SAMASTUR, D.O.O.;SAMASTUR, D.O.O.;Ne;Ne;;ŠENTVID PRI STIÈNI 47;;;;1296;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;19.10.16;;0,00000;0;SI56286333;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SAMASTUR, D.O.O.;SAMASTUR, D.O.O.;Ne;Ne;;ŠENTVID PRI STIÈNI 47;;;;1296;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;19.10.2016;;0;0;SI56286333;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SCHWARZ;SCHWARZ d.o.o.;Ne;Ne;;Koprska ulica 106/D;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.12.07;23.11.10;0,00000;0;SI97510408;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SCHWARZ;SCHWARZ d.o.o.;Ne;Ne;;Koprska ulica 106/D;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.12.2007;23.11.2010;0;0;SI97510408;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SCHWARZ PRINT d.o.o.;SCHWARZ PRINT d.o.o.;Ne;Ne;;Koprska ulica 106D;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;09.01.12;;0,00000;0;SI78410711;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SCHWARZ PRINT d.o.o.;SCHWARZ PRINT d.o.o.;Ne;Ne;;Koprska ulica 106D;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;9.1.2012;;0;0;SI78410711;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SCHWENTNER;SCHWENTNER MARKO s.p.;Ne;Ne;;Bratovževa plošèad 30;Grafiène storitve;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;16.07.09;0,00000;0;SI67680178;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SCHWENTNER;SCHWENTNER MARKO s.p.;Ne;Ne;;Bratovževa plošèad 30;Grafiène storitve;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;16.7.2009;0;0;SI67680178;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SEDEJ S.P.;SEDEJ JERNEJ S.P.;Ne;Ne;;MIVKA 30;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;15;0;0,00000;400,00000;Da;Ne;;;;;29.12.15;;0,00000;0;SI39631974;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SEDEJ S.P.;SEDEJ JERNEJ S.P.;Ne;Ne;;MIVKA 30;;;;1000;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;15;0;0;400;Da;Ne;;;;;29.12.2015;;0;0;SI39631974;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SEPROM d.o.o.;SEPROM d.o.o.;Ne;Ne;;Koprska ulica 72;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.01.10;23.11.10;0,00000;0;SI88908054;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SEPROM d.o.o.;SEPROM d.o.o.;Ne;Ne;;Koprska ulica 72;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.1.2010;23.11.2010;0;0;SI88908054;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SET d.o.o.;SET d.o.o.;Ne;Ne;;Vevška cesta 52;;;;1260;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;12.11.13;30.08.16;0,00000;0;SI62614126;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SET d.o.o.;SET d.o.o.;Ne;Ne;;Vevška cesta 52;;;;1260;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;12.11.2013;30.8.2016;0;0;SI62614126;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SILVECO D.O.O.;SILVECO D.O.O., GROSUPLJE;Ne;Ne;;SELIŠKARJEVA CESTA 36;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.02.16;;0,00000;0;SI51584824;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SILVECO D.O.O.;SILVECO D.O.O., GROSUPLJE;Ne;Ne;;SELIŠKARJEVA CESTA 36;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.2.2016;;0;0;SI51584824;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SIMPRO;SIMPRO D.O.O.;Ne;Ne;;PODSVETIJA 1;;;;1351;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.02.08;12.12.16;0,00000;0;SI18165044;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SIMPRO;SIMPRO D.O.O.;Ne;Ne;;PODSVETIJA 1;;;;1351;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.2.2008;12.12.2016;0;0;SI18165044;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SINET D.O.O.;SINET D.O.O.;Ne;Ne;;CESTA 1. MAJA 83;;;;1430;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;19.04.10;31.12.15;0,00000;0;SI41267982;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SINET D.O.O.;SINET D.O.O.;Ne;Ne;;CESTA 1. MAJA 83;;;;1430;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;19.4.2010;31.12.2015;0;0;SI41267982;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SITOTISK;;Ne;Ne;;;;;;;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.12;;0,00000;0;;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SITOTISK;;Ne;Ne;;;;;;;;;;;;;762000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2012;;0;0;;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SITOTISK BERKE VEDRA;SITOTISK BERKE VEDRAN S.P.;Ne;Ne;;KOGOJEVA UL. 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.04.14;;0,00000;0;SI69978522;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SITOTISK BERKE VEDRA;SITOTISK BERKE VEDRAN S.P.;Ne;Ne;;KOGOJEVA UL. 1;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.4.2014;;0;0;SI69978522;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SITOTISK DAMJAN KONC;SITOTISK DAMJAN KONC S.P.;Ne;Ne;;ERAZMOVA 25;;;;6230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.12;;0,00000;0;SI16037375;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SITOTISK DAMJAN KONC;SITOTISK DAMJAN KONC S.P.;Ne;Ne;;ERAZMOVA 25;;;;6230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2012;;0;0;SI16037375;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SKB D.D.;SKB D.D.;Ne;Ne;;AJDOVŠÈINA 4;;;;1000;;;;;;;415000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;15.05.14;;0,00000;0;SI40502368;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SKB D.D.;SKB D.D.;Ne;Ne;;AJDOVŠÈINA 4;;;;1000;;;;;;;415000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;15.5.2014;;0;0;SI40502368;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SKUŠEK;TISKARNA SKUŠEK d.o.o.;Ne;Ne;;GORENJSKA CESTA 20;;;;1234;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;16.07.09;0,00000;0;SI61551023;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SKUŠEK;TISKARNA SKUŠEK d.o.o.;Ne;Ne;;GORENJSKA CESTA 20;;;;1234;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;16.7.2009;0;0;SI61551023;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SLAŠÈIÈARSTVO HOÈEVA;SUZANA HOÈEVAR s.p.;Ne;Ne;;Šolska cesta 10;;;;8222;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.01.13;;0,00000;0;SI34123172;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SLAŠÈIÈARSTVO HOÈEVA;SUZANA HOÈEVAR s.p.;Ne;Ne;;Šolska cesta 10;;;;8222;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.1.2013;;0;0;SI34123172;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SOMARU D.O.O.;SOMARU D.O.O.;Ne;Ne;;ROŽNA DOLINA, C.XV 26;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;15.09.15;;0,00000;0;SI41141865;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SOMARU D.O.O.;SOMARU D.O.O.;Ne;Ne;;ROŽNA DOLINA, C.XV 26;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;15.9.2015;;0;0;SI41141865;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SPLETNA TISKARNA doo;SPLETNA TISKARNA  d.o.o.;Ne;Ne;;Drenov griè 18;;;;1360;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;18.01.12;;0,00000;0;SI32291493;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SPLETNA TISKARNA doo;SPLETNA TISKARNA  d.o.o.;Ne;Ne;;Drenov griè 18;;;;1360;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;18.1.2012;;0;0;SI32291493;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SPONKA COMM D.O.O.;SPONKA COMM D.O.O.;Ne;Ne;;TVRGLOVSKA 6A;;;;1230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.10.15;;0,00000;0;SI74822268;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SPONKA COMM D.O.O.;SPONKA COMM D.O.O.;Ne;Ne;;TVRGLOVSKA 6A;;;;1230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.10.2015;;0;0;SI74822268;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SPONKA SANDI REZAR;SPONKA, SANDI REZAR S.P.;Ne;Ne;;Proseniški 7;;;;3220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;26.01.16;;0,00000;0;SI57689687;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SPONKA SANDI REZAR;SPONKA, SANDI REZAR S.P.;Ne;Ne;;Proseniški 7;;;;3220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;26.1.2016;;0;0;SI57689687;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SPRINT TISK, MATEJA;SPRINT TISK, MATEJA KADIVNIK S;Ne;Ne;;GRIÈ 43A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;14.06.16;;0,00000;0;SI69325693;;;;;;"SPRINT TISK
+SPRINT TISK, MATEJA;SPRINT TISK, MATEJA KADIVNIK S;Ne;Ne;;GRIÈ 43A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;14.6.2016;;0;0;SI69325693;;;;;;"SPRINT TISK
 MATEJA KADIVNIK S.P.
 GRIÈ 43A
 1000 LJUBLJANA";120000;;
-STISKARNA D.O.O.;STISKARNA D.O.O.;Ne;Ne;;Celovška cesta 491;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.02.14;03.08.15;0,00000;0;SI39093336;;;;;;"STISKARNA, GRAFIÈNA DELAVNICA, D.O.O.
+STISKARNA D.O.O.;STISKARNA D.O.O.;Ne;Ne;;Celovška cesta 491;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.2.2014;3.8.2015;0;0;SI39093336;;;;;;"STISKARNA, GRAFIÈNA DELAVNICA, D.O.O.
 Celovška cesta 491
 1000 LJUBLJANA";120000;;
-STUDIO DTS d.o.o.;STUDIO DTS d.o.o.;Ne;Ne;;Avèinova ul. 12;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;13.06.16;;0,00000;0;SI92303536;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+STUDIO DTS d.o.o.;STUDIO DTS d.o.o.;Ne;Ne;;Avèinova ul. 12;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;13.6.2016;;0;0;SI92303536;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-STUDIO GRAFFIT D.O.O;STUDIO GRAFFIT D.O.O.;Ne;Ne;;Podutiška cesta 92;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;23.01.09;12.12.16;0,00000;0;SI85886912;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+STUDIO GRAFFIT D.O.O;STUDIO GRAFFIT D.O.O.;Ne;Ne;;Podutiška cesta 92;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;23.1.2009;12.12.2016;0;0;SI85886912;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-STUDIO GRAPH;STUDIO GRAPH, DEAN BEZELJAK SP;Ne;Ne;;VODOVODNA POT 7;;;;5000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;01.09.15;;0,00000;0;SI93157053;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+STUDIO GRAPH;STUDIO GRAPH, DEAN BEZELJAK SP;Ne;Ne;;VODOVODNA POT 7;;;;5000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;1.9.2015;;0;0;SI93157053;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-STUDIO JAGER;STUDIO JAGER D.O.O.,;Ne;Ne;;OBIRSKA ULICA 27A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.01.08;20.11.09;0,00000;0;SI81990502;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+STUDIO JAGER;STUDIO JAGER D.O.O.,;Ne;Ne;;OBIRSKA ULICA 27A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.1.2008;20.11.2009;0;0;SI81990502;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-STUDIO K;GRAFIÈNI STUDIO K, D.O.O.;Ne;Ne;;Šmartinska cesta 52;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.01.08;23.08.16;0,00000;0;SI90006330;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+STUDIO K;GRAFIÈNI STUDIO K, D.O.O.;Ne;Ne;;Šmartinska cesta 52;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.1.2008;23.8.2016;0;0;SI90006330;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-STUDIO KREATOR D.O.O;STUDIO KREATOR D.O.O.;Ne;Ne;;TRŽAŠKA CESTA 2;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.07.08;;0,00000;0;SI93539223;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+STUDIO KREATOR D.O.O;STUDIO KREATOR D.O.O.;Ne;Ne;;TRŽAŠKA CESTA 2;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.7.2008;;0;0;SI93539223;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-STUDIO M, tiskarstvo;STUDIO M, TISKARSTVO;Ne;Ne;MATEJ KEREC;Dunajska cesta 319a;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.06.09;;0,00000;0;SI17754518;;;;;;"STUDIO M, TISKARSTVO
+STUDIO M, tiskarstvo;STUDIO M, TISKARSTVO;Ne;Ne;MATEJ KEREC;Dunajska cesta 319a;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.6.2009;;0;0;SI17754518;;;;;;"STUDIO M, TISKARSTVO
 MATEJ KEREC s.p.
 Dunajska c. 319a
 1231 LJUBLJANA-ÈRNUÈE";120000;;
-STUDIO OKO d.o.o.;STUDIO OKO d.o.o.;Ne;Ne;;Banija 85;;;;1292;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;25.04.16;;0,00000;0;SI98830392;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+STUDIO OKO d.o.o.;STUDIO OKO d.o.o.;Ne;Ne;;Banija 85;;;;1292;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;25.4.2016;;0;0;SI98830392;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-STUDIO PRINT;STUDIO PRINT, d.o.o.;Ne;Ne;;Brnèièeva ulica 23 B;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;22.10.08;09.07.16;0,00000;0;SI37527193;;;;;;"STUDIO PRINT d.o.o.
+STUDIO PRINT;STUDIO PRINT, d.o.o.;Ne;Ne;;Brnèièeva ulica 23 B;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;22.10.2008;9.7.2016;0;0;SI37527193;;;;;;"STUDIO PRINT d.o.o.
 BRNÈIÈEVA 21
 1000 LJUBLJANA";120000;;
-SVET PRINT D.O.O.;SVET PRINT D.O.O.;Ne;Ne;;BRNÈIÈEVA ULICA 41 G;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.09.16;12.12.16;0,00000;0;SI61473669;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SVET PRINT D.O.O.;SVET PRINT D.O.O.;Ne;Ne;;BRNÈIÈEVA ULICA 41 G;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.9.2016;12.12.2016;0;0;SI61473669;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-SYNCOMP;SYNCOMP d.o.o.;Ne;Ne;;C. Dolomitskega odreda 10;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.02.09;;0,00000;0;SI56942117;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+SYNCOMP;SYNCOMP d.o.o.;Ne;Ne;;C. Dolomitskega odreda 10;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.2.2009;;0;0;SI56942117;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-THE-END D.O.O.;THE-END D.O.O.;Ne;Ne;;KOLODVORSKA C. 28;;;;6230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.12.16;;0,00000;0;SI41573102;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+THE-END D.O.O.;THE-END D.O.O.;Ne;Ne;;KOLODVORSKA C. 28;;;;6230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.12.2016;;0;0;SI41573102;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TIPO-GRAF d.o.o.;TIPO-GRAF d.o.o.;Ne;Ne;;Rašiška 3;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;03.03.15;;0,00000;0;SI25814141;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TIPO-GRAF d.o.o.;TIPO-GRAF d.o.o.;Ne;Ne;;Rašiška 3;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;3.3.2015;;0;0;SI25814141;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TIPOGRAFIJA, d.o.o.;TIPOGRAFIJA, d.o.o.;Ne;Ne;;Celovška cesta 25;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;14.03.12;;0,00000;0;SI35950382;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TIPOGRAFIJA, d.o.o.;TIPOGRAFIJA, d.o.o.;Ne;Ne;;Celovška cesta 25;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;14.3.2012;;0;0;SI35950382;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISK A.M.;TISK A.M. d.o.o.;Ne;Ne;;Ob Ljubljanici 56;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;20.11.09;0,00000;0;SI14656787;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISK A.M.;TISK A.M. d.o.o.;Ne;Ne;;Ob Ljubljanici 56;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;20.11.2009;0;0;SI14656787;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISK BORIS JERETINA;TISK BORIS JERETINA S.P.;Ne;Ne;;Perkova ulica 8;;;;1230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.12.11;;0,00000;0;SI25819267;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISK BORIS JERETINA;TISK BORIS JERETINA S.P.;Ne;Ne;;Perkova ulica 8;;;;1230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.12.2011;;0;0;SI25819267;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISK ŽNIDARIÈ d.o.o.;TISK ŽNIDARIÈ d.o.o.;Ne;Ne;;Laze 7;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;22.03.11;;0,00000;0;SI97575682;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISK ŽNIDARIÈ d.o.o.;TISK ŽNIDARIÈ d.o.o.;Ne;Ne;;Laze 7;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;22.3.2011;;0;0;SI97575682;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKAR. KNIGOV.RADOV;TISKARNA KNJIGOVEZNICA RADOVLJ;Ne;Ne;;Ljubljanska cesta 56;;;;4240;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;27.12.11;;0,00000;0;si61953156;;;;;;"TISKARNA KNJIGOVEZNICA RADOVLJICA, d.o.o.
+TISKAR. KNIGOV.RADOV;TISKARNA KNJIGOVEZNICA RADOVLJ;Ne;Ne;;Ljubljanska cesta 56;;;;4240;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;27.12.2011;;0;0;si61953156;;;;;;"TISKARNA KNJIGOVEZNICA RADOVLJICA, d.o.o.
 LJUBLJANSKA CESTA 56
 
 4240 RADOVLJICA
 
 ";120000;;
-TISKARNA AIP PRAPROT;TISKARNA AIP PRAPROTNIK D.O.O.;Ne;Ne;;TAVÈARJEVA ULICA 14;;;;9000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;06.10.14;;0,00000;0;SI85616320;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA AIP PRAPROT;TISKARNA AIP PRAPROTNIK D.O.O.;Ne;Ne;;TAVÈARJEVA ULICA 14;;;;9000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;6.10.2014;;0;0;SI85616320;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA DTP d.o.o.;TISKARNA DTP d.o.o.;Ne;Ne;;Pot k sejmišèu 30;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.11.11;12.12.16;0,00000;0;SI89042816;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA DTP d.o.o.;TISKARNA DTP d.o.o.;Ne;Ne;;Pot k sejmišèu 30;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.11.2011;19.1.2017;0;0;SI89042816;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA IGMA-GRAF;TISKARNA IGMA-GRAF, MARTIN ŠKO;Ne;Ne;;BREGE 60;;;;8273;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;07.01.15;12.12.16;0,00000;0;SI11377208;;;;;;"TISKARNA IGMA-GRAF
+TISKARNA IGMA-GRAF;TISKARNA IGMA-GRAF, MARTIN ŠKO;Ne;Ne;;BREGE 60;;;;8273;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;7.1.2015;12.12.2016;0;0;SI11377208;;;;;;"TISKARNA IGMA-GRAF
 MARTIN ŠKOFLJANEC S.P.
 BREGE 60
 8273 LESKOVEC PRI KRŠKEM";120000;;
-TISKARNA JAGRAF doo;TISKARNA JAGRAF d.o.o.;Ne;Ne;;Trboje 124;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;09.10.12;;0,00000;0;SI80600735;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA JAGRAF doo;TISKARNA JAGRAF d.o.o.;Ne;Ne;;Trboje 124;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;9.10.2012;;0;0;SI80600735;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA JANUŠ D.O.O;TISKARNA JANUŠ D.O.O.;Ne;Ne;;STERNADOVA 12;;;;1210;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0,00000;400,00000;Da;Ne;;;;;14.06.16;;0,00000;0;SI10429956;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA JANUŠ D.O.O;TISKARNA JANUŠ D.O.O.;Ne;Ne;;STERNADOVA 12;;;;1210;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;60;0;0;400;Da;Ne;;;;;14.6.2016;;0;0;SI10429956;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA JORDAN;TISKARNA JORDAN, DRAGO JORDAN;Ne;Ne;;CESTA 24.JULIJA 98;;;;8000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;17.11.15;;0,00000;0;SI33931275;;;;;;"TISKARNA JORDAN
+TISKARNA JORDAN;TISKARNA JORDAN, DRAGO JORDAN;Ne;Ne;;CESTA 24.JULIJA 98;;;;8000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;17.11.2015;;0;0;SI33931275;;;;;;"TISKARNA JORDAN
 DRAGO JORDAN S.P.
 CESTA 24.JULIJA 98
 8000 NOVO MESTO";120000;;
-TISKARNA KALIPSO;TISKARNA KALIPSO D.O.O.;Ne;Ne;;TRIGLAVSKA 50;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;21.09.09;;0,00000;0;SI56848358;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA KALIPSO;TISKARNA KALIPSO D.O.O.;Ne;Ne;;TRIGLAVSKA 50;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;21.9.2009;;0;0;SI56848358;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA OMAN;TISKARNA OMAN;Ne;Ne;;CESTA NA RUPO 55;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;22.10.09;;0,00000;0;SI93738889;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA OMAN;TISKARNA OMAN;Ne;Ne;;CESTA NA RUPO 55;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;22.10.2009;;0;0;SI93738889;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA OZIMEK doo;TISKARNA OZIMEK d.o.o.;Ne;Ne;;Motnica 2;;;;1236;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;06.11.14;09.07.16;0,00000;0;SI37614398;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA OZIMEK doo;TISKARNA OZIMEK d.o.o.;Ne;Ne;;Motnica 2;;;;1236;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;6.11.2014;9.7.2016;0;0;SI37614398;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA PETRIÈ;PETRIÈ BRANKO S.P.;Ne;Ne;;TOVARNIŠKA CESTA 008;;;;3210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;29.01.13;;0,00000;0;SI63745178;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA PETRIÈ;PETRIÈ BRANKO S.P.;Ne;Ne;;TOVARNIŠKA CESTA 008;;;;3210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;29.1.2013;;0;0;SI63745178;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA PLEŠKO;TISKARNA PLEŠKO, D.O.O.;Ne;Ne;;Rožna dolina, cesta IV 32;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;30.06.09;20.11.09;0,00000;0;SI28489225;;;;;;"TISKARNA PLEŠKO, TISKARSTVO
+TISKARNA PLEŠKO;TISKARNA PLEŠKO, D.O.O.;Ne;Ne;;Rožna dolina, cesta IV 32;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;30.6.2009;20.11.2009;0;0;SI28489225;;;;;;"TISKARNA PLEŠKO, TISKARSTVO
 IN Z NJIM POVEZANE STORITVE, D.O.O.
 ROŽNA DOLINA, CESTA IV 32
 1000 LJUBLJANA
 
 ";120000;;
-TISKARNA POVŠE;TISKARNA POVŠE BM, D.O.O.;Ne;Ne;;POVŠETOVA ULICA 36 A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;07.10.14;;0,00000;0;SI40040046;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA POVŠE;TISKARNA POVŠE BM, D.O.O.;Ne;Ne;;POVŠETOVA ULICA 36 A;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;7.10.2014;;0;0;SI40040046;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA PRIMOŽIÈ sp;TISKARNA PRIMOŽIÈ S.P.;Ne;Ne;;BRITOF 127;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;25.11.11;;0,00000;0;SI62920715;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA PRIMOŽIÈ sp;TISKARNA PRIMOŽIÈ S.P.;Ne;Ne;;BRITOF 127;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;25.11.2011;;0;0;SI62920715;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA PRINT POINT;TISKARNA PRINT POINT d.o.o.;Ne;Ne;;Litostrojska 40D;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;31.08.16;;0,00000;0;SI41104994;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA PRINT POINT;TISKARNA PRINT POINT d.o.o.;Ne;Ne;;Litostrojska 40D;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;31.8.2016;;0;0;SI41104994;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA RADOVJICA;TISKARNA KNJIGOVEZNICA RADOVLJ;Ne;Ne;;Ljubljanska cesta 56;;;;4240;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;21.05.14;;0,00000;0;SI61953156;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA RADOVJICA;TISKARNA KNJIGOVEZNICA RADOVLJ;Ne;Ne;;Ljubljanska cesta 56;;;;4240;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;21.5.2014;;0;0;SI61953156;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA VEK KOPER;TISKARNA VEK KOPER d.o.o. KOPE;Ne;Ne;;VANGANELSKA CESTA 18;;;;6000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;24.02.15;12.12.16;0,00000;0;SI28435664;;;;;;"TISKARNA VEK KOPER d.o.o. KOPER
+TISKARNA VEK KOPER;TISKARNA VEK KOPER d.o.o. KOPE;Ne;Ne;;VANGANELSKA CESTA 18;;;;6000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;24.2.2015;12.12.2016;0;0;SI28435664;;;;;;"TISKARNA VEK KOPER d.o.o. KOPER
 VALGANELSKA CESTA 18
 6000 KOPER";120000;;
-TISKARNA VOVK D.O.O.;TISKARNA VOVK D.O.O.;Ne;Ne;;TRDINOVA CESTA 023;;;;1230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;08.04.13;;0,00000;0;SI90071484;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA VOVK D.O.O.;TISKARNA VOVK D.O.O.;Ne;Ne;;TRDINOVA CESTA 023;;;;1230;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;8.4.2013;;0;0;SI90071484;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARNA ÈAKŠ d.o.o.;TISKARNA ÈAKŠ d.o.o.;Ne;Ne;;Spodnje blato 17 c;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;04.11.14;;0,00000;0;SI97193216;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TISKARNA ÈAKŠ d.o.o.;TISKARNA ÈAKŠ d.o.o.;Ne;Ne;;Spodnje blato 17 c;;;;1290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;4.11.2014;;0;0;SI97193216;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TISKARSTVO OPARA;TISKARSTVO OPARA;Ne;Ne;;Mali Slatnik 48;;;;8000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;27.08.13;;0,00000;0;SI86791664;;;;;;"TISKARSTVO OPARA
+TISKARSTVO OPARA;TISKARSTVO OPARA;Ne;Ne;;Mali Slatnik 48;;;;8000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;27.8.2013;;0;0;SI86791664;;;;;;"TISKARSTVO OPARA
 STANKO OPARA, s.p.
 MALI SLATNIK 48
 8000 NOVOMESTO";120000;;
-TKBM;T.K.B.M, d.o.o.;Ne;Ne;;Brnèièeva ulica 31;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.11.07;24.01.14;0,00000;0;SI763058033;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TKBM;T.K.B.M, d.o.o.;Ne;Ne;;Brnèièeva ulica 31;;;;1231;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.11.2007;24.1.2014;0;0;SI763058033;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TOJ76 D.O.O.;TOJ76 D.O.O.;Ne;Ne;;ŠKOFJELOŠKA  CESTA 74;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;31.05.16;;0,00000;0;SI99937301;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TOJ76 D.O.O.;TOJ76 D.O.O.;Ne;Ne;;ŠKOFJELOŠKA  CESTA 74;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;31.5.2016;;0;0;SI99937301;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TOJA PROPAGANDA;TOJA PROPAGANDA D.O.O.;Ne;Ne;;Dolenjska cesta 242B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;27.12.08;;0,00000;0;SI57222789;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TOJA PROPAGANDA;TOJA PROPAGANDA D.O.O.;Ne;Ne;;Dolenjska cesta 242B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;27.12.2008;;0;0;SI57222789;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TOME;KNJIGOVEZNICA TOME STANKO S.P.;Ne;Ne;;STANEŽIÈE 3;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.12.09;;0,00000;0;SI53736524;;;;;;"KNJIGOVEZNICA
+TOME;KNJIGOVEZNICA TOME STANKO S.P.;Ne;Ne;;STANEŽIÈE 3;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.12.2009;;0;0;SI53736524;;;;;;"KNJIGOVEZNICA
 TOME STANKO S.P.
 STANEŽIÈE 3
 1210 LJUBLJANA-ŠENTVID";120000;;
-TOME LB D.O.O.;TOME LB D.O.O.;Ne;Ne;;STANEŽIÈE 3;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;05.10.16;;0,00000;0;SI29091535;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TOME LB D.O.O.;TOME LB D.O.O.;Ne;Ne;;STANEŽIÈE 3;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;5.10.2016;;0;0;SI29091535;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TORA PRINT D.O.O.;TORA PRINT D.O.O.;Ne;Ne;;Ulica Jožeta Jame 12;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;29.12.13;;0,00000;0;SI92045049;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TORA PRINT D.O.O.;TORA PRINT D.O.O.;Ne;Ne;;Ulica Jožeta Jame 12;;;;1210;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;29.12.2013;;0;0;SI92045049;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TPLAST,  d.o.o.;TPLAST, d.o.o.;Ne;Ne;;Topole 51;;;;1234;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;15;0;0,00000;400,00000;Da;Ne;;;;;04.02.10;;0,00000;0;SI10687424;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TPLAST,  d.o.o.;TPLAST, d.o.o.;Ne;Ne;;Topole 51;;;;1234;;;;;;;760000;;0;;0;Ne;Ne;Ne;Ne;15;0;0;400;Da;Ne;;;;;4.2.2010;;0;0;SI10687424;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TRAJANUS STORITVE;TRAJANUS STORITVE d.o.o.;Ne;Ne;;SAVSKA LOKA 21;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;07.10.09;;0,00000;0;SI23199407;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TRAJANUS STORITVE;TRAJANUS STORITVE d.o.o.;Ne;Ne;;SAVSKA LOKA 21;;;;4000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;7.10.2009;;0;0;SI23199407;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-TRGOMAR;Trgomar Sorèan;Ne;Ne;;Gozdraska cesta 148;trgovina in marketing k.d.;;;2382;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;16.10.12;;0,00000;0;SI46254137;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+TRGOMAR;Trgomar Sorèan;Ne;Ne;;Gozdraska cesta 148;trgovina in marketing k.d.;;;2382;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;16.10.2012;;0;0;SI46254137;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ULTRA NAVIS D.O.O.;ULTRA NAVIS D.O.O.;Ne;Ne;;ŠMARTINSKA CESTA 7A;;;;6000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.06.08;;0,00000;0;SI225782300;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ULTRA NAVIS D.O.O.;ULTRA NAVIS D.O.O.;Ne;Ne;;ŠMARTINSKA CESTA 7A;;;;6000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.6.2008;;0;0;SI225782300;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-URKOGRAF, TISKARSKE;URKOGRAF, TISKARSKE STORTIVE;Ne;Ne;;Ul. Goce Delèeve 011;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;21.12.10;;0,00000;0;SI34260323;;;;;;"URKOGRAF, TISKARSKE STORITVE
+URKOGRAF, TISKARSKE;URKOGRAF, TISKARSKE STORTIVE;Ne;Ne;;Ul. Goce Delèeve 011;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;21.12.2010;;0;0;SI34260323;;;;;;"URKOGRAF, TISKARSKE STORITVE
 UROŠ POLJANŠEK S.P.
 Ul. Goce Delèeve 011
 1000 LJUBLJANA";120000;;
-UZAR;TISKARNA UZAR;Ne;Ne;;ZA MOŠENIKOM 1;;;;4290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.06.09;;0,00000;0;SI98962469;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+UZAR;TISKARNA UZAR;Ne;Ne;;ZA MOŠENIKOM 1;;;;4290;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.6.2009;;0;0;SI98962469;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-VARL d.o.o.;VARL d.o.o.;Ne;Ne;;Luèine 12;;;;4224;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;20.03.12;;0,00000;0;SI33094519;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+VARL d.o.o.;VARL d.o.o.;Ne;Ne;;Luèine 12;;;;4224;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.3.2012;;0;0;SI33094519;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-VB & S d.o.o.;VB & S, d.o.o.;Ne;Ne;;FLANDROVA 19;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;07.10.09;;0,00000;0;SI67474403;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+VB & S d.o.o.;VB & S, d.o.o.;Ne;Ne;;FLANDROVA 19;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;7.10.2009;;0;0;SI67474403;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-VDC TONÈKE HOÈEVAR;VDC TONÈE HOÈEVAR;Ne;Ne;;VODNIKOVA 56;Enota Viè 271;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;11.04.12;;0,00000;0;SI13423983;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+VDC TONÈKE HOÈEVAR;VDC TONÈE HOÈEVAR;Ne;Ne;;VODNIKOVA 56;Enota Viè 271;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;11.4.2012;;0;0;SI13423983;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-VEGRAF IRENA JUDNIÈ;VEGRAF IRENA JUDNIÈ S.P.;Ne;Ne;;REŠKA CESTA 15;;;;1330;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;24.07.13;;0,00000;0;SI63204738;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+VEGRAF IRENA JUDNIÈ;VEGRAF IRENA JUDNIÈ S.P.;Ne;Ne;;REŠKA CESTA 15;;;;1330;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;24.7.2013;;0;0;SI63204738;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-VEMPLEKS D.O.O.;VEMPLEKS D.O.O.;Ne;Ne;;HAJDRIHOVA ULICA 18;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;10.10.16;;0,00000;0;SI91066344;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+VEMPLEKS D.O.O.;VEMPLEKS D.O.O.;Ne;Ne;;HAJDRIHOVA ULICA 18;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;10.10.2016;;0;0;SI91066344;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-VIDEO ART d.o.o.;VIDEO ART d.o.o.;Ne;Ne;;Vojkova 2;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.05.13;12.12.16;0,00000;0;SI42082277;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+VIDEO ART d.o.o.;VIDEO ART d.o.o.;Ne;Ne;;Vojkova 2;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.5.2013;12.12.2016;0;0;SI42082277;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-VIRTUS PROGRAF d.o.o;VIRTUS PROGRAF d.o.o.;Ne;Ne;;Dolomitska ulica 9;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.05.13;;0,00000;0;SI34084657;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+VIDOC, D.O.O,.;VIDOC, D.O.O.;Ne;Ne;;ZBILJE 003C;;;;1215;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;20.12.2016;;0;0;SI47510463;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-VITEZ;KNJIGOVEZNICA VITEZ D.O.O.;Ne;Ne;;POT HEROJA TRTNIKA 45;;;;1261;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;17.08.10;;0,00000;0;SI96327880;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+VIRTUS PROGRAF d.o.o;VIRTUS PROGRAF d.o.o.;Ne;Ne;;Dolomitska ulica 9;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.5.2013;;0;0;SI34084657;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-VRAŽIÈ;VRAŽIÈ BOŽO S.P.;Ne;Ne;;Celovška 172;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;28.06.08;;0,00000;0;SI10783776;;;;;;"VRAŽIÈ BOŽO S.P.
+VITEZ;KNJIGOVEZNICA VITEZ D.O.O.;Ne;Ne;;POT HEROJA TRTNIKA 45;;;;1261;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;17.8.2010;;0;0;SI96327880;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+$(Naslov - 1.vrstica:3)$
+
+$(Pošta:6)$   $(Mesto:7)$
+$(Država:8)$";120000;;
+VRAŽIÈ;VRAŽIÈ BOŽO S.P.;Ne;Ne;;Celovška 172;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;28.6.2008;;0;0;SI10783776;;;;;;"VRAŽIÈ BOŽO S.P.
 KNJIGOVEZNICA
 Celovška 172
 1000 lLJUBLJANA";120000;;
-WIT B d.o.o.;WIT B d.o.o.;Ne;Ne;;Pod brezami 5;;;;1218;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;23.08.16;12.12.16;0,00000;0;SI68921845;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+WIT B d.o.o.;WIT B d.o.o.;Ne;Ne;;Pod brezami 5;;;;1218;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;23.8.2016;12.12.2016;0;0;SI68921845;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-YOLLY D.O.O.;YOLLY D.O.O.;Ne;Ne;;Ul.Gradnikove brigade 8;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;09.04.15;;0,00000;0;SI61300063;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+YOLLY D.O.O.;YOLLY D.O.O.;Ne;Ne;;Ul.Gradnikove brigade 8;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;9.4.2015;;0;0;SI61300063;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ZALOŽBA ROKUS KLETT;ZALOŽBA ROKUS KLETT d.o.o.;Ne;Ne;;STEGNE 9B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;26.08.09;;0,00000;0;SI82888272;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ZALOŽBA ROKUS KLETT;ZALOŽBA ROKUS KLETT d.o.o.;Ne;Ne;;STEGNE 9B;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;26.8.2009;;0;0;SI82888272;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ZERA D.O.O.;ZERA D.O.O.;Ne;Ne;;Likozarjeva 3;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;04.06.13;;0,00000;0;SI29654793;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ZERA D.O.O.;ZERA D.O.O.;Ne;Ne;;Likozarjeva 3;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;4.6.2013;;0;0;SI29654793;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ZMAS PRINT D.O.O.;ZMAS PRINT D.O.O.;Ne;Ne;;Cesta Andreja Bitenca 68;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;02.04.10;23.11.10;0,00000;0;SI67946828;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ZMAS PRINT D.O.O.;ZMAS PRINT D.O.O.;Ne;Ne;;Cesta Andreja Bitenca 68;;;;1000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;2.4.2010;23.11.2010;0;0;SI67946828;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ŠPES & CO., d.n.o.;ŠPES & CO., d.n.o.;Ne;Ne;;Ob težki vodi 9;;;;8000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;09.01.09;;0,00000;0;SI47322977;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ŠPES & CO., d.n.o.;ŠPES & CO., d.n.o.;Ne;Ne;;Ob težki vodi 9;;;;8000;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;9.1.2009;;0;0;SI47322977;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
 $(Država:8)$";120000;;
-ÈUK;TISKARNA ÈUK d.o.o. Škofja Lok;Ne;Ne;;SV.DUH 138;;;;4220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0,00000;400,00000;Da;Ne;;;;;29.12.08;;0,00000;0;SI72368527;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
+ÈUK;TISKARNA ÈUK d.o.o. Škofja Lok;Ne;Ne;;SV.DUH 138;;;;4220;;;;;;;760000;;0;;0;Da;Ne;Ne;Ne;30;0;0;400;Da;Ne;;;;;29.12.2008;;0;0;SI72368527;;;;;;"$(Ime:1)$ $(Naslov - 2.vrstica:4)$
 $(Naslov - 1.vrstica:3)$
 
 $(Pošta:6)$   $(Mesto:7)$
