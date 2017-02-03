@@ -60,7 +60,7 @@ $(document).ready(function(){
 
         $.ajax({
             method: "POST",
-            url: "/xmlcombiner?step=2",
+            url: "/xmlcombiner/?step=2",
             contentType: "application/json",
             data:  JSON.stringify({"selectedElements": selectedElements})
         }).done(function(res){
@@ -85,7 +85,7 @@ $(document).ready(function(){
 
         $.ajax({
             method: "POST",
-            url: "/xmlcombiner?step=3",
+            url: "/xmlcombiner/?step=3",
             contentType: "application/json",
             data:  JSON.stringify({"selectedElementsData": selectedElementsData})
         }).done(function(res){
@@ -95,3 +95,19 @@ $(document).ready(function(){
         });
     });
 });
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
+$(function() {
+    $(document).on('change', ':file', function() {
+
+        var input = $(this),
+            numFiles = input.get(0).files ? input.get(0).files.length : 1,
+            label = input.val().replace(/\\/g, '/').replace(/.*\//, ''),
+            text = $(this).parents('.input-group').find(':text');
+
+        text.val(label);
+    });
+});
+

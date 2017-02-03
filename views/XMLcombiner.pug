@@ -216,6 +216,28 @@ block main_content
             .row
                 pre.prettyprint.lang-xml(id="xmlData")
                     | #{xml}
+    if step == 0
+        .col-lg-1
+        .col-lg-4
+            form(action="/xmlcombiner?step=0", method="POST", encType="multipart/form-data")
+                br
+                div.input-group
+                    label.input-group-btn
+                        span.btn.btn-primary
+                            | Izberi CVS&hellip;
+                            input(type="file", name="csvFile", style="display: none;")
+                    input.form-control(type="text" readonly)
+                br
+                div.input-group
+                    label.input-group-btn
+                        span.btn.btn-primary
+                            | Izberi XML&hellip;
+                            input(type="file", name="xmlFile", style="display: none;")
+                    input.form-control(type="text" readonly)
+                br
+                input(type="submit", value="Nadaljuj z čarovnikom").btn.btn-default
+
+        .col-5
 
 
 block script_block

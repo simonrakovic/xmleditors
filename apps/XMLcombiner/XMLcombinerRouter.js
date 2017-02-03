@@ -30,6 +30,8 @@ router.get('/', function (req, res) {
         mideplast.stepFour(req, res, function (err) {
             res.status(500).send(err);
         });
+    }else{
+        res.render('XMLcombiner', {"step":0});
     }
 });
 
@@ -43,18 +45,14 @@ router.post('/', function (req, res) {
         mideplast.stepThreePost(req, res, function(err){
             res.status(500).send(err);
         });
-    } else {
-        var csvKupcev = req.files.csvKupcev;
-        var csvRacunov = req.files.csvRacunov;
-        mideplast.readFiles(csvKupcev, csvRacunov, function (err, name) {
-            if (err) {
-                res.status(500).send(err);
-            }
-            res.download(__dirname + '/../../data/racuni.xml', 'racuni.xml', function (err) {
-                if (err) {
-                    res.status(500).send(err);
-                }
-
+    }else {
+        var xmlFile = req.files.xmlFile,
+            cvsFile = req.files.csvFile;
+        xmlFile.mv('data/XMLcombiner/temp/xmlFile.xml', function(err){
+            if (err) res.status(500).send(err);
+            cvsFile.mv('data/XMLcombiner/temp/csvFile.csv', function(err){
+                if (err) res.status(500).send(err);
+                res.redirect('/xmlcombiner?step=1');
             });
         });
     }

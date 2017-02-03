@@ -202,20 +202,46 @@ function getElementData(table) {
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
+function convertToUTF(csvPath, cb) {
+    fs.readFile(csvPath, function (err, buffer1) {
+        if (err) cb(err);
+        cb(iconv.decode(buffer1, 'win1250'));
+    });
+}
 
+function readCsv(cb){
+    var converter = new Converter({delimiter: ';'});
+    convertToUTF("data/XMLcombiner/temp/csvFile.csv", function(data){
+        converter.fromString(data, function (err, results) {
+            if(err)cb(err);
+            cb(err, results);
+        });
+    });
+}
 
-function readXML(cb, jsonElements, xml) {
-    fs.readFile('data/XMLcombiner/temeljnica.xml', 'utf8', function (err, data) {
+function readXML(cb, xml) {
+    fs.readFile('data/XMLcombiner/temp/xmlFile.xml', 'utf8', function (err, data) {
         if (err)cb(err);
         xml2js.parseString(data, function (err, json) {
             if (err)cb(err);
-            var jsonElements = getJsonKeys(json);
-            //console.log(util.inspect(jsonElements, false, null));
-            cb(err, jsonElements, json);
+            cb(err, json);
+
         });
 
     });
 }
+
+function filesToJSON(cb){
+    readXML(function(err, jsonXml){
+        if(err)cb(err);
+        readCsv(function(err, jsonCsv){
+            if(err)cb(err);
+            console.log(jsonCsv);
+            cb(err, jsonXml, jsonCsv);
+        });
+    });
+}
+
 
 function stepOne(req, res, cb) {
     var treeLevel = req.query.treeLevel;
@@ -232,10 +258,12 @@ function stepOne(req, res, cb) {
         seachedXml[searchedElement] = searchedJson[0];
         res.send(builder.buildObject(seachedXml));
     } else {
-        readXML(function (err, xmlElements, jsonXml) {
+        filesToJSON(function (err, jsonXml, jsonCsv) {
             if (err) cb(err);
+            var xmlElements = getJsonKeys(jsonXml);
             req.session.xmlElements = xmlElements;
             req.session.jsonXml = jsonXml;
+            req.session.jsonCsv = jsonCsv;
 
             jsonXml = builder.buildObject(jsonXml);
 
@@ -267,7 +295,7 @@ function stepTwo(req, res, cb) {
             'xml': builder.buildObject(json2Xml)
         });
     } else {
-        res.redirect("/xmlcombiner?step=1");
+        res.redirect("/xmlcombiner/?step=1");
     }
 
 }
@@ -276,12 +304,19 @@ function stepTwoPost(req, res, cb) {
     var selectedElements = req.body.selectedElements;
     //console.log(selectedElements);
     req.session.selectedElements = selectedElements;
-    res.send({'status': 'success', 'redirectUrl': '/XMLcombiner?step=3'});
+    res.send({'status': 'success', 'redirectUrl': '/XMLcombiner/?step=3'});
 }
 
 function stepThree(req, res, cb) {
-    var selectedElements = req.session.selectedElements;
-    res.render('XMLcombiner', {'step': 3, 'selectedElements': selectedElements});
+    var selectedElements = req.session.selectedElements,
+        jsonCvs = req.session.jsonCsv,
+        csvElementKeys = [];
+
+        for(var key in jsonCvs[0]){
+            csvElementKeys.push(key);
+        }
+
+    res.render('XMLcombiner', {'step': 3, 'selectedElements': selectedElements, 'csvElementKeys': csvElementKeys});
 }
 
 function stepThreePost(req, res, cb) {
@@ -289,7 +324,7 @@ function stepThreePost(req, res, cb) {
     editJsonXml(req.body.selectedElementsData, req.session.jsonXml, function (jsonXml) {
         //console.log(util.inspect(jsonxml,false, null));
         req.session.jsonXml = jsonXml;
-        res.send({'status': 'success', 'redirectUrl': '/XMLcombiner?step=4'});
+        res.send({'status': 'success', 'redirectUrl': '/XMLcombiner/?step=4'});
     });
 }
 
