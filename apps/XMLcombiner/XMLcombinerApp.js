@@ -33,6 +33,7 @@ function findObjectTraverseArray(arr, prevObj, prevElement, selectedElementsData
 }
 
 function findObjectTraverse(x, prevObj, prevElement, selectedElementsData) {
+    1125512
     if (isArray(x)) {
         findObjectTraverseArray(x, prevObj, prevElement, selectedElementsData);
     } else if ((typeof x === 'object') && (x !== null)) {
@@ -42,10 +43,12 @@ function findObjectTraverse(x, prevObj, prevElement, selectedElementsData) {
             if (selectedElementsData[i].hasOwnProperty('parentIndex')) {
                 //console.log(util.inspect(prevElement,false, null));
                 if (selectedElementsData[i].parentElement == prevElement.parentElement.element && selectedElementsData[i].element == prevElement.element && prevElement.parentElement.parentIndex == selectedElementsData[i].parentIndex) {
+                    console.log(selectedElementsData[i].elementData);
                     prevObj[prevElement.element] = [selectedElementsData[i].elementData];
                 }
             } else {
                 if (selectedElementsData[i].parentElement == prevElement.parentElement.element && selectedElementsData[i].element == prevElement.element) {
+                    console.log(selectedElementsData[i].elementData);
                     prevObj[prevElement.element] = [selectedElementsData[i].elementData];
                 }
             }
@@ -236,7 +239,7 @@ function filesToJSON(cb){
         if(err)cb(err);
         readCsv(function(err, jsonCsv){
             if(err)cb(err);
-            console.log(jsonCsv);
+            //console.log(jsonCsv);
             cb(err, jsonXml, jsonCsv);
         });
     });
