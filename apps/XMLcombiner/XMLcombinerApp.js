@@ -15,41 +15,44 @@ function isString(x) {
     return Object.prototype.toString.call(x) === "[object String]"
 }
 
-function findObjectTraverseArray(arr, prevObj, prevElement, selectedElementsData) {
+function findObjectTraverseArray(arr, prevObj, prevElement, selectedElementsData, selectedElementXmlObjects) {
 
     if (arr.length > 1) {
         var index = 0;
         arr.forEach(function (x) {
             prevElement["parentIndex"] = index;
-            findObjectTraverse(x, prevObj, prevElement, selectedElementsData);
+            findObjectTraverse(x, prevObj, prevElement, selectedElementsData, selectedElementXmlObjects);
             index++;
         });
     } else {
         arr.forEach(function (x) {
-            findObjectTraverse(x, prevObj, prevElement, selectedElementsData);
+            findObjectTraverse(x, prevObj, prevElement, selectedElementsData, selectedElementXmlObjects);
         });
     }
 
 }
 
-function findObjectTraverse(x, prevObj, prevElement, selectedElementsData) {
-    1125512
+function findObjectTraverse(x, prevObj, prevElement, selectedElementsData, selectedElementXmlObjects) {
     if (isArray(x)) {
-        findObjectTraverseArray(x, prevObj, prevElement, selectedElementsData);
+        findObjectTraverseArray(x, prevObj, prevElement, selectedElementsData, selectedElementXmlObjects);
     } else if ((typeof x === 'object') && (x !== null)) {
-        findObject(x, prevObj, prevElement, selectedElementsData);
+        findObject(x, prevObj, prevElement, selectedElementsData, selectedElementXmlObjects);
     } else {
         for (var i = 0; i < selectedElementsData.length; i++) {
             if (selectedElementsData[i].hasOwnProperty('parentIndex')) {
                 //console.log(util.inspect(prevElement,false, null));
                 if (selectedElementsData[i].parentElement == prevElement.parentElement.element && selectedElementsData[i].element == prevElement.element && prevElement.parentElement.parentIndex == selectedElementsData[i].parentIndex) {
-                    console.log(selectedElementsData[i].elementData);
-                    prevObj[prevElement.element] = [selectedElementsData[i].elementData];
+                    //console.log(selectedElementsData[i].elementData);
+                    //prevObj[prevElement.element] = [selectedElementsData[i].elementData];
+
+                    selectedElementXmlObjects.push({"xmlObject": prevObj, "objectKey": prevElement.element, "dataIndex": selectedElementsData[i].elementData});
                 }
             } else {
                 if (selectedElementsData[i].parentElement == prevElement.parentElement.element && selectedElementsData[i].element == prevElement.element) {
-                    console.log(selectedElementsData[i].elementData);
-                    prevObj[prevElement.element] = [selectedElementsData[i].elementData];
+                    //console.log(selectedElementsData[i].elementData);
+                    //prevObj[prevElement.element] = [selectedElementsData[i].elementData];
+
+                    selectedElementXmlObjects.push({"xmlObject": prevObj, "objectKey": prevElement.element, "dataIndex": selectedElementsData[i].elementData});
                 }
             }
 
@@ -57,23 +60,29 @@ function findObjectTraverse(x, prevObj, prevElement, selectedElementsData) {
     }
 }
 
-function findObject(json, prevObj, prevElement, selectedElementsData) {
+function findObject(json, prevObj, prevElement, selectedElementsData, selectedElementXmlObjects) {
 
     for (var key in json) {
         if (key == '$')continue;
         if (json.hasOwnProperty(key)) {
 
-            findObjectTraverse(json[key], json, {"element": key, "parentElement": prevElement}, selectedElementsData);
+            findObjectTraverse(json[key], json, {"element": key, "parentElement": prevElement}, selectedElementsData, selectedElementXmlObjects);
         }
     }
+
+    return selectedElementXmlObjects;
 }
 
 
-function editJsonXml(selectedElementsData, xmlJson, cb) {
-    //console.log(util.inspect(xmlJson, false, null));
-    findObject(xmlJson, null, null, selectedElementsData);
+function editJsonXml(selectedElementsData, xmlJson, rootXmlElement, cb) {
+    //console.log(util.inspect(selectedElementsData, false, null));
+    var searchedXml =xpath.find(xmlJson, "//" + rootXmlElement);
+    var selectedElementXmlObjects = findObject(searchedXml, null, null, selectedElementsData, []);
+
+
+    console.log(util.inspect(selectedElementXmlObjects[0], false, null));
     cb(xmlJson);
-    //console.log(util.inspect(xmlJson, false, null));
+
 }
 
 
@@ -212,11 +221,11 @@ function convertToUTF(csvPath, cb) {
     });
 }
 
-function readCsv(cb){
+function readCsv(cb) {
     var converter = new Converter({delimiter: ';'});
-    convertToUTF("data/XMLcombiner/temp/csvFile.csv", function(data){
+    convertToUTF("data/XMLcombiner/temp/csvFile.csv", function (data) {
         converter.fromString(data, function (err, results) {
-            if(err)cb(err);
+            if (err)cb(err);
             cb(err, results);
         });
     });
@@ -234,11 +243,11 @@ function readXML(cb, xml) {
     });
 }
 
-function filesToJSON(cb){
-    readXML(function(err, jsonXml){
-        if(err)cb(err);
-        readCsv(function(err, jsonCsv){
-            if(err)cb(err);
+function filesToJSON(cb) {
+    readXML(function (err, jsonXml) {
+        if (err)cb(err);
+        readCsv(function (err, jsonCsv) {
+            if (err)cb(err);
             //console.log(jsonCsv);
             cb(err, jsonXml, jsonCsv);
         });
@@ -254,6 +263,7 @@ function stepOne(req, res, cb) {
     if (treeLevel != null) {
         res.send(req.session.xmlElements[treeLevel]);
     } else if (searchedElement != null) {
+        req.session.rootXmlElement = searchedElement;
         var searchedJson = xpath.find(req.session.jsonXml, "//" + searchedElement);
         //console.log(searchedJson);
         //console.log(util.inspect({"Temeljnice":searchedJson},false, null));
@@ -315,16 +325,16 @@ function stepThree(req, res, cb) {
         jsonCvs = req.session.jsonCsv,
         csvElementKeys = [];
 
-        for(var key in jsonCvs[0]){
-            csvElementKeys.push(key);
-        }
+    for (var key in jsonCvs[0]) {
+        csvElementKeys.push(key);
+    }
 
     res.render('XMLcombiner', {'step': 3, 'selectedElements': selectedElements, 'csvElementKeys': csvElementKeys});
 }
 
 function stepThreePost(req, res, cb) {
     //console.log(req.body.selectedElementsData);
-    editJsonXml(req.body.selectedElementsData, req.session.jsonXml, function (jsonXml) {
+    editJsonXml(req.body.selectedElementsData, req.session.jsonXml, req.session.rootXmlElement,function (jsonXml) {
         //console.log(util.inspect(jsonxml,false, null));
         req.session.jsonXml = jsonXml;
         res.send({'status': 'success', 'redirectUrl': '/XMLcombiner/?step=4'});
