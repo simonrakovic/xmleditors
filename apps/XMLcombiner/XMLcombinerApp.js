@@ -45,14 +45,14 @@ function findObjectTraverse(x, prevObj, prevElement, selectedElementsData, selec
                     //console.log(selectedElementsData[i].elementData);
                     //prevObj[prevElement.element] = [selectedElementsData[i].elementData];
 
-                    selectedElementXmlObjects.push({"xmlObject": prevObj, "objectKey": prevElement.element, "dataIndex": selectedElementsData[i].elementData});
+                    selectedElementXmlObjects.push({"xmlObject": prevObj, "objectKey": prevElement.element, "dataKey": selectedElementsData[i].elementData});
                 }
             } else {
                 if (selectedElementsData[i].parentElement == prevElement.parentElement.element && selectedElementsData[i].element == prevElement.element) {
                     //console.log(selectedElementsData[i].elementData);
                     //prevObj[prevElement.element] = [selectedElementsData[i].elementData];
 
-                    selectedElementXmlObjects.push({"xmlObject": prevObj, "objectKey": prevElement.element, "dataIndex": selectedElementsData[i].elementData});
+                    selectedElementXmlObjects.push({"xmlObject": prevObj, "objectKey": prevElement.element, "dataKey": selectedElementsData[i].elementData});
                 }
             }
 
@@ -73,16 +73,45 @@ function findObject(json, prevObj, prevElement, selectedElementsData, selectedEl
     return selectedElementXmlObjects;
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////
 
-function editJsonXml(selectedElementsData, xmlJson, rootXmlElement, cb) {
+function findElement(xmlJson, rootXmlElement){
+    for (var key in json) {
+        if (key == '$')continue;
+        if (json.hasOwnProperty(key)) {
+
+            findObjectTraverse(json[key], json, {"element": key, "parentElement": prevElement}, selectedElementsData, selectedElementXmlObjects);
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+function fillWithData(selectedElementXmlObjects, searchedXml, rootXmlElement, jsonCsv, xmlJson, cb){
+    var headXml = xpath.find(xmlJson, "//" + rootXmlElement);
+
+    var headXml = findElement(xmlJson, rootXmlElement);
+    for(var i = 0;i < jsonCsv.length; i++){
+        for(var j = 0;j < selectedElementXmlObjects.length; j++){
+            //console.log([jsonCsv[i][selectedElementXmlObjects[j]["dataKey"]]]);
+            selectedElementXmlObjects[j]["xmlObject"][selectedElementXmlObjects[j]["objectKey"]] = [jsonCsv[i][selectedElementXmlObjects[j]["dataKey"]]];
+        }
+        headXml[i] = clone(searchedXml[0]);
+    }
+    console.log(util.inspect(xmlJson, false, null));
+    cb(xmlJson);
+}
+
+function editJsonXml(selectedElementsData, xmlJson, rootXmlElement, jsonCsv, cb) {
     //console.log(util.inspect(selectedElementsData, false, null));
-    var searchedXml =xpath.find(xmlJson, "//" + rootXmlElement);
+    var searchedXml =clone(xpath.find(xmlJson, "//" + rootXmlElement));
+    //console.log(util.inspect(rootXmlElement, false, null));
     var selectedElementXmlObjects = findObject(searchedXml, null, null, selectedElementsData, []);
 
+    fillWithData(selectedElementXmlObjects, searchedXml, rootXmlElement, jsonCsv, xmlJson, function(result){
+        cb(result);
+    });
 
-    console.log(util.inspect(selectedElementXmlObjects[0], false, null));
-    cb(xmlJson);
-
+    //console.log(util.inspect(selectedElementXmlObjects[0], false, null));
 }
 
 
@@ -224,7 +253,9 @@ function convertToUTF(csvPath, cb) {
 function readCsv(cb) {
     var converter = new Converter({delimiter: ';'});
     convertToUTF("data/XMLcombiner/temp/csvFile.csv", function (data) {
+
         converter.fromString(data, function (err, results) {
+            //console.log(converter);
             if (err)cb(err);
             cb(err, results);
         });
@@ -263,7 +294,8 @@ function stepOne(req, res, cb) {
     if (treeLevel != null) {
         res.send(req.session.xmlElements[treeLevel]);
     } else if (searchedElement != null) {
-        req.session.rootXmlElement = searchedElement;
+        req.session.rootXmlItem = searchedElement;
+
         var searchedJson = xpath.find(req.session.jsonXml, "//" + searchedElement);
         //console.log(searchedJson);
         //console.log(util.inspect({"Temeljnice":searchedJson},false, null));
@@ -277,7 +309,6 @@ function stepOne(req, res, cb) {
             req.session.xmlElements = xmlElements;
             req.session.jsonXml = jsonXml;
             req.session.jsonCsv = jsonCsv;
-
             jsonXml = builder.buildObject(jsonXml);
 
             res.render('XMLcombiner', {
@@ -314,6 +345,7 @@ function stepTwo(req, res, cb) {
 }
 
 function stepTwoPost(req, res, cb) {
+
     var selectedElements = req.body.selectedElements;
     //console.log(selectedElements);
     req.session.selectedElements = selectedElements;
@@ -321,6 +353,7 @@ function stepTwoPost(req, res, cb) {
 }
 
 function stepThree(req, res, cb) {
+
     var selectedElements = req.session.selectedElements,
         jsonCvs = req.session.jsonCsv,
         csvElementKeys = [];
@@ -333,8 +366,9 @@ function stepThree(req, res, cb) {
 }
 
 function stepThreePost(req, res, cb) {
-    //console.log(req.body.selectedElementsData);
-    editJsonXml(req.body.selectedElementsData, req.session.jsonXml, req.session.rootXmlElement,function (jsonXml) {
+    //console.log(req.session.rootXmlItem);
+
+    editJsonXml(req.body.selectedElementsData, req.session.jsonXml, req.session.rootXmlItem, req.session.jsonCsv, function (jsonXml) {
         //console.log(util.inspect(jsonxml,false, null));
         req.session.jsonXml = jsonXml;
         res.send({'status': 'success', 'redirectUrl': '/XMLcombiner/?step=4'});
@@ -346,6 +380,7 @@ function stepFour(req, res, cb) {
     var builder = new xml2js.Builder();
 
     res.render('XMLcombiner', {'step': 4, 'xml': builder.buildObject(jsonxml)});
+    //res.render('XMLcombiner', {'step': 4});
 }
 
 module.exports = {

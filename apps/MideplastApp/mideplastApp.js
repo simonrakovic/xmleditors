@@ -203,6 +203,7 @@ function readFiles(csvKupcev, csvRacunov, cb) {
                 cb(err);
             }
             readCSV("data/kupci.csv", "data/racuni.csv", function (jsonKupci, jsonRacuni) {
+                console.log(jsonKupci);
                 createXML(jsonKupci, jsonRacuni, function (err) {
                     if (err) {
                         cb(err);

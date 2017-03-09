@@ -195,7 +195,7 @@ block main_content
                             //input.form-control.element-data(type="text",placeholder=obj.element, data-element=obj.element, data-parentelement=obj.parentElement, data-parentindex = obj.parentIndex)
                     .col-lg-6
                         .form-group
-                            select.element-data.form-control(name='levels', style="width:50%", data-element=obj.element, data-parentElement=obj.parentElement, data-parentIndex = obj.parentIndex)
+                            select.element-data.form-control(name='keys', style="width:50%", data-element=obj.element, data-parentElement=obj.parentElement, data-parentIndex = obj.parentIndex)
                                 each obj, i in csvElementKeys
                                     option(value=i) #{obj}
                     .col-lg-2

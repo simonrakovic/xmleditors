@@ -23,7 +23,7 @@ function createXML(searchedDocDate, callback){
     var converter = new Converter({delimiter: ';'});
     convertToUTF("data/posta.csv", function(data){
         converter.fromString(data, function (err, results) {
-
+            console.log(results);
             for (var i = 0; i < results.length; i++) {
 
                 var resultDate = results[i]['Datum nakazila'];

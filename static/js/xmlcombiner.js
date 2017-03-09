@@ -76,9 +76,9 @@ $(document).ready(function(){
 
         $(".element-data").each(function(){
             if($(this).attr("data-parentIndex")){
-                selectedElementsData.push({"element": $(this).data("element"), "parentElement": $(this).data("parentelement"), "parentIndex": $(this).data("parentindex"), "elementData": $(this).find(":selected").val()});
+                selectedElementsData.push({"element": $(this).data("element"), "parentElement": $(this).data("parentelement"), "parentIndex": $(this).data("parentindex"), "elementData": $(this).find(":selected").text()});
             }else{
-                selectedElementsData.push({"element": $(this).data("element"), "parentElement": $(this).data("parentelement"), "elementData": $(this).find(":selected").val()});
+                selectedElementsData.push({"element": $(this).data("element"), "parentElement": $(this).data("parentelement"), "elementData": $(this).find(":selected").text()});
             }
 
         });

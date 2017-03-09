@@ -33,7 +33,7 @@ var sess = {
     cookie: {},
     saveUninitialized: false,
     resave: false
-}
+};
 
 app.use(session(sess));
 
