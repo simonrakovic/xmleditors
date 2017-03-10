@@ -75,41 +75,70 @@ function findObject(json, prevObj, prevElement, selectedElementsData, selectedEl
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
-function findElement(xmlJson, rootXmlElement){
-    for (var key in json) {
-        if (key == '$')continue;
-        if (json.hasOwnProperty(key)) {
+function findElementTraverseArray(arr, rootXmlElement, searchedXmlBody) {
+    arr.forEach(function (x) {
+        findElementTraverse(x, rootXmlElement, searchedXmlBody);
+    });
+}
 
-            findObjectTraverse(json[key], json, {"element": key, "parentElement": prevElement}, selectedElementsData, selectedElementXmlObjects);
+
+function findElementTraverse(x, rootXmlElement, searchedXmlBody){
+    if (isArray(x)) {
+        findElementTraverseArray(x, rootXmlElement, searchedXmlBody);
+    } else if ((typeof x === 'object') && (x !== null)) {
+        findElement(x, rootXmlElement, searchedXmlBody);
+    }
+}
+
+
+function findElement(xmlJson, rootXmlElement, searchedXmlBody){
+
+    for (var key in xmlJson) {
+        if (xmlJson.hasOwnProperty(key)) {
+            if(key == '$')continue;
+
+            if(key === rootXmlElement){
+                xmlJson[key] = searchedXmlBody;
+                //
+                // console.log(util.inspect(xmlJson, false, null));
+                return;
+
+            }else{
+                findElementTraverse(xmlJson[key], rootXmlElement, searchedXmlBody);
+            }
+
         }
     }
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////
-function fillWithData(selectedElementXmlObjects, searchedXml, rootXmlElement, jsonCsv, xmlJson, cb){
-    var headXml = xpath.find(xmlJson, "//" + rootXmlElement);
-
-    var headXml = findElement(xmlJson, rootXmlElement);
+function fillWithData(selectedElementXmlObjects, searchedXml, rootXmlElement, jsonCsv, xmlJson){
+    //var headXml = xpath.find(xmlJson, "//" + rootXmlElement);
+    var searchedXmlBody = [];
     for(var i = 0;i < jsonCsv.length; i++){
         for(var j = 0;j < selectedElementXmlObjects.length; j++){
             //console.log([jsonCsv[i][selectedElementXmlObjects[j]["dataKey"]]]);
             selectedElementXmlObjects[j]["xmlObject"][selectedElementXmlObjects[j]["objectKey"]] = [jsonCsv[i][selectedElementXmlObjects[j]["dataKey"]]];
         }
-        headXml[i] = clone(searchedXml[0]);
+        searchedXmlBody[i] = clone(searchedXml[0]);
     }
-    console.log(util.inspect(xmlJson, false, null));
-    cb(xmlJson);
+    findElement(xmlJson, rootXmlElement, searchedXmlBody);
+    ////console.log(headXml);
+
+
+    //console.log(headXml);
+    //console.log(util.inspect("___________", false, null));
+    //console.log(util.inspect(xmlJson, false, null));
+    return xmlJson;
 }
 
-function editJsonXml(selectedElementsData, xmlJson, rootXmlElement, jsonCsv, cb) {
+function editJsonXml(selectedElementsData, xmlJson, rootXmlElement, jsonCsv) {
     //console.log(util.inspect(selectedElementsData, false, null));
     var searchedXml =clone(xpath.find(xmlJson, "//" + rootXmlElement));
     //console.log(util.inspect(rootXmlElement, false, null));
     var selectedElementXmlObjects = findObject(searchedXml, null, null, selectedElementsData, []);
 
-    fillWithData(selectedElementXmlObjects, searchedXml, rootXmlElement, jsonCsv, xmlJson, function(result){
-        cb(result);
-    });
+    return fillWithData(selectedElementXmlObjects, searchedXml, rootXmlElement, jsonCsv, xmlJson);
 
     //console.log(util.inspect(selectedElementXmlObjects[0], false, null));
 }
@@ -368,11 +397,11 @@ function stepThree(req, res, cb) {
 function stepThreePost(req, res, cb) {
     //console.log(req.session.rootXmlItem);
 
-    editJsonXml(req.body.selectedElementsData, req.session.jsonXml, req.session.rootXmlItem, req.session.jsonCsv, function (jsonXml) {
+    var jsonXml = editJsonXml(req.body.selectedElementsData, req.session.jsonXml, req.session.rootXmlItem, req.session.jsonCsv)
         //console.log(util.inspect(jsonxml,false, null));
-        req.session.jsonXml = jsonXml;
-        res.send({'status': 'success', 'redirectUrl': '/XMLcombiner/?step=4'});
-    });
+    req.session.jsonXml = jsonXml;
+    res.send({'status': 'success', 'redirectUrl': '/XMLcombiner/?step=4'});
+
 }
 
 function stepFour(req, res, cb) {
