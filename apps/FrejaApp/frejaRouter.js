@@ -25,21 +25,24 @@ router.post('/', function (req, res) {
     var xmlFile = req.files.xmlFile;
     var csvFile = req.files.csvFile;
     var searchedDocDate = moment(req.body.date, "D.M.YYYY");
-
+    
     freja.readFiles(xmlFile, csvFile, searchedDocDate, function(err, name){
         if (err) {
             res.status(500).send(err);
+        }else{
+          res.download(__dirname +'/../../data/freja/output.xml','banka.xml', function(err){
+              if(err){
+                  res.status(500).send(err);
+              }
+          });
         }
-
-        res.download(__dirname +'/../../data/freja/output.xml','banka.xml', function(err){
-
-            if(err){
-                res.status(500).send(err);
-            }
-
-        });
     });
+});
 
+
+router.get('/test', function (req, res) {
+    res.setHeader('Content-Type', 'application/json');
+    res.send(JSON.stringify({ a: 1 }));
 });
 
 

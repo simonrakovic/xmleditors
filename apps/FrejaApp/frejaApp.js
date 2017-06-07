@@ -23,45 +23,55 @@ function createXML(searchedDocDate, callback){
     var converter = new Converter({delimiter: ';'});
     convertToUTF("data/posta.csv", function(data){
         converter.fromString(data, function (err, results) {
-            console.log(results);
+            //console.log(results);
             for (var i = 0; i < results.length; i++) {
 
                 var resultDate = results[i]['Datum nakazila'];
+                var datePart = null;
 
-                var datePart = resultDate.split(' ');
+                if(resultDate !== undefined){
+                  datePart = resultDate.split(' ');
+                }else{
+                  return callback({"error": "Napačna datoteka prometa!"});
+                }
+
                 var docDate = moment(datePart[0], "D.M.YYYY");
                 if (docDate.format("DD-MM-YYYY") == searchedDocDate.format("DD-MM-YYYY")) {
 
                     searchedDocRecords.push(results[i]);
                 }
             }
-
+            if(searchedDocRecords.length === 0){
+                return callback({"error": "Na ta datum ni nobenega plačila!"});
+            }
             fs.readFile('data/banka.xml', 'utf8', function (err, data) {
                 if (err) {
                     callback(err);
                 }
                 xml2js.parseString(data, function (err, json) {
                     var matches = xpath.find(json, "//Ntry");
+                    var postaExsist = false;
 
                     for (var i = 0; i < matches.length; i++) {
-
                         if (matches[i]["NtryDtls"][0]["TxDtls"][0]["RltdPties"][0]["Dbtr"][0]["Nm"][0] == "POSTA SLOVENIJE D.O.O. " || matches[i]["NtryDtls"][0]["TxDtls"][0]["RltdPties"][0]["Dbtr"][0]["Nm"][0] == "POSTA SLOVENIJE D.O.O.") {
-
+                            postaExsist = true;
                             for (var j = 0; j < searchedDocRecords.length; j++) {
                                 var jsonObjectClone = clone(matches[i]);
                                 jsonObjectClone["Amt"][0]["_"] = String(searchedDocRecords[j]["Vrednost"]).replace(',', '.');
                                 jsonObjectClone["NtryDtls"][0]["TxDtls"][0]["RltdPties"][0]["Dbtr"][0]["Nm"][0] = searchedDocRecords[j]["Naslovnik"].split(',')[0];
                                 var referenca = searchedDocRecords[j]["Referenca"];
 
-                                if (referenca.match(/SI00 [\d]{2}\-[\d]{4}\-[\d]{1}/i)) {
+                                if (referenca.match(/SI00 [\d]{2}\-[\d]+\-[\d]{1}/i)) {
                                     referenca = referenca.replace(/\s/g,'');
-                                }else if(referenca.match(/SI 00 [\d]{2}\-[\d]{4}\-[\d]{1}/i)){
+                                }else if(referenca.match(/SI 00 [\d]{2}\-[\d]+\-[\d]{1}/i)){
                                     referenca = referenca.replace(/\s/g,'');
-                                }else if(referenca.match(/SI00-[\d]{2}\-[\d]{4}\-[\d]{1}/i)){
+                                }else if(referenca.match(/SI00-[\d]{2}\-[\d]+\-[\d]{1}/i)){
                                     referenca = referenca.replace('-','');
-                                }else if(referenca.match(/[\d]{2}\-[\d]{4}\-[\d]{1}/i)){
+                                }else if(referenca.match(/[\d]{2}\-[\d]+\-[\d]{1}/i)){
+
                                     referenca = "SI00".concat(referenca);
                                 }
+                                //console.log(referenca);
                                 referenca = referenca.toUpperCase();
                                 jsonObjectClone["NtryDtls"][0]["TxDtls"][0]["Refs"][0]["EndToEndId"][0] = referenca;
                                 jsonObjectClone["NtryDtls"][0]["TxDtls"][0]["Refs"][0]["TxId"][0] = referenca;
@@ -70,6 +80,10 @@ function createXML(searchedDocDate, callback){
                             }
                             delete matches[i];
                         }
+                    }
+
+                    if(!postaExsist){
+                      return callback({"error": "V bančnem izpisku ni postavke POŠTA!"});
                     }
 
                     json["Document"]["BkToCstmrStmt"][0]["Stmt"][0]["Ntry"] = matches;
@@ -99,22 +113,22 @@ function readFiles(xmlFile, csvFile, searchedDocDate, cb){
     xmlFile.mv('data/banka.xml', function (err) {
         if (err) {
             cb(err);
+        }else{
+          csvFile.mv('data/posta.csv', function (err) {
+              if (err) {
+                 cb(err);
+              }else{
+                createXML(searchedDocDate, function(err){
+                    if(err){
+                        cb(err);
+                    }else{
+                        cb();
+                    }
+
+                });
+              }
+          });
         }
-
-        csvFile.mv('data/posta.csv', function (err) {
-            if (err) {
-               cb(err);
-            }
-
-            createXML(searchedDocDate, function(err){
-                if(err){
-                    cb(err);
-                }
-
-                cb(err, "aa");
-            });
-
-        });
 
     });
 }
