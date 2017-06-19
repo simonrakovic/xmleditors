@@ -19,17 +19,27 @@ router.get('/', function (req, res) {
 router.post('/', function(req, res){
     var csvKupcev = req.files.csvKupcev;
     var csvRacunov = req.files.csvRacunov;
-
-    mideplast.readFiles(csvKupcev, csvRacunov, function(err, name){
+    //console.log(csvKupcev.name);
+    mideplast.readFiles(csvKupcev, csvRacunov, function(err, racuniLastnosti){
         if(err){
             res.status(500).send(err);
+        }else{
+
+          fs.readFile(__dirname +'/../../data/racuni.xml', 'utf8', function(err, data){
+            if(err){
+              res.status(500).send(err);
+            }else{
+              res.json({"type":"success", "msg": data, "properties": racuniLastnosti});
+            }
+          });
         }
+        /*
         res.download(__dirname +'/../../data/racuni.xml','racuni.xml', function(err){
             if(err){
                 res.status(500).send(err);
             }
-
         });
+        */
     });
 
 });

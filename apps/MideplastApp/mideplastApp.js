@@ -144,6 +144,27 @@ function createTemplate(callback) {
     });
 }
 
+function getInvoiceData(racun, data){
+  if(racun.tujina){
+    data.tujine = data.tujine + 1;
+    data.racuni = data.racuni + 1;
+    data.osnova_tujina = data.osnova_tujina + parseFloat(racun["breme"]);
+
+  }else if((/DBR/g).test(racun.st_racuna)){
+    data.racuni = data.racuni + 1;
+    data.dobropisi = data.dobropisi + 1;
+    data.osnova = data.osnova + parseFloat(racun["breme"]) + parseFloat(racun["ddv"]);
+    data.ddv = data.ddv - parseFloat(racun["ddv"]);
+
+  }else{
+    data.racuni = data.racuni + 1;
+    data.osnova = data.osnova + parseFloat(racun["breme"]) - parseFloat(racun["ddv"]);
+    data.ddv = data.ddv + parseFloat(racun["ddv"])
+  }
+
+  return data;
+}
+
 function createTemeljnica(racun, temeljnica) {
     var temeljnicaJson = clone(temeljnica);
 
@@ -262,9 +283,20 @@ function createXML(jsonKupci, jsonRacuni, callback) {
         var temeljnicaJson = clone(jsonTemplate.miniMAXUvozKnjigovodstvo.Temeljnice[0].Temeljnica[0]);
 
         var temeljinice = [];
+        var racuniLastnosti = {
+          "tujine": 0,
+          "dobropisi": 0,
+          "racuni": 0,
+          "osnova": 0.00,
+          "ddv": 0.00,
+          "osnova_tujina": 0.00,
+
+        };
         for (var i = 0; i < racuni.length; i++) {
+            racuniLastnosti = getInvoiceData(racuni[i], racuniLastnosti);
             temeljinice.push(createTemeljnica(racuni[i], temeljnicaJson));
         }
+
         xmlJson.miniMAXUvozKnjigovodstvo.Temeljnice =  {"Temeljnica":temeljinice};
         //console.log(util.inspect(xmlJson, false, null));
         var builder = new xml2js.Builder();
@@ -274,8 +306,9 @@ function createXML(jsonKupci, jsonRacuni, callback) {
         fs.writeFile('data/racuni.xml', xml, function (err) {
             if (err) {
                 callback(err);
+            }else{
+              callback(err, racuniLastnosti);
             }
-            callback();
         });
     });
 }
@@ -291,11 +324,12 @@ function readFiles(csvKupcev, csvRacunov, cb) {
             }
             readCSV("data/kupci.csv", "data/racuni.csv", function (jsonKupci, jsonRacuni) {
                 //console.log(jsonKupci);
-                createXML(jsonKupci, jsonRacuni, function (err) {
+                createXML(jsonKupci, jsonRacuni, function (err, racuniLastnosti) {
                     if (err) {
                         cb(err);
+                    }else{
+                      cb(err, racuniLastnosti);
                     }
-                    cb();
                 });
             });
         });
@@ -306,8 +340,3 @@ function readFiles(csvKupcev, csvRacunov, cb) {
 module.exports = {
     readFiles: readFiles
 };
-
-
-
-
-
