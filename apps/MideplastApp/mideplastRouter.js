@@ -20,16 +20,15 @@ router.post('/', function(req, res){
     var csvKupcev = req.files.csvKupcev;
     var csvRacunov = req.files.csvRacunov;
     //console.log(csvKupcev.name);
-    mideplast.readFiles(csvKupcev, csvRacunov, function(err, racuniLastnosti){
+    mideplast.readFiles(csvKupcev, csvRacunov, function(err, url, racuniLastnosti){
         if(err){
-            res.status(500).send(err);
+          res.status(500).send(err);
         }else{
-
-          fs.readFile(__dirname +'/../../data/racuni.xml', 'utf8', function(err, data){
+          fs.readFile(__dirname +'/../../public/racuni.xml', 'utf8', function(err, data){
             if(err){
               res.status(500).send(err);
             }else{
-              res.json({"type":"success", "msg": data, "properties": racuniLastnosti});
+              res.json({"type":"success", "msg": data, "url": url, "properties": racuniLastnosti});
             }
           });
         }

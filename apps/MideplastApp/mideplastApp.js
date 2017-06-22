@@ -303,11 +303,11 @@ function createXML(jsonKupci, jsonRacuni, callback) {
 
         var xml = builder.buildObject(xmlJson);
 
-        fs.writeFile('data/racuni.xml', xml, function (err) {
+        fs.writeFile('public/racuni.xml', xml, function (err) {
             if (err) {
                 callback(err);
             }else{
-              callback(err, racuniLastnosti);
+              callback(err, 'public/racuni.xml' ,racuniLastnosti);
             }
         });
     });
@@ -324,11 +324,11 @@ function readFiles(csvKupcev, csvRacunov, cb) {
             }
             readCSV("data/kupci.csv", "data/racuni.csv", function (jsonKupci, jsonRacuni) {
                 //console.log(jsonKupci);
-                createXML(jsonKupci, jsonRacuni, function (err, racuniLastnosti) {
+                createXML(jsonKupci, jsonRacuni, function (err, url, racuniLastnosti) {
                     if (err) {
                         cb(err);
                     }else{
-                      cb(err, racuniLastnosti);
+                      cb(err, url, racuniLastnosti);
                     }
                 });
             });
